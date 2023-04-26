@@ -1,0 +1,35 @@
+@font-face {
+    font-family:"boschsans";
+    font-weight:400;
+    src:url(fonts/woff2/boschsans_regular.woff2) format("woff2"),
+    url(fonts/woff/boschsans_regular.woff) format("woff");
+    font-display:swap;
+}
+@font-face {
+    font-family:"boschsans";
+    font-weight:700;
+    src:url(fonts/woff2/boschsans_bold.woff2) format("woff2"),
+    url(fonts/woff/boschsans_bold.woff) format("woff");
+    font-display:swap;
+}
+@font-face {
+    font-family:"boschsans";
+    font-weight:400;
+    src:url(fonts/woff2/boschsans-regularitalic.woff2) format("woff2"),
+    url(fonts/woff/boschsans-regularitalic.woff) format("woff");
+    font-display:swap;
+    font-style:italic;
+}
+@font-face {
+    font-family:"boschsans";
+    font-weight:700;
+    src:url(fonts/woff2/boschsans-bolditalic.woff2) format("woff2"),
+    url(fonts/woff/boschsans-bolditalic.woff) format("woff");
+    font-display:swap;
+    font-style:italic;
+}
+
+
+:root {
+    --md-text-font: "boschsans";
+}

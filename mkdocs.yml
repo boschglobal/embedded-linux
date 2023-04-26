@@ -1,3 +1,33 @@
 site_name: ELIOD
+site_url: https://boschglobal.github.io/eliod
+site_description: Embedded IoT Linux and OSS Day 
+site_author: Rober Bosch GmbH
+copyright: Copyright &copy; 2023 Robert Bosch GmbH
+
+nav:
+  - Welcome: index.md
+  - Agenda: agenda.md
+  - Speakers + Topics: speakers.md
+  - Partners: partners.md
+  - Directions: directions.md
+  - FAQ: faq.md
+  - Contact: contact.md
+
 theme:
   name: material
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - reject
+extra_css:
+  - stylesheets/extra.css
