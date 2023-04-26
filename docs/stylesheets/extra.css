@@ -32,4 +32,14 @@
 
 :root {
     --md-text-font: "boschsans";
+    --md-primary-fg-color: #368d86;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4
+{
+  font-weight: 700;
+  color: #323232;
 }

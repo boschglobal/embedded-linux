@@ -5,7 +5,6 @@ Embedded IoT Linux Linux and OSS!
 
 The event will take place in Feuerbach, July 13th and is hosted by TOP97.
 
-<center>
 The conference shall attract all Bosch employees working on IoT products based
 on embedded Linux.  
 This includes Automotive, Industrial, Building Technologies, Power Tools, Smart
@@ -18,6 +17,5 @@ of the "Bosch Linux Incubation Group".
 Contributors will get in contact to developers, product owner, architects as
 well as leaders and decision maker.  
 We expect 200-500 guests in total. The conference cannot be opened for public.  
-In case, you want to meet specific peers or business contacts from BOSCH, let us
-know. 
-</center>
+In case you want to meet specific peers or business contacts from BOSCH, let us
+know.

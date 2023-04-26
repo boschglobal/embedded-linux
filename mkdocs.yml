@@ -15,6 +15,7 @@ nav:
 
 theme:
   name: material
+  logo: top97_logo.svg
   features:
   - navigation.tabs
   - navigation.tabs.sticky
