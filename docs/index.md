@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+  - toc
+---
 # Embedded IoT Linux and OSS day
 
 Welcome to the website of the 1<sup>st</sup> BOSCH internal conference on
