@@ -1,6 +1,6 @@
 ---
 template: home.html
-powerhide:
+hide:
   - navigation
   - toc
 ---
