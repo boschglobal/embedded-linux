@@ -25,3 +25,5 @@ well as leaders and decision maker.
 We expect 200-500 guests in total. The conference cannot be opened for public.  
 In case you want to meet specific peers or business contacts from BOSCH, let us
 know.
+
+![poster](images/marketing_poster_smaller.jpg)
