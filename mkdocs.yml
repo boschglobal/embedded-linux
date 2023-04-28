@@ -19,6 +19,7 @@ theme:
   features:
   - navigation.tabs
   - navigation.tabs.sticky
+
 extra:
   consent:
     title: Cookie consent
@@ -30,5 +31,6 @@ extra:
     actions:
       - accept
       - reject
+
 extra_css:
   - stylesheets/extra.css
