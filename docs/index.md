@@ -1,10 +1,9 @@
 ---
-hide:
+template: home.html
+powerhide:
   - navigation
   - toc
 ---
-<center>
-
 # Embedded IoT Linux and OSS day
 
 Welcome to the website of the 1<sup>st</sup> BOSCH internal conference on
@@ -26,5 +25,3 @@ well as leaders and decision maker.
 We expect 200-500 guests in total. The conference cannot be opened for public.  
 In case you want to meet specific peers or business contacts from BOSCH, let us
 know.
-
-</center>

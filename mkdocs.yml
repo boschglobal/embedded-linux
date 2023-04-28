@@ -16,9 +16,10 @@ nav:
 theme:
   name: material
   logo: images/top97_logo.svg
+  custom_dir: overrides
   features:
   - navigation.tabs
-  - navigation.tabs.sticky
+#  - navigation.tabs.sticky
 
 extra:
   consent:
