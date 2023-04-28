@@ -3,10 +3,12 @@ hide:
   - navigation
   - toc
 ---
+<center>
+
 # Embedded IoT Linux and OSS day
 
 Welcome to the website of the 1<sup>st</sup> BOSCH internal conference on
-Embedded IoT Linux Linux and OSS!
+Embedded IoT Linux and OSS!
 
 The event will take place in Feuerbach, July 13th and is hosted by TOP97.
 
@@ -24,3 +26,5 @@ well as leaders and decision maker.
 We expect 200-500 guests in total. The conference cannot be opened for public.  
 In case you want to meet specific peers or business contacts from BOSCH, let us
 know.
+
+</center>
