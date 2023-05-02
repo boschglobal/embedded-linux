@@ -1,10 +1,28 @@
 {% extends "main.html" %}
+
 {% block header %}
-    {{ super() }}
+{{ super() }}
+{% endblock %}
+
+
+{% block tabs %}
+{{ super() }}
 {% endblock %}
 
 {% block content %}
+<style>
+    div.md-container {
+        background-image: url('/embedded-linux/images/eliod_background3.jpg') !important;
+    }
+    div.md-content p, h1, h2, h3, h4 {
+        color: white !important;
+    }
+</style>
 <center>
     {{ super() }}
 </center>
+{% endblock %}
+
+{% block footer %}
+{{ super() }}
 {% endblock %}
