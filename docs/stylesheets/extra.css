@@ -43,3 +43,49 @@
   font-weight: 700;
   color: #323232;
 }
+
+/* --- Tiles --- */
+div.tile-wall {
+    width: 900px;
+    text-align: center;
+}
+
+a.tile {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin: 10px;
+}
+
+a.tile:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+a.tile img {
+    height: 110px;
+}
+
+a.tile p {
+    font-size: 20px;
+    color: #3a5a80;
+    margin: 0;
+    padding: 0;
+}
+
+a.tile:hover p {
+    color: #e67d1e;
+    text-decoration: underline;
+}
+
+div.tile-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.centered
+{
+    display: inline-block;
+    vertical-align: middle;
+}

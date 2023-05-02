@@ -4,7 +4,28 @@ hide:
   - navigation
   - toc
 ---
+
+{% macro tile_wall(tile) -%}
+<div class="portal-tile-wall">
+    {{ tile }}
+</div>
+{%- endmacro %}
+
+{% macro tile(title, description, link, img_src) -%}
+<div class="portal-tile-wall">
+    <a class="portal-tile" title="{{ description }}" href="{{ link }}">
+        <div class="portal-tile-content">
+            <span class="centered"></span>
+            <img src="{{ img_src }}" alt="{{ title }}" /><br/>
+            <p>{{ title }}</p>
+        </div>
+    </a>
+</div>
+{%- endmacro %}
+
 # Embedded IoT Linux and OSS day
+
+
 
 Welcome to the website of the 1<sup>st</sup> BOSCH internal conference on
 Embedded IoT Linux and OSS!
