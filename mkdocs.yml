@@ -4,6 +4,11 @@ site_description: Embedded IoT Linux and OSS Day
 site_author: Rober Bosch GmbH
 copyright: Copyright &copy; 2023 Robert Bosch GmbH
 
+# Plugins
+plugins:
+  - search
+  - macros
+
 nav:
   - Welcome: index.md
   - Agenda: agenda.md
