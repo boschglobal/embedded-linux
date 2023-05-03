@@ -12,7 +12,7 @@ plugins:
 
 nav:
   - Welcome: index.md
-  - Speakers + Topics: speakers.md
+  - Speakers: speakers.md
   - Agenda: agenda.md
   - Partners: partners.md
   - Directions: directions.md
@@ -25,7 +25,7 @@ theme:
   custom_dir: overrides
   features:
   - navigation.tabs
-#  - navigation.tabs.sticky
+  - toc.integrate
 
 extra:
   consent:
@@ -41,3 +41,6 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
