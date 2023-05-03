@@ -11,7 +11,7 @@ hide:
 # Embedded IoT Linux and OSS day
 
 {% call tiles.tile_wall() %}
-  {{ tiles.tile('Speakers', 'Speakers + Topics', 'speakers', 'images/speakers.svg', color='purple') }}
+  {{ tiles.tile('Speakers', 'Speakers', 'speakers', 'images/speakers.svg', color='purple') }}
   {{ tiles.tile('Agenda', 'Agenda', 'agenda', 'images/agenda.svg', color='blue') }}
   {{ tiles.tile('Directions', 'Directions', 'directions', 'images/directions.svg', color='green') }}
   {{ tiles.tile('Partners', 'Partners', 'partners', 'images/partners.svg', color='dark-green') }}
