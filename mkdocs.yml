@@ -12,8 +12,8 @@ plugins:
 
 nav:
   - Welcome: index.md
-  - Agenda: agenda.md
   - Speakers + Topics: speakers.md
+  - Agenda: agenda.md
   - Partners: partners.md
   - Directions: directions.md
   - FAQ: faq.md
