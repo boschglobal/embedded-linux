@@ -7,7 +7,8 @@ copyright: Copyright &copy; 2023 Robert Bosch GmbH
 # Plugins
 plugins:
   - search
-  - macros
+  - macros:
+      include_dir: include
 
 nav:
   - Welcome: index.md

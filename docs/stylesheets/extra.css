@@ -33,6 +33,12 @@
 :root {
     --md-text-font: "boschsans";
     --md-primary-fg-color: #368d86;
+    --fg-rgb: 54, 141, 134;
+    --purple-rgb: 158, 40, 150;
+    --dark-purple-rgb: 85, 17, 81;
+    --blue-rgb: 0, 85, 135;
+    --dark-green-rgb: 0, 81, 42;
+    --light-green-rgb: 0, 136, 74;
 }
 
 .md-typeset h1,
@@ -46,46 +52,92 @@
 
 /* --- Tiles --- */
 div.tile-wall {
-    width: 900px;
+    width: 600px;
     text-align: center;
 }
 
 a.tile {
     display: inline-block;
+    vertical-align: middle;
     text-align: center;
-    width: 250px;
-    height: 250px;
-    padding: 25px;
-    margin: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    margin: 5px;
+    font-weight: 700;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    
 }
 
 a.tile:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.tile-green {
+    background:rgba(var(--fg-rgb), 0.5);
+}
+.tile-green:hover {
+    background:rgba(var(--fg-rgb), 1.0);
+}
+
+.tile-purple {
+    background:rgba(var(--purple-rgb), 0.5);
+}
+.tile-purple:hover {
+    background:rgba(var(--purple-rgb), 1.0);
+}
+
+.tile-blue {
+    background:rgba(var(--blue-rgb), 0.5);
+}
+.tile-blue:hover {
+    background:rgba(var(--blue-rgb), 1.0);
+}
+
+.tile-dark-green {
+    background:rgba(var(--dark-green-rgb), 0.5);
+}
+.tile-dark-green:hover {
+    background:rgba(var(--dark-green-rgb), 1.0);
+}
+
+.tile-dark-purple {
+    background:rgba(var(--dark-purple-rgb), 0.5);
+}
+.tile-dark-purple:hover {
+    background:rgba(var(--dark-purple-rgb), 1.0);
+}
+
+.tile-light-green {
+    background:rgba(var(--light-green-rgb), 0.5);
+}
+.tile-light-green:hover {
+    background:rgba(var(--light-green-rgb), 1.0);
 }
 
 a.tile img {
-    height: 110px;
+    max-height: 60px;
+    max-width: 60px;
 }
 
 a.tile p {
-    font-size: 20px;
-    color: #3a5a80;
+    font-size: 17px;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
-a.tile:hover p {
-    color: #e67d1e;
-    text-decoration: underline;
+div.tile-content, div.tile-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
-div.tile-content {
-    display: inline-block;
-    vertical-align: middle;
+div.tile-image {
+    height: 70px; 
 }
 
-span.centered
-{
-    display: inline-block;
-    vertical-align: middle;
+.img-shadow {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }

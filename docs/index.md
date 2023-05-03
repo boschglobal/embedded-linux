@@ -5,27 +5,19 @@ hide:
   - toc
 ---
 
-{% macro tile_wall(tile) -%}
-<div class="portal-tile-wall">
-    {{ tile }}
-</div>
-{%- endmacro %}
-
-{% macro tile(title, description, link, img_src) -%}
-<div class="portal-tile-wall">
-    <a class="portal-tile" title="{{ description }}" href="{{ link }}">
-        <div class="portal-tile-content">
-            <span class="centered"></span>
-            <img src="{{ img_src }}" alt="{{ title }}" /><br/>
-            <p>{{ title }}</p>
-        </div>
-    </a>
-</div>
-{%- endmacro %}
+{% import 'tiles.md' as tiles %}
+{% import 'shadows.md' as shadows %}
 
 # Embedded IoT Linux and OSS day
 
-
+{% call tiles.tile_wall() %}
+  {{ tiles.tile('Speakers', 'Speakers + Topics', 'speakers', 'images/speakers.svg', color='purple') }}
+  {{ tiles.tile('Agenda', 'Agenda', 'agenda', 'images/agenda.svg', color='blue') }}
+  {{ tiles.tile('Directions', 'Directions', 'directions', 'images/directions.svg', color='green') }}
+  {{ tiles.tile('Partners', 'Partners', 'partners', 'images/partners.svg', color='dark-green') }}
+  {{ tiles.tile('Contact', 'Contact', 'contact', 'images/contact.svg', color='light-green') }}
+  {{ tiles.tile('FAQ', 'FAQ', 'faq', 'images/faq.svg', color='dark-purple') }}
+{% endcall %}
 
 Welcome to the website of the 1<sup>st</sup> BOSCH internal conference on
 Embedded IoT Linux and OSS!
@@ -47,4 +39,4 @@ We expect 200-500 guests in total. The conference cannot be opened for public.
 In case you want to meet specific peers or business contacts from BOSCH, let us
 know.
 
-![poster](images/marketing_poster_smaller.jpg)
+{{ shadows.img_shadow(src='images/marketing_poster_smaller.jpg', alt='poster', width='50%') }}

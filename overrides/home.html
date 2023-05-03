@@ -4,7 +4,6 @@
 {{ super() }}
 {% endblock %}
 
-
 {% block tabs %}
 {{ super() }}
 {% endblock %}
@@ -12,14 +11,17 @@
 {% block content %}
 <style>
     div.md-container {
-        background-image: url('/embedded-linux/images/eliod_background3.jpg') !important;
+        background-image: url('/embedded-linux/images/eliod_background.jpg');
     }
     div.md-content p, h1, h2, h3, h4 {
         color: white !important;
     }
+    #embedded-iot-linux-and-oss-day {
+        margin-bottom: 15px;
+    }
 </style>
 <center>
-    {{ super() }}
+{{ super() }}
 </center>
 {% endblock %}
 
