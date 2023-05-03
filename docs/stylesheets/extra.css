@@ -50,6 +50,12 @@
   color: #323232;
 }
 
+.md-footer-meta {
+    background: url(../images/bosch_supergraphic_streifen.svg) no-repeat bottom;
+    background-size: 100%;
+    padding-bottom: 15px;
+}
+
 /* --- Tiles --- */
 div.tile-wall {
     width: 600px;
