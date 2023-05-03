@@ -4,6 +4,7 @@ site_description: Embedded IoT Linux and OSS Day
 site_author: Rober Bosch GmbH
 copyright: Copyright &copy; 2023 Robert Bosch GmbH
 repo_url: https://github.com/boschglobal/embedded-linux
+repo_name: boschglobal/embedded-linux
 
 # Plugins
 plugins:
