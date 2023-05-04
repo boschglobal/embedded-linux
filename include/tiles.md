@@ -1,11 +1,11 @@
-{% macro tile_wall() -%}
-<div class="tile-wall">
+{% macro link_tile_wall() -%}
+<div class="link-tile-wall">
     {{ caller() }}
 </div>
 {%- endmacro %}
 
-{% macro tile(title, description, link, img_src, color='purple') -%}
-<a class="tile tile-{{ color }}" title="{{ description }}" href="{{ link }}">
+{% macro link_tile(title, description, link, img_src, color='purple') -%}
+<a class="link-tile tile-{{ color }}" title="{{ description }}" href="{{ link }}">
     <div class="tile-content">
         <span>
         <div class="tile-image">

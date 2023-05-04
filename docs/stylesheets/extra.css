@@ -56,13 +56,22 @@
     padding-bottom: 15px;
 }
 
+/* --- Map --- */
+
+div.osm-inset {
+    width: 600px; 
+    height: 400px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 0; 
+}
+
 /* --- Tiles --- */
-div.tile-wall {
+div.link-tile-wall {
     width: 600px;
     text-align: center;
 }
 
-a.tile {
+a.link-tile {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -75,7 +84,7 @@ a.tile {
     
 }
 
-a.tile:hover {
+a.link-tile:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -121,12 +130,12 @@ a.tile:hover {
     background:rgba(var(--light-green-rgb), 1.0);
 }
 
-a.tile img {
+a.link-tile img {
     max-height: 60px;
     max-width: 60px;
 }
 
-a.tile p {
+a.link-tile p {
     font-size: 17px;
     color: white;
     margin: 0;
