@@ -1,1 +1,11 @@
 {% extends "base.html" %}
+
+{% block content %}
+<style>
+    header.md-header {
+        background-image: url('/embedded-linux/images/eliod_tab_background.jpg');
+        background-size: contain;
+    }
+</style>
+{{ super() }}
+{% endblock %}
