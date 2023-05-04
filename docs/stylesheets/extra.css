@@ -33,14 +33,7 @@
 :root {
     --md-text-font: "boschsans";
     --md-primary-fg-color: #368d86;
-    --md-primary-fg-color--light: #5d6cc0;
-    --md-primary-fg-color--dark: #303fa1;
-    --md-primary-bg-color: #fff;
-    --md-primary-bg-color--light: #ffffffb3;
-    --md-accent-fg-color: #526cfe;
-    --md-accent-fg-color--transparent: #526cfe1a;
-    --md-accent-bg-color: #fff;
-    --md-accent-bg-color--light: #ffffffb3;
+    --md-accent-fg-color: #66bbb4;
     --fg-rgb: 54, 141, 134;
     --purple-rgb: 158, 40, 150;
     --dark-purple-rgb: 85, 17, 81;
