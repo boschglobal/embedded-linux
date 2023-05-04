@@ -26,6 +26,7 @@ theme:
   logo: images/top97_logo.svg
   custom_dir: overrides
   features:
+  - navigation.sections
   - navigation.tabs
   - toc.integrate
 
