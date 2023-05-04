@@ -6,4 +6,4 @@ hide:
 
 # Contact
 
-![Your contacts](../images/contact.png)
+![Your contacts](images/contact.png)

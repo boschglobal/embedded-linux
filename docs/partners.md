@@ -6,4 +6,4 @@ hide:
 
 # Partners
 
-![Our Partners](../images/partners.png)
+![Our Partners](images/partners.png)
