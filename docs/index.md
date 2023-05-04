@@ -11,12 +11,12 @@ hide:
 # Embedded IoT Linux and OSS day
 
 {% call tiles.tile_wall() %}
-  {{ tiles.tile('Speakers', 'Speakers', 'speakers', 'images/speakers.svg', color='purple') }}
-  {{ tiles.tile('Agenda', 'Agenda', 'agenda', 'images/agenda.svg', color='blue') }}
-  {{ tiles.tile('Directions', 'Directions', 'directions', 'images/directions.svg', color='green') }}
-  {{ tiles.tile('Partners', 'Partners', 'partners', 'images/partners.svg', color='dark-green') }}
-  {{ tiles.tile('Contact', 'Contact', 'contact', 'images/contact.svg', color='light-green') }}
-  {{ tiles.tile('FAQ', 'FAQ', 'faq', 'images/faq.svg', color='dark-purple') }}
+  {{ tiles.tile('Speakers', 'Keynote and Talk Speakers', 'speakers', 'images/speakers.svg', color='purple') }}
+  {{ tiles.tile('Agenda', 'Conference Agenda', 'agenda', 'images/agenda.svg', color='blue') }}
+  {{ tiles.tile('Directions', 'Directions to the conference venue', 'directions', 'images/directions.svg', color='green') }}
+  {{ tiles.tile('Partners', 'Conference Partners', 'partners', 'images/partners.svg', color='dark-green') }}
+  {{ tiles.tile('Contact', 'Contacts for support and questions', 'contact', 'images/contact.svg', color='light-green') }}
+  {{ tiles.tile('FAQ', 'Frequently Asked Questions', 'faq', 'images/faq.svg', color='dark-purple') }}
 {% endcall %}
 
 Welcome to the website of the 1<sup>st</sup> BOSCH internal conference on
