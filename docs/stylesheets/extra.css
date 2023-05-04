@@ -33,6 +33,14 @@
 :root {
     --md-text-font: "boschsans";
     --md-primary-fg-color: #368d86;
+    --md-primary-fg-color--light: #5d6cc0;
+    --md-primary-fg-color--dark: #303fa1;
+    --md-primary-bg-color: #fff;
+    --md-primary-bg-color--light: #ffffffb3;
+    --md-accent-fg-color: #526cfe;
+    --md-accent-fg-color--transparent: #526cfe1a;
+    --md-accent-bg-color: #fff;
+    --md-accent-bg-color--light: #ffffffb3;
     --fg-rgb: 54, 141, 134;
     --purple-rgb: 158, 40, 150;
     --dark-purple-rgb: 85, 17, 81;
@@ -130,6 +138,14 @@ a.link-tile:hover {
     background:rgba(var(--light-green-rgb), 1.0);
 }
 
+.tile-green-slight-fade {
+    background:rgba(var(--fg-rgb), 0.8);
+}
+.tile-green-slight-fade:hover {
+    background:rgba(var(--fg-rgb), 1.0);
+}
+
+
 a.link-tile img {
     max-height: 60px;
     max-width: 60px;
@@ -142,16 +158,74 @@ a.link-tile p {
     padding: 0;
 }
 
-div.tile-content, div.tile-image {
+div.tile-content, div.link-tile-image {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
 }
 
-div.tile-image {
+div.link-tile-image {
     height: 70px; 
 }
+
+div.contact-tile-wall {
+    width: 100%;
+    text-align: center;
+}
+
+a.contact-tile, a.contact-image-tile {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 18%;
+    aspect-ratio : 1 / 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+a.contact-tile {
+    padding: 15px;
+}
+
+a.contact-image-tile {
+    background: rgb(var(--fg-rgb));
+    padding: 0;
+}
+
+a.contact-tile:hover, a.contact-image-tile:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+p.contact-tile-name, p.contact-tile-function, p.contact-tile-email {
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 110%;
+}
+
+p.contact-tile-name {
+    font-size: 18pt;
+    font-weight: 800;
+}
+
+p.contact-tile-function {
+    font-size: 14pt;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+p.contact-tile-email {
+    font-size: 10pt;
+    text-decoration: underline;
+}
+
+a.contact-image-tile img {
+    width: 100%;
+    height: 100%;
+}
+
+/* -- Images styles  --*/
 
 .img-shadow {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
