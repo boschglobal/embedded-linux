@@ -10,12 +10,14 @@ hide:
 
 # Embedded IoT Linux and OSS day
 
+<!-- Color order: purple, blue, green; dark-green, light-green, dark-purple  -->
+
 {% call tiles.link_tile_wall() %}
   {{ tiles.link_tile('Speakers', 'Keynote and Talk Speakers', 'speakers', 'images/speakers.svg', color='purple') }}
   {{ tiles.link_tile('Agenda', 'Conference Agenda', 'agenda', 'images/agenda.svg', color='blue') }}
-  {{ tiles.link_tile('Partners', 'Conference Partners', 'partners', 'images/partners.svg', color='green') }}
+  {{ tiles.link_tile('Market Place', 'Market Place Exhibitors', 'market_place', 'images/market.svg', color='green') }}
   {{ tiles.link_tile('Directions', 'Directions to the conference venue', 'directions', 'images/directions.svg', color='dark-green') }}
-  {{ tiles.link_tile('FAQ', 'Frequently Asked Questions', 'faq', 'images/faq.svg', color='light-green') }}
+  {{ tiles.link_tile('About', 'Information about the Conference', 'faq', 'images/faq.svg', color='light-green') }}
   {{ tiles.link_tile('Contact', 'Contacts for support and questions', 'contact', 'images/contact.svg', color='dark-purple') }}
 {% endcall %}
 

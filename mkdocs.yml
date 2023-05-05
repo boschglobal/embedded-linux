@@ -17,8 +17,13 @@ nav:
   - Speakers: speakers.md
   - Agenda: agenda.md
   - Partners: partners.md
+  - Market Place: market_place.md
   - Directions: directions.md
-  - FAQ: faq.md
+  - About:
+    - FAQ: faq.md
+    - Call for Papers: call_for_papers.md
+    - Code of Conduct: code_of_conduct.md
+    - Impressum – Legal Disclosure: impressum.md
   - Contact: contact.md
 
 theme:
