@@ -113,59 +113,5 @@ There is no set dress code and, like many open source events, attendees will
 dress in a range, from jeans to suits. Our recommendation is business casual.
 
 
-## ABSTRACT: Information about the CfP procedure 
-
-Authors interested in presenting a talk are asked to submit an abstract to:
-<mailbox.EmbeddedLinuxBosch@de.bosch.com>
-
-Your presentation proposal should include:
-
-- Presentation title
-- Speaker (and co-speaker), with phone number and email address. The main
-  speaker should be listed first. Each speaker should provide a bio up to 500
-  characters.
-- Provide few good matching keywords
-- Abstract: brief summary of the presented content (methods, results,
-  motivation). Character limit 1300 (including spaces).
-
-The conference language is English.
-
-The presentation slots are usually 20 minutes plus 5 minutes discussion time.
-
-Schedule:
-
-- Deadline for presentation submission: April 21, 2023
-- Notification of authors: Mai 08, 2023
-- Publishing of the final conference agenda: Mai 15, 2023
 
 
-## Code of conduct
-
-All event participants must abide by our Code of Conduct:
-
-!!! note ""
-
-    **Code of Conduct**
-
-    - We encourage digital and hybrid networking.
-    - We encourage a space that is both nondiscriminatory and nonjudgmental
-    - We do not tolerate any form of sexism, or racism.
-    - We do not tolerate spamming or promotional content in any live feeds or chats.
-
-    **Our Terms of Use also apply to BCW.online**
-
-    We hereby expressly refer to Sec. 7, 8, and 9 of the applicable Terms of Use,
-    which you agreed to when you registered for BCW22. Those terms also apply to
-    your participation in the online event.
-
-    **Consequences of inappropriate behavior**
-
-    We reserve the right to delete content that contradicts our Code of Conduct or
-    our Terms of Use and to block or suspend participants, speakers, and exhibitors
-    who do not comply with our rules.
-
-    **Do you need help?**
-
-    In case you receive or notice any inappropriate content (as described above),
-    please contact the BCW team at the help desk (online) or the information point
-    (on-site).
