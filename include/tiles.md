@@ -23,8 +23,8 @@
 </div>
 {%- endmacro %}
 
-{% macro contact_tile(name, function, email, color='green') -%}
-<a class="contact-tile tile-{{ color }}" href="mailto:{{ email }}">
+{% macro contact_tile(name, function, email, link, color='green') -%}
+<a class="contact-tile tile-{{ color }}" href="{{ link }}">
     <div class="tile-content">
         <span>
         <p class="contact-tile-name">{{ name }}</p>
