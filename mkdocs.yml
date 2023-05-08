@@ -14,10 +14,10 @@ plugins:
 
 nav:
   - Welcome: index.md
-  - Speakers: speakers.md
   - Agenda: agenda.md
-  - Partners: partners.md
+  - Speakers: speakers.md
   - Market Place: market_place.md
+  - Partners: partners.md
   - Directions: directions.md
   - About:
     - FAQ: faq.md
