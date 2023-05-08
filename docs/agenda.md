@@ -12,6 +12,8 @@ hide:
 
 ## Conference agenda
 
+The conference will take place on Thursday, July 13.
+
 - 10:00 - 10:15 **Opening and welcome** (booth ready but not active)
 - 10:15 - 11:00 **Key notes** (10 to 15 minutes in length)
 - 11:00 - 14:30 **Market Place**
