@@ -52,19 +52,17 @@
 }
 
 header.md-header {
-    background-repeat: no-repeat;
     background-image: url('/embedded-linux/images/eliod_tab_background_long.jpg');
+    background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
 }
 
 .md-footer-meta {
-    background: url(../images/bosch_supergraphic_streifen.svg);
+    background-image: url(../images/bosch_supergraphic_streifen.svg);
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100%;
-    /* 30px;
-    padding-bottom: 30px;*/
+    background-position: left bottom;
+    background-size: 100vw;
 }
 
 
