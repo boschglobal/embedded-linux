@@ -7,12 +7,10 @@
 {% macro link_tile(title, description, link, img_src, color='purple') -%}
 <a class="link-tile tile-{{ color }}" title="{{ description }}" href="{{ link }}">
     <div class="tile-content">
-        <span>
         <div class="link-tile-image">
         <img src="{{ img_src }}" alt="{{ title }}" />
         </div>
         <p>{{ title }}</p>
-        </span>
     </div>
 </a>
 {%- endmacro %}
