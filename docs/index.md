@@ -41,4 +41,4 @@ We expect 200-500 guests in total. The conference cannot be opened for public.
 In case you want to meet specific peers or business contacts from BOSCH, let us
 know.
 
-{{ shadows.img_shadow(src='images/marketing_poster_smaller.jpg', alt='poster', width='50%') }}
+{{ shadows.img_shadow(src='images/marketing_poster_smaller.jpg', alt='poster', width='100%', max_width='650px') }}
