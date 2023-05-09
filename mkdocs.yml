@@ -16,7 +16,6 @@ nav:
   - Welcome: index.md
   - Agenda: agenda.md
   - Speakers:
-    - Speakers: speakers.md
     - Keynotes: keynotes.md
     - Presentations: presentations.md
   - Market Place: market_place.md
