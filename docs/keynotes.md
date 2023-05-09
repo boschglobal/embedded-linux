@@ -58,7 +58,7 @@ All keynotes take place in the Auditorium and last between 10 and 15 minutes.
 
   {{ tiles.presentation_tile(
     presenter = 'Dr. Matthias Klauda (XC/EE)', 
-    topic = 'To be defined', 
+    topic = 'The importance of open source culture at Bosch', 
     affiliation = 'Robert Bosch GmbH', 
     time = '14:30', 
     room = 'Auditorium', 
