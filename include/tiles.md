@@ -7,7 +7,7 @@
 {% macro link_tile(title, description, link, img_src, color='purple') -%}
 <a class="link-tile tile-{{ color }}" title="{{ description }}" href="{{ link }}">
     <div class="tile-content">
-        <div class="link-tile-image">
+        <div class="tile-image">
         <img src="{{ img_src }}" alt="{{ title }}" />
         </div>
         <p>{{ title }}</p>
@@ -37,6 +37,26 @@
 <a class="contact-image-tile" href="{{ link }}">
     <div class="tile-content">
         <img src="{{ img_src }}" alt="{{ text }}" />
+    </div>
+</a>
+{%- endmacro %}
+
+
+{% macro presentation_tile_wall() -%}
+<div class="presentation-tile-wall">
+    {{ caller() }}
+</div>
+{%- endmacro %}
+
+
+{% macro presentation_tile(presenter, topic, affiliation, time, room, link, color='grey-green') -%}
+<a class="presentation-tile tile-{{ color }}" href="{{ link }}">
+    <div class="tile-content">
+        <span>
+        <h3 class="presentation-tile-topic">{{ topic }}</h3>
+        <p><strong>{{ presenter }}</strong> | <strong>{{ affiliation }}</strong><br/>
+        <strong>Time</strong>:{{ time }} &nbsp; <strong>Room</strong>: {{ room }}</p>
+        </span>
     </div>
 </a>
 {%- endmacro %}
