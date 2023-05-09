@@ -55,7 +55,7 @@
         <span>
         <h3 class="presentation-tile-topic">{{ topic }}</h3>
         <p><strong>{{ presenter }}</strong> | <strong>{{ affiliation }}</strong><br/>
-        <strong>Time</strong>:{{ time }} &nbsp; <strong>Room</strong>: {{ room }}</p>
+        <strong>Time</strong>: {{ time }} &nbsp; <strong>Room</strong>: {{ room }}</p>
         </span>
     </div>
 </a>

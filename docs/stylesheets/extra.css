@@ -329,7 +329,6 @@ div.presentation-tile div.tile-content {
 a.presentation-tile h3 {
     font-size: 16pt;
     margin: 10px 0 0 0;
-
 }
 
 a.presentation-tile:hover h3 {
@@ -339,6 +338,7 @@ a.presentation-tile:hover h3 {
 a.presentation-tile p {
     color: rgb(var(--black-rgb));
     font-size: 10pt;
+    margin: 5px 0 10px 0;
 }
 
 
