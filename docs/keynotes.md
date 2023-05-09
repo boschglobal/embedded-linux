@@ -7,60 +7,62 @@ hide:
 
 # Keynotes
 
+All keynotes take place in the Auditorium and last between 10 and 15 minutes.
+
 {% call tiles.presentation_tile_wall() %}
 
   {{ tiles.presentation_tile(
-    'Matthias Klauda', 
-    'To be defined', 
-    'Robert Bosch GmbH', 
-    '10:00', 
-    'Auditorium', 
-    'keynote_bosch'
+    presenter = 'Jan Kiszka',
+    topic = 'Living Open Source at Siemens',
+    affiliation = 'Siemens AG',
+    time = '10:15',
+    room = 'Auditorium',
+    link = 'keynote_siemens'
   ) }}
 
   {{ tiles.presentation_tile(
-    'Urs Gleim',
-    'Living Open Source at Siemens',
-    'Siemens AG',
-    '10:15',
-    'Auditorium',
-    'keynote_siemens'
+    presenter = 'To be defined', 
+    topic = 'To be defined', 
+    affiliation = 'Suse', 
+    time = '10:30', 
+    room = 'Auditorium', 
+    link = 'keynote_suse'
   ) }}
 
   {{ tiles.presentation_tile(
-    'Marc Kleine-Budde', 
-    'Community Collaboration Patterns: Addressing Risk and Complexity', 
-    'Pengutronix', 
-    '10:30', 
-    'Auditorium', 
-    'keynote_pengutronix'
+    presenter = 'Ana Jiménez Santamaría', 
+    topic = 'To be defined', 
+    affiliation = 'ToDo Group', 
+    time = '10:45', 
+    room = 'Auditorium', 
+    link = 'keynote_todogroup'
   ) }}
 
   {{ tiles.presentation_tile(
-    'Ana Jiménez Santamaría', 
-    'To be defined', 
-    'ToDo Group', 
-    '10:45', 
-    'Auditorium', 
-    'keynote_todogroup'
+    presenter = 'Mirko Boehm', 
+    topic = 'Public Policies: Influence from the EU', 
+    affiliation = 'Linux Foundation', 
+    time = '11:00', 
+    room = 'Auditorium', 
+    link = 'keynote_linux_foundation'
   ) }}
 
   {{ tiles.presentation_tile(
-    'Gabriele Columbro', 
-    'Public Policies: Influence from the EU', 
-    'Linux Foundation', 
-    '11:00', 
-    'Auditorium', 
-    'keynote_linux_foundation'
+    presenter = 'Jan Lübbe (CTO)', 
+    topic = 'Community Collaboration Patterns: Addressing Risk and Complexity', 
+    affiliation = 'Pengutronix', 
+    time = '11:15', 
+    room = 'Auditorium', 
+    link = 'keynote_pengutronix'
   ) }}
 
   {{ tiles.presentation_tile(
-    'Naveen Suryakumar', 
-    'To be defined', 
-    'Suse', 
-    '11:15', 
-    'Auditorium', 
-    'keynote_suse'
+    presenter = 'Dr. Matthias Klauda (XC/EE)', 
+    topic = 'To be defined', 
+    affiliation = 'Robert Bosch GmbH', 
+    time = '14:30', 
+    room = 'Auditorium', 
+    link = 'keynote_bosch'
   ) }}
 
 {% endcall %}
