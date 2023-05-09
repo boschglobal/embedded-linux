@@ -47,7 +47,7 @@
     --blue-rgb: 0, 85, 135;
     --dark-green-rgb: 0, 81, 42;
     --light-green-rgb: 0, 136, 74;
-    --very-light-green-rgb: 215, 232, 231;
+    --very-light-green-rgb: 231, 241, 241;
     --grey-rgb: 244, 244, 248;
     --black-rgb: 50, 50, 50
 }
@@ -309,10 +309,14 @@ a.contact-image-tile img {
 
 /* --- Presentation Tiles --- */
 
+div.presentation-tile-wall {
+    max-width: 900px;
+}
+
 a.presentation-tile {
     text-align: left;
     width: 100%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 5px 15px 5px 15px;
 }
 
@@ -323,8 +327,13 @@ div.presentation-tile div.tile-content {
 }
 
 a.presentation-tile h3 {
-    font-size: 15pt;
+    font-size: 16pt;
     margin: 10px 0 0 0;
+
+}
+
+a.presentation-tile:hover h3 {
+    color: rgb(var(--fg-rgb));
 }
 
 a.presentation-tile p {
