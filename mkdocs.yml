@@ -15,7 +15,10 @@ plugins:
 nav:
   - Welcome: index.md
   - Agenda: agenda.md
-  - Speakers: speakers.md
+  - Speakers:
+    - Speakers: speakers.md
+    - Keynotes: keynotes.md
+    - Presentations: presentations.md
   - Market Place: market_place.md
   - Partners: partners.md
   - Directions: directions.md
