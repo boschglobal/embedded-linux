@@ -5,5 +5,7 @@ hide:
 
 # Speakers
 
-This sections feature the schedules for the [keynotes](../keynotes) and [Talks
-(presentations)](../presentations).
+This sections features the schedules for: 
+
+- [Keynotes](../keynotes)
+- [Talks / Presentations](../talks)
