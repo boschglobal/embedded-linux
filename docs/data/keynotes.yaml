@@ -1,7 +1,7 @@
 siemens:
   topic: Living Open Source at Siemens
   presenter: Jan Kiszka
-  affiliation: Siemens AG
+  affiliation: Siemens
   time: "10:15"
   room: Auditorium
   abstract: >-
@@ -17,3 +17,33 @@ siemens:
     platform for their product demands. He is maintaining several open source projects and is
     contributing to others, specifically in the area of real-time, virtualization, embedded
     Linux tooling.
+suse:
+  topic: To be defined
+  presenter: To be defined
+  affiliation: SUSE
+  time: "10:30"
+  room: Auditorium
+todo_group:
+  topic: To be defined
+  presenter: To be defined
+  affiliation: TODO Group
+  time: "10:45"
+  room: Auditorium
+linux_foundation:
+  topic: "Public Policies: Influence from the EU?"
+  presenter: Mirko Boehm
+  affiliation: Linux Foundation Europe
+  time: "11:00"
+  room: Auditorium
+pengutronix:
+  topic: "Community Collaboration Patterns: Addressing Risk and Complexity"
+  presenter: Jan Lübbe (CTO) 
+  affiliation: Pengutronix
+  time: "11:15"
+  room: Auditorium
+bosch:
+  topic: The importance of open source culture at Bosch
+  presenter: Dr. Matthias Klauda (XC/EE)
+  affiliation: Bosch
+  time: "14:30"
+  room: Auditorium

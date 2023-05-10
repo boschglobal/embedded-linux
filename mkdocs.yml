@@ -13,7 +13,8 @@ plugins:
       verbose: true
       include_dir: include
       include_yaml:
-        - presentations: docs/data/presentations.yaml
+        - keynotes: docs/data/keynotes.yaml
+        - talks: docs/data/talks.yaml
 
 nav:
   - Welcome: index.md
@@ -28,7 +29,28 @@ nav:
       - Linux Foundation: keynotes/linux_foundation.md
       - Pengutronix: keynotes/pengutronix.md
       - Bosch: keynotes/bosch.md
-    - Presentations: presentations.md
+    - Talks:
+      - talks/index.md
+      - Mercedes-Benz: talks/mercedes.md
+      - SUSE(1): talks/suse_1.md
+      - SUSE(2): talks/suse_2.md
+      - Bosch TOP97 (1): talks/bosch_top97_1.md
+      - Red hat: talks/red_hat.md
+      - ETAS: talks/etas.md
+      - ADIT: talks/adit.md
+      - Bosch TOP 97 (2): talks/bosch_top97_2.md
+      - Pengutronix (1): talks/pengutronix_1.md
+      - AWS: talks/aws.md
+      - Bosch CoC OSS: talks/bosch_coc_oss.md
+      - Eclipse: talks/eclipse.md
+      - OSADL: talks/osadl.md
+      - Bosch TOP97 (3): talks/bosch_top97_3.md
+      - Bosch SDV: talks/bosch_sdv.md
+      - Codethink: talks/codethink.md
+      - Emlix: talks/emlix.md
+      - Pengutronix (2): talks/pengutronix_2.md
+      - RISC V: talks/risc_v.md
+
   - Market Place: market_place.md
   - Partners: partners.md
   - Directions: directions.md

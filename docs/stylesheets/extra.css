@@ -121,6 +121,10 @@
     background:rgba(var(--very-light-green-rgb), 1.0);
 }
 
+.tile-grey {
+    background:rgba(var(--grey-rgb), 1.0);
+}
+
 
 /*  Custom header background */
 
@@ -160,7 +164,7 @@ div.link-tile-wall, div.contact-tile-wall, div.presentation-tile-wall {
     text-align: center;    
 }
 
-a.link-tile, a.contact-tile, a.contact-image-tile, a.presentation-tile {
+a.link-tile, a.contact-tile, a.contact-image-tile, a.presentation-tile, a.presentation-time-tile {
     display: inline-block;
     vertical-align: middle;    
     margin: 5px;
@@ -313,17 +317,30 @@ div.presentation-tile-wall {
     max-width: 900px;
 }
 
-a.presentation-tile {
-    text-align: left;
+a.presentation-tile, a.presentation-time-tile {
     width: 100%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 5px 15px 5px 15px;
 }
 
-div.presentation-tile div.tile-content {
+a.presentation-tile {
+    text-align: left;
+}
+
+a.presentation-time-tile {
+    text-align: left;
+}
+
+a.presentation-tile div.tile-content {
     flex-direction: column;
     align-items: left;
     justify-content: left;
+}
+
+a.presentation-time-tile div.tile-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 a.presentation-tile h3 {
@@ -341,6 +358,10 @@ a.presentation-tile p {
     margin: 5px 0 10px 0;
 }
 
+a.presentation-time-tile h3 {
+    font-size: 16pt;
+    margin: 0;
+}
 
 /* -- Images styles  --*/
 

@@ -1,0 +1,114 @@
+mercedes:
+  topic: SBOM Management at Mercedes-Benz
+  presenter: Dr. Christian Wege, Dr. David Schumm
+  affiliation: Mercedes-Benz
+  time: "11:30"
+  room: Sizi 2
+suse_1:
+  topic: Attaining nirvana on embedded devices with SUSE’s open-source solution
+  presenter: Naveen Suryakumar, Martin Wolf
+  affiliation: SUSE
+  time: "11:30"
+  room: Sizi 5
+suse_2:
+  topic: "Revolutionizing Edge Computing: Introducing SUSE Edge 2.0 for Scalable and Secure Infrastructures"
+  presenter: Christophe Le Dorze
+  affiliation: SUSE
+  time: "12:00"
+  room: Sizi 2
+bosch_top97_1:
+  topic: ELISA XEN Denonstrator
+  presenter: Thomas Mittelstädt
+  affiliation: Bosch (TOP97)
+  time: "12:00"
+  room: Sizi 5
+red_hat:
+  topic: "Navigating Edge Computing Challenges with Linux and Containers: A Red Hat Perspective"
+  presenter: Stefan Bergstein 
+  affiliation: Red Hat
+  time: "12:30"
+  room: Sizi 2
+etas:
+  topic: Eclipse SDV and other automotive-grade OSS POIs
+  presenter: Daniel Krippner
+  affiliation: ETAS
+  time: "12:30"
+  room: Sizi 5
+adit:
+  topic: Working with embedded hardware from anywhere in the world
+  presenter: Stephan Glinz
+  affiliation: Red Hat
+  time: "12:30"
+  room: Sizi 7
+bosch_top97_2:
+  topic: OSS is not for free
+  presenter: Philipp Ahmann 
+  affiliation: Bosch (TOP97)
+  time: "13:30"
+  room: Sizi 2
+pengutronix_1:
+  topic: "From Vulnerable to Vigilant: A 10+ Year Roadmap for Embedded Software Maintenance"
+  presenter: Jan Lübbe
+  affiliation: Pengutronix
+  time: "13:30"
+  room: Sizi 5
+aws:
+  topic: Building, Delivering and Sustaining Embedded Linux Distros on the AWS Cloud
+  presenter: Richard Elberger
+  affiliation: AWS
+  time: "13:30"
+  room: Sizi 7
+bosch_coc_oss:
+  topic: Contribution Process @ Bosch
+  presenter: Hans Malte Kern
+  affiliation: Bosch CoC OSS, OET
+  time: "14:00"
+  room: Sizi 2
+eclipse:
+  topic: Automotive stack
+  presenter: Sara Gallian
+  affiliation: Eclipse Foundation
+  time: "14:00"
+  room: Sizi 5
+osadl:
+  topic: "Sharing and reusing FOSS compliance material: OSSelot – The Open Source Curation Database"
+  presenter: Caren Kresse
+  affiliation: OSADL
+  time: "14:00"
+  room: Sizi 7
+bosch_top97_3:
+  topic: Security Hardening
+  presenter: Ulrich Matejek
+  affiliation: Bosch (TOP97)
+  time: "15:30"
+  room: Sizi 2
+bosch_sdv:
+  topic: Eclipse SDV with Kuksa, Velocitas and Leda
+  presenter: Sven Erik Jeroschewski
+  affiliation: Bosch SDV
+  time: "15:30"
+  room: Sizi 5
+codethink:
+  topic: Using open source to deliver safety and security assurances in the SDV era
+  presenter: Paul Sherwood (primary), John Ellis
+  affiliation: Codethink
+  time: "16:00"
+  room: Sizi 2
+emlix:
+  topic: Build Automation for Embedded Linux Systems as a Strategic Technology Decision
+  presenter: Thomas Brinker
+  affiliation: Emlix
+  time: "16:00"
+  room: Sizi 5
+pengutronix_2:
+  topic: "Exploring RAUC: A Flexible Building Block for Embedded Linux Updates"
+  presenter: Rouven Czerwinski
+  affiliation: Pengutronix
+  time: "16:30"
+  room: Sizi 2
+risc_v:
+  topic: "RISC-V: Enabling the compute architectures for a new generation of vehicles"
+  presenter: Pete Lewin
+  affiliation: RISC-V
+  time: "16:30"
+  room: Sizi 5

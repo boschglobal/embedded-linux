@@ -49,26 +49,23 @@
 </div>
 {%- endmacro %}
 
-{% macro presentation_tile(presenter, topic, affiliation, time, room, link, color='grey-green') -%}
-<a class="presentation-tile tile-{{ color }}" href="{{ link }}">
+{% macro presentation_tile(metadata, id, color='grey-green') -%}
+{% set data = metadata[id] %}
+<a class="presentation-tile tile-{{ color }}" href="{{ id }}">
     <div class="tile-content">
         <span>
-        <h3 class="presentation-tile-topic">{{ topic }}</h3>
-        <p><strong>{{ presenter }}</strong> | <strong>{{ affiliation }}</strong><br/>
-        <strong>Time</strong>: {{ time }} &nbsp; <strong>Room</strong>: {{ room }}</p>
+        <h3>{{ data.topic }}</h3>
+        <p><strong>{{ data.presenter }}</strong> | <strong>{{ data.affiliation }}</strong><br/>
+        <strong>Time</strong>: {{ data.time }} &nbsp; <strong>Room</strong>: {{ data.room }}</p>
         </span>
     </div>
 </a>
 {%- endmacro %}
 
-{% macro presentation_tile_new(metadata, link, color='grey-green') -%}
-<a class="presentation-tile tile-{{ color }}" href="{{ link }}">
+{% macro presentation_time_tile(time, color='grey') -%}
+<a class="presentation-time-tile tile-{{ color }}">
     <div class="tile-content">
-        <span>
-        <h3 class="presentation-tile-topic">{{ metadata.topic }}</h3>
-        <p><strong>{{ metadata.presenter }}</strong> | <strong>{{ metadata.affiliation }}</strong><br/>
-        <strong>Time</strong>: {{ metadata.time }} &nbsp; <strong>Room</strong>: {{ metadata.room }}</p>
-        </span>
+        <h3>{{ time }}</h3>
     </div>
 </a>
 {%- endmacro %}
