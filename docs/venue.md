@@ -26,4 +26,8 @@ building Fe 070.
 
 ## Floor Plan
 
-A floor plan will be included here shortly.
+The following plan shows the location of the Auditorium and the meeting rooms
+that are used during the conference in building Fe 070.
+
+![Floor plam](images/floor_plan.jpg)
+
