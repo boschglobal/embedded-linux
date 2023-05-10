@@ -14,7 +14,7 @@ hide:
 
 {% call tiles.link_tile_wall() %}
   {{ tiles.link_tile('Agenda', 'Conference Agenda', 'agenda', 'images/agenda.svg', color='purple') }}
-  {{ tiles.link_tile('Speakers', 'Keynote and Talk Speakers', 'keynotes', 'images/speakers.svg', color='blue') }}
+  {{ tiles.link_tile('Speakers', 'Keynote and Talk Speakers', 'speakers', 'images/speakers.svg', color='blue') }}
   {{ tiles.link_tile('Market Place', 'Market Place Exhibitors', 'market_place', 'images/market.svg', color='green') }}
   {{ tiles.link_tile('Venue', 'Conference Venue Information', 'venue', 'images/directions.svg', color='dark-green') }}
   {{ tiles.link_tile('About', 'Information about the Conference', 'faq', 'images/faq.svg', color='light-green') }}
