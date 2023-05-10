@@ -53,10 +53,10 @@ nav:
   - Market Place: market_place.md
   - Venue: venue.md
   - About:
-    - FAQ: faq.md
-    - Call for Papers: call_for_papers.md
-    - Code of Conduct: code_of_conduct.md
-    - Impressum – Legal Disclosure: impressum.md
+    - FAQ: about/faq.md
+    - Call for Papers: about/call_for_papers.md
+    - Code of Conduct: about/code_of_conduct.md
+    - Impressum – Legal Disclosure: about/impressum.md
   - Contact: contact.md
 
 theme:
