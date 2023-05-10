@@ -10,13 +10,24 @@ repo_name: bosch/embedded-linux
 plugins:
   - search
   - macros:
+      verbose: true
       include_dir: include
+      include_yaml:
+        - presentations: docs/data/presentations.yaml
 
 nav:
   - Welcome: index.md
   - Agenda: agenda.md
   - Speakers:
-    - Keynotes: keynotes.md
+    - speakers/index.md
+    - Keynotes:
+      - keynotes/index.md
+      - Siemens: keynotes/siemens.md
+      - SUSE: keynotes/suse.md
+      - TODO Group: keynotes/todo_group.md
+      - Linux Foundation: keynotes/linux_foundation.md
+      - Pengutronix: keynotes/pengutronix.md
+      - Bosch: keynotes/bosch.md
     - Presentations: presentations.md
   - Market Place: market_place.md
   - Partners: partners.md
@@ -35,6 +46,7 @@ theme:
   features:
   - navigation.sections
   - navigation.tabs
+  - navigation.indexes
   - toc.integrate
 
 extra:

@@ -15,6 +15,7 @@
 </a>
 {%- endmacro %}
 
+
 {% macro contact_tile_wall() -%}
 <div class="contact-tile-wall">
     {{ caller() }}
@@ -48,7 +49,6 @@
 </div>
 {%- endmacro %}
 
-
 {% macro presentation_tile(presenter, topic, affiliation, time, room, link, color='grey-green') -%}
 <a class="presentation-tile tile-{{ color }}" href="{{ link }}">
     <div class="tile-content">
@@ -56,6 +56,18 @@
         <h3 class="presentation-tile-topic">{{ topic }}</h3>
         <p><strong>{{ presenter }}</strong> | <strong>{{ affiliation }}</strong><br/>
         <strong>Time</strong>: {{ time }} &nbsp; <strong>Room</strong>: {{ room }}</p>
+        </span>
+    </div>
+</a>
+{%- endmacro %}
+
+{% macro presentation_tile_new(metadata, link, color='grey-green') -%}
+<a class="presentation-tile tile-{{ color }}" href="{{ link }}">
+    <div class="tile-content">
+        <span>
+        <h3 class="presentation-tile-topic">{{ metadata.topic }}</h3>
+        <p><strong>{{ metadata.presenter }}</strong> | <strong>{{ metadata.affiliation }}</strong><br/>
+        <strong>Time</strong>: {{ metadata.time }} &nbsp; <strong>Room</strong>: {{ metadata.room }}</p>
         </span>
     </div>
 </a>
