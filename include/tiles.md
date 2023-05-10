@@ -56,7 +56,7 @@
         <span>
         <h3>{{ data.topic }}</h3>
         <p><strong>{{ data.presenter }}</strong> | <strong>{{ data.affiliation }}</strong><br/>
-        <strong>Time</strong>: {{ data.time }} &nbsp; <strong>Room</strong>: {{ data.room }}</p>
+        Time: <strong>{{ data.time }}</strong> &nbsp; Room: <strong>{{ data.room }}</strong></p>
         </span>
     </div>
 </a>
