@@ -11,6 +11,9 @@ hide:
 Talks (presentations) will take place in smaller rooms in parallel to the market
 place.
 
+The locations of the meetings rooms are found on the [floor
+plan](../venue#floor-plan).
+
 ## 
 
 {% set ns = namespace(old_time='') %}
