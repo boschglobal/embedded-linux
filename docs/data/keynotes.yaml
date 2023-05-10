@@ -5,18 +5,18 @@ siemens:
   time: "10:15"
   room: Auditorium
   abstract: >-
-    Siemens has resolved to be an active and reliable member in the Open Source ecosystem. We
-    aim to benefit our customers, employees, and the company, while contributing to the wider
-    community. We recognize the central role of Open Source in promoting software reuse in our
-    growing digital world, which is an increasingly important contribution in our effort to
-    responsibly handle resources.
+    Siemens has resolved to be an active and reliable member in the Open Source ecosystem.
+    We aim to benefit our customers, employees, and the company, while contributing to the
+    wider community. We recognize the central role of Open Source in promoting software
+    reuse in our growing digital world, which is an increasingly important contribution in
+    our effort to responsibly handle resources.
   biography: >-
     Jan Kiszka is working as consultant, open source evangelist and Principal Key Expert
     Engineer in the Competence Center Embedded Linux at Siemens Technology. He is supporting
     Siemens businesses with adapting, enhancing or strategically driving open source as
-    platform for their product demands. He is maintaining several open source projects and is
-    contributing to others, specifically in the area of real-time, virtualization, embedded
-    Linux tooling.
+    platform for their product demands. He is maintaining several open source projects and
+    is contributing to others, specifically in the area of real-time, virtualization,
+    embedded Linux tooling.
 suse:
   topic: To be defined
   presenter: To be defined

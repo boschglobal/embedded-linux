@@ -32,8 +32,8 @@ nav:
     - Talks:
       - talks/index.md
       - Mercedes-Benz: talks/mercedes.md
-      - SUSE(1): talks/suse_1.md
-      - SUSE(2): talks/suse_2.md
+      - SUSE (1): talks/suse_1.md
+      - SUSE (2): talks/suse_2.md
       - Bosch TOP97 (1): talks/bosch_top97_1.md
       - Red hat: talks/red_hat.md
       - ETAS: talks/etas.md
