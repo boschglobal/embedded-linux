@@ -1,8 +1,14 @@
 site_name: Embedded IoT Linux and OSS Day
-site_url: https://boschglobal.github.io/embedded-linux
+site_url: https://boschglobal.github.io/embedded-linux/
 site_description: Embedded IoT Linux and OSS Day
 site_author: Rober Bosch GmbH
-copyright: Copyright &copy; 2023 Robert Bosch GmbH, all rights reserved
+copyright: >
+  Copyright &copy; 2023 Robert Bosch GmbH, all rights reserved<br/>
+  <a href="/embedded-linux/about/code_of_conduct">Code of Conduct</a>&emsp;
+  <a href="/embedded-linux/about/corporate_information">Corporate Information</a>&emsp;
+  <a href="/embedded-linux/about/legal_notice">Legal Notice</a>&emsp;
+  <a href="/embedded-linux/about/data_protection_notice">Data protection notice (privacy policy)</a>&emsp;
+  <a href="#__consent">Privacy settings</a>
 repo_url: https://github.com/boschglobal/embedded-linux
 repo_name: bosch/embedded-linux
 
@@ -56,7 +62,9 @@ nav:
     - FAQ: about/faq.md
     - Call for Papers: about/call_for_papers.md
     - Code of Conduct: about/code_of_conduct.md
-    - Impressum – Legal Disclosure: about/impressum.md
+    - Corporate Information: about/corporate_information.md
+    - Legal Notice: about/legal_notice.md
+    - Data Protection Notice: about/data_protection_notice.md
   - Contact: contact.md
 
 theme:
