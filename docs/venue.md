@@ -4,6 +4,7 @@ hide:
 ---
 
 {% import 'maps.md' as maps %}
+{% import 'shadows.md' as shadows %}
 
 # Venue
 
@@ -24,6 +25,13 @@ building Fe 070.
 
 ![Venue map](images/map_english.png)
 
+## Parking
+
+Please park in P67 on floor 4. There, please use the parking spaces marked with
+Bosch.
+
+{{ shadows.img_shadow(src='../images/parking.png', alt='Parking Map', width='100%', max_width='650px') }}
+
 ## Floor Plan
 
 The following plan shows the location of the Auditorium and the meeting rooms
@@ -31,3 +39,8 @@ that are used during the conference in building Fe 070.
 
 ![Floor plam](images/floor_plan.jpg)
 
+**Room capacities**
+
+- SiZi 2: 30 persons
+- SiZi 5: 50 persons
+- SiZi 7: 25 persons
