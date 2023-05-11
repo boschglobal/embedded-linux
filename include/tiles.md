@@ -17,25 +17,42 @@
 
 
 {% macro contact_tile_wall() -%}
+<script type="text/javascript">
+    function reverse(s){ return s.split("").reverse().join(""); };
+    function openMailer(element) {
+        var e = element.getAttribute("href")
+        var y = "mailto:" + reverse(e);
+        element.setAttribute("href", y);
+        element.setAttribute("onclick", "");
+    };
+</script>
 <div class="contact-tile-wall">
     {{ caller() }}
 </div>
 {%- endmacro %}
 
 {% macro contact_tile(name, function, email, link, color='green') -%}
-<a class="contact-tile tile-{{ color }}" href="{{ link }}">
+{%- set ns = namespace(link_reversed='') -%}
+{%- for str in link -%}
+    {%- set ns.link_reversed = str ~ ns.link_reversed -%}
+{%- endfor -%}
+<a id="email" class="contact-tile tile-{{ color }}" href="{{ ns.link_reversed }}" onclick='openMailer(this);'>
     <div class="tile-content">
         <span>
         <p class="contact-tile-name">{{ name }}</p>
         <p class="contact-tile-function">{{ function }}</p>
-        <p class="contact-tile-email">{{ email }}</p>
+        <p class="contact-tile-email">{{ email | replace('.', '<span style="display: none;">.bosch</span>.') }}</p>
         </span>
     </div>
 </a>
 {%- endmacro %}
 
 {% macro contact_tile_image(img_src, text, link, color='green') -%}
-<a class="contact-image-tile" href="{{ link }}">
+{%- set ns = namespace(link_reversed='') -%}
+{%- for str in link -%}
+    {%- set ns.link_reversed = str ~ ns.link_reversed -%}
+{%- endfor -%}
+<a id="email" class="contact-image-tile" href="{{ ns.link_reversed }}" onclick='openMailer(this);'>
     <div class="tile-content">
         <img src="{{ img_src }}" alt="{{ text }}" />
     </div>
