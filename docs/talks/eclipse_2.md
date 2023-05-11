@@ -1,7 +1,7 @@
 ---
 hide:
   - toc
-presentation: adit
+presentation: eclipse_2
 ---
 
 {% import 'presentation.md' as presentation %}

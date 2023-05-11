@@ -41,21 +41,28 @@ nav:
       - SUSE (1): talks/suse_1.md
       - SUSE (2): talks/suse_2.md
       - Bosch TOP97 (1): talks/bosch_top97_1.md
-      - Red hat: talks/red_hat.md
+      - Bosch IOB: talks/bosch_iob.md
+      - Red Hat: talks/red_hat.md
       - ETAS: talks/etas.md
-      - ADIT: talks/adit.md
-      - Bosch TOP 97 (2): talks/bosch_top97_2.md
+      - ADIT (1): talks/adit_1.md
+      - Bosch TOP97 (2): talks/bosch_top97_2.md
+      - Eclipse Foundation (1): talks/eclipse_1.md
+      - ADIT (2): talks/adit_2.md
+      - Bosch TOP97 (3): talks/bosch_top97_3.md
       - Pengutronix (1): talks/pengutronix_1.md
       - AWS: talks/aws.md
-      - Bosch CoC OSS: talks/bosch_coc_oss.md
-      - Eclipse: talks/eclipse.md
+      - Bosch CoC OSS, OET: talks/bosch_coc_oss.md
+      - Eclipse Foundation (2): talks/eclipse_2.md
       - OSADL: talks/osadl.md
-      - Bosch TOP97 (3): talks/bosch_top97_3.md
+      - Bosch TOP97 (4): talks/bosch_top97_4.md
+      - OSADL (2): talks/osadl_2.md
+      - ROS: talks/ros.md
+      - Bosch TOP97 (5): talks/bosch_top97_5.md
       - Bosch SDV: talks/bosch_sdv.md
       - Codethink: talks/codethink.md
       - Emlix: talks/emlix.md
       - Pengutronix (2): talks/pengutronix_2.md
-      - RISC V: talks/risc_v.md
+      - RISC-V: talks/risc_v.md
   - Market Place: market_place.md
   - Venue: venue.md
   - About:
