@@ -40,7 +40,9 @@
 
 :root {
     --md-primary-fg-color: #368d86;
-    --md-accent-fg-color: #66bbb4;
+    --md-accent-fg-color: #34615e;
+    --md-primary-fg-color--light: #66bbb4;
+    --md-primary-fg-color--dark: #327973;
     --fg-rgb: 54, 141, 134;
     --purple-rgb: 158, 40, 150;
     --dark-purple-rgb: 85, 17, 81;
