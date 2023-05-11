@@ -2,13 +2,14 @@
 
 The Market Place will have booths from the following exhibitors:
 
+- AGL
+- Apertis
 - Codethink
 - Collabora
-- Emlix
-- Pengutronix
-- AGL
-- Robert Bosch CoC OSS
-- Linux Foundation
 - Eclipse Foundation
+- Emlix
+- Linux Foundation
+- Pengutronix
+- Robert Bosch CoC OSS
 - SUSE
-- TOP97
+- TOP97 - BLISS - BLING
