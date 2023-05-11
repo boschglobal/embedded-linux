@@ -15,9 +15,9 @@ hide:
 The conference will take place on Thursday, July 13.
 
 - 10:00 - 10:15 **Opening and welcome**
-- 10:15 - 11:00 [**Keynotes**](../keynotes)
-- 11:00 - 14:30 [**Market Place**](../market_place)
-- 11:00 - 17:00 [**Talks, presentations**](../presentations)
+- 10:15 - 11:30 [**Keynotes**](../keynotes)
+- 11:30 - 14:30 [**Market Place**](../market_place)
+- 11:30 - 17:00 [**Talks, presentations**](../presentations)
 - 14:30 - 14:45 [**VIP keynote: "Open Source Culture"**](../keynotes)
 - 14:45 - 17:00 [**Market Place**](../market_place)
 - 17:00 **Conference End**
