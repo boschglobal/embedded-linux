@@ -42,7 +42,7 @@ pengutronix:
   time: "11:15"
   room: Auditorium
 bosch:
-  topic: The importance of open source culture at Bosch
+  topic: "Opportunity Open Source: the importance of open source culture for Bosch"
   presenter: Dr. Matthias Klauda (XC/EE)
   affiliation: Bosch
   time: "14:30"
