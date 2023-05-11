@@ -20,5 +20,4 @@ All event participants must abide by our Code of Conduct:
     **Do you need help?**
 
     In case you receive or notice any inappropriate content (as described 
-    above), please contact our conference organization team at 
-    <mailbox.EmbeddedLinuxBosch@de.bosch.com>.
+    above), please [contact our conference organization team](../contact.md)

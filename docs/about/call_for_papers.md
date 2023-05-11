@@ -1,7 +1,7 @@
 # Call for Papers
 
-Authors interested in presenting a talk are asked to submit an abstract to:
-<mailbox.EmbeddedLinuxBosch@de.bosch.com>
+Authors interested in presenting a talk are asked to submit an abstract to the
+[Team Mailbox](../contact.md) of the conference organization. 
 
 Your presentation proposal should include:
 
