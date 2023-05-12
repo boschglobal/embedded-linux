@@ -3,7 +3,7 @@
 The Market Place will have booths from the following exhibitors:
 
 - AGL
-- Apertis
+- Apertis pro
 - Codethink
 - Collabora
 - Eclipse Foundation

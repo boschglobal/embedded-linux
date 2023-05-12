@@ -171,6 +171,17 @@ aws:
   affiliation: AWS
   time: "13:30"
   room: Sizi 7
+  abstract: |
+    The AWS cloud delivers on security, scalability, and resiliency, but can it deliver on
+    the I/O bandwidth that is required for engineering teams build, deliver, and maintain
+    embedded Linux distributions? Early in development cycles, continuous integration is
+    strongly desired to identify issues early. While distribution delivery requires
+    end-to-end testing, virtualized testing can functionally verify code before expensive
+    and time-consuming hardware-in-loop verification procedures. After delivery to
+    manufacturing, the ability to quickly iterate and get system updates quickly to
+    customers is desired to overcome security challenges and extend system functionality to
+    improve its long-life viability. In this session, you will learn key touch points on how
+    to do this from the AWS cloud.
 
 bosch_coc_oss:
   topic: Contribution Process @ Bosch
@@ -222,6 +233,12 @@ bosch_sdv:
   affiliation: Bosch SDV
   time: "15:30"
   room: Sizi 2
+bosch_apertis:
+  topic: Apertis pro
+  presenter: Sascha Effert
+  affiliation: Bosch
+  time: "15:30"
+  room: Sizi 7
 
 codethink:
   topic: Using open source to deliver safety and security assurances in the SDV era
@@ -235,6 +252,29 @@ emlix:
   affiliation: Emlix
   time: "16:00"
   room: Sizi 2
+  abstract: |
+    Increasing demands on professionalism, standard compliance, security, safety and
+    maintainability of embedded Linux systems mean that the selection of an appropriate
+    build automation is a critical success factor for open source based products.<br/><br/>  
+    In the first part the presentation briefly introduces the most important high level
+    requirements on an industrial grade Linux which is meant to be used e.g. in automotive
+    or medical technology. In the next step the requirements for the build automation and
+    build infrastructure will be derived.<br/>  
+    In the second part the most common embedded Linux build and build automation systems
+    will be compared against these requirements.<br/>  
+    The presentation focuses in particular on complexity and useability, CI/CD/CT demands,
+    automated documentation, reproducibility and open source compliance. Furthermore the
+    feasibility and potential efforts of platform strategies will be discussed as well as
+    the practicability of embedded Linux CVE monitoring and lifecycle maintenance concepts
+    which each build system.<br/><br/>  
+    These fields of action are critical elements of a strategic technology planning.<br/>  
+    Target group of the presentation are embedded Linux developers as well as development
+    and product managers.
+  biography: |
+    Thomas Brinker is a Senior Systems Engineer and Project Manager at emlix GmbH. He is an
+    architect for secured embedded Linux systems in the automotive, medical, industrial, and
+    consumer device fields, performing requirements engineering and design throughout the
+    entire product life cycle.
 
 pengutronix_2:
   topic: "Exploring RAUC: A Flexible Building Block for Embedded Linux Updates"
