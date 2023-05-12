@@ -14,7 +14,7 @@ hide:
 
 The conference will take place on Thursday, July 13.
 
-![Conference program](../images/program_image.svg)
+![Conference program](images/program_image.svg)
 
 <!--
 - 10:00 - 10:15 **Opening and welcome**
