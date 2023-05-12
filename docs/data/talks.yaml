@@ -10,6 +10,27 @@ suse_1:
   affiliation: SUSE
   time: "11:30"
   room: Sizi 2
+  abstract: |
+    Building an IoT embedded device is easy. Wait.. What about building an exemplary
+    device?<br/>  
+    To develop such a device, right ingredients of tools and framework are required, which
+    not only solve the functional requirements but also are best-in-class in compliance and
+    security with reduced DevOp friction and Time to market.<br/>  
+    This session focuses on the benefits of using open source software for developing IoT
+    embedded devices and SUSE’s contribution towards it. SUSE explains how open source
+    software can help achieve nirvana or a state of perfect harmony in IoT development by
+    providing flexibility, scalability, and cost-effectiveness. The presentation also
+    highlights the importance of security and the role that open source communities can play
+    in ensuring the security of IoT devices. Overall, the presentation aims to demonstrate
+    the advantages of open source software for IoT development and its potential to enhance
+    the performance and security of embedded devices. 
+  biography: |
+    Naveen Suryakumar is based in Berlin, Germany and running embedded partner program for
+    DACH and Nordics region at SUSE. He has 13 years of tech industry experience in various
+    roles with a multicultural background living several years in India, Singapore and in
+    Germany.<br/><br/> Martin Wolf is an Account Executive covering the German Automotive
+    Industry with 20 years of experience in injecting Open-Source Innovation into the
+    Enterprise.
 
 suse_2:
   topic: "Revolutionizing Edge Computing: Introducing SUSE Edge 2.0 for Scalable and Secure Infrastructures"
@@ -17,6 +38,30 @@ suse_2:
   affiliation: SUSE
   time: "12:00"
   room: Sizi 5
+  abstract: |
+    SUSE Edge 2.0 is a groundbreaking solution designed to simplify and accelerate edge
+    infrastructure management. Motivated by the increasing demand for efficient edge
+    operations, SUSE has created a fully integrated platform that streamlines Kubernetes and
+    Linux OS lifecycle management across distributed locations. The solution offers
+    customers reduced operational complexity, centralized management, and improved security
+    for various edge use cases, including general edge, telco, retail etc.<br/>
+    Built on the latest versions of Rancher, SLE Micro, and SUSE NeuVector, SUSE Edge 2.0
+    provides an end-to-end cloud-native edge management solution with security integrated
+    across the entire stack. Customers can leverage SUSE Edge 2.0 to deploy modern,
+    cloud-native applications at the edge without requiring advanced IT skills or on-site
+    technical expertise.<br/>
+    By offering a comprehensive solution to meet customers' evolving edge infrastructure
+    needs, SUSE Edge 2.0 allows organizations to simplify edge deployments, scale
+    operations, and ultimately transform their edge management strategies.
+  biography: |
+    Christophe Le Dorze is a Senior Technology Expert and Solution Architect with a strong
+    background in edge and embedded technologies, DevOps, DevSecOps, and cybersecurity.
+    Starting his career in the French Air Force, he gained experience in network and
+    security operations before transitioning to the private sector.<br/>
+    Christophe serves now at SUSE, addressing complex challenges across numerous industries
+    such as automotive, aerospace, and healthcare. He brings the agility, scalability, and
+    maturity acquired by SUSE & Rancher as an open-source leader in the IT space to the OT
+    space.
 bosch_top97_1:
   topic: ELISA XEN Denonstrator
   presenter: Thomas Mittelstädt
@@ -42,6 +87,20 @@ etas:
   affiliation: ETAS
   time: "12:30"
   room: Sizi 2
+  abstract: |
+    Talking points:<br/>
+    1. What is this SDV thing?<br/>
+    2. Which initiatives/groups are pursuing this?<br/>
+    3. Introducing the Eclipse SDV Working Group<br/>
+    4. Key question: what does "automotive-grade" OSS mean?<br/>
+    5. Safety for SoUP - activities, approaches, thoughts<br/>
+  biography: |
+    Daniel Krippner is an Enterprise Architect and Tech Strategist within the Bosch/ETAS
+    organization, engaged in open source communities like Eclipse SDV or SOAFEE, and
+    pursuing partnering and collaboration opportunities in this context. He has a technical
+    background in IT and software development, vehicle connectivity and protocols, based on
+    over 18 years of experience in the automotive industry in the areas of vehicle
+    diagnostics, telematics, connectivity and related standardization.
 adit_1:
   topic: Working with embedded hardware from anywhere in the world
   presenter: Stephan Glinz
@@ -61,6 +120,32 @@ eclipse_1:
   affiliation: Eclipse Foundation
   time: "13:00"
   room: Sizi 2
+  abstract: |
+    The machine economy is on our doorstep. Embedded technologies play a critical part in
+    building it.<br/>  
+    While the industrial revolution improved our lives, it was not built on sustainable
+    energy sources and infrastructure. We cannot afford to build the machine economy in the
+    same way. A sustainable machine economy will only emerge from a shared, vendor-neutral
+    ecosystem, inside which commercial and non-profit organizations will pool resources
+    towards common goals. In other words, the European machine economy platform must be open
+    source, and its governance must be under the stewardship of a truly European open source
+    foundation.  
+    In this presentation, you will learn how open source upends the old dynamics found in
+    the industrial automation and automotive industries to foster truly open ecosystems. You
+    will also find Eclipse Foundation initiatives, such as Oniro, Sparkplug, and Software
+    Defined Vehicle (SDV), that you can leverage and join. 
+  biography: |
+    Frédéric Desbiens is a Program Manager and Evangelist for IoT and Edge Computing at the
+    Eclipse Foundation, Europe's largest open-source organization. His job is to help the
+    community innovate by bringing devices and software together. He is a strong supporter
+    of open source. In the past, he worked as a product manager, solutions architect, and
+    developer for companies as diverse as Pivotal, Cisco, and Oracle. Frédéric holds an MBA
+    in electronic commerce, a BASc in Computer Science, and a BEd, all from Université Laval
+    (Québec City, Canada).<br/><br/>  
+    Frédéric is the author of "Building Enterprise IoT Solutions using Eclipse IoT
+    Technologies: An Open-Source Approach to Edge Computing," published in December 2022 by
+    Apress (ISBN: 978-1484288818).
+    
 adit_2:
   topic: Covesa Diagnostic Log and Trace (DLT)
   presenter: Michael Methner

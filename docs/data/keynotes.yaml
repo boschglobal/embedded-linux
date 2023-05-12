@@ -4,13 +4,19 @@ siemens:
   affiliation: Siemens
   time: "10:15"
   room: Auditorium
-  abstract: >-
-    Siemens has resolved to be an active and reliable member in the Open Source ecosystem.
-    We aim to benefit our customers, employees, and the company, while contributing to the
-    wider community. We recognize the central role of Open Source in promoting software
-    reuse in our growing digital world, which is an increasingly important contribution in
-    our effort to responsibly handle resources.
-  biography: >-
+  abstract: |
+    Building products and services upon open source software (OSS) has become standard, also
+    in the domains of Siemens. However, driving or creating OSS according to our needs
+    remains challenging.<br/>  
+    In this talk, we will try to shed a light on how Siemens embraces OSS, where we believe
+    having been successful already, and where we want to improve further. We will look at
+    some of our community engagements, may they be directly or via foundations. We will
+    furthermore underline the increasing importance of working with our customers and
+    suppliers also via OSS communities - openly, constructively, and on eye level. Last but
+    not least, we will point out what key role "upstream first" plays in this while not
+    denying that this is continuous hard work for everyone who is in touch with both OSS and
+    business needs.
+  biography: |
     Jan Kiszka is working as consultant, open source evangelist and Principal Key Expert
     Engineer in the Competence Center Embedded Linux at Siemens Technology. He is supporting
     Siemens businesses with adapting, enhancing or strategically driving open source as
@@ -23,27 +29,47 @@ suse:
   affiliation: SUSE
   time: "10:30"
   room: Auditorium
+  abstract: |
+    
+  biography: |
+    
 todo_group:
   topic: To be defined
   presenter: To be defined
   affiliation: TODO Group
   time: "10:45"
   room: Auditorium
+  abstract: |
+    
+  biography: |
+    
 linux_foundation:
   topic: "Public Policies: Influence from the EU?"
   presenter: Mirko Boehm
   affiliation: Linux Foundation Europe
   time: "11:00"
   room: Auditorium
+  abstract: |
+    
+  biography: |
+    
 pengutronix:
   topic: "Community Collaboration Patterns: Addressing Risk and Complexity"
   presenter: Jan Lübbe (CTO) 
   affiliation: Pengutronix
   time: "11:15"
   room: Auditorium
+  abstract: |
+    
+  biography: |
+    
 bosch:
   topic: "Opportunity Open Source: the importance of open source culture for Bosch"
   presenter: Dr. Matthias Klauda (XC/EE)
   affiliation: Bosch
   time: "14:30"
   room: Auditorium
+  abstract: |
+    
+  biography: |
+    
