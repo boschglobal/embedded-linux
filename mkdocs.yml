@@ -56,9 +56,10 @@ nav:
       - OSADL: talks/osadl.md
       - Bosch TOP97 (4): talks/bosch_top97_4.md
       - OSADL (2): talks/osadl_2.md
-      - ROS: talks/ros.md
+      - Bosch ROS: talks/ros.md
       - Bosch TOP97 (5): talks/bosch_top97_5.md
       - Bosch SDV: talks/bosch_sdv.md
+      - Bosch Apertis: talks/bosch_apertis.md
       - Codethink: talks/codethink.md
       - Emlix: talks/emlix.md
       - Pengutronix (2): talks/pengutronix_2.md

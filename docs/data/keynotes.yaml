@@ -60,8 +60,24 @@ pengutronix:
   time: "11:15"
   room: Auditorium
   abstract: |
-    
+    In this keynote, we explore the benefits of leveraging open-source collaboration
+    patterns to address complexity and reduce risk in embedded Linux product development
+    across independent teams. We discuss the concept of long-term maintenance, emphasizing
+    the importance of continuous maintenance, upstreaming, and automated processes in
+    ensuring secure and fully functional long-life devices.<br/>  
+    Focusing on collaborative approaches to risk reduction, we highlight open-source
+    collaboration models found in OpenEmbedded/Yocto and the Linux kernel and their
+    potential adoption within a multinational company. We emphasize the benefits of shared
+    code, standardized build architectures, and reusable tooling and workflows. This keynote
+    aims to inspire attendees to explore and implement collaborative  approaches inspired by
+    open-source communities within their own teams.
   biography: |
+    After building Linux smartphones with OpenMoko and deploying open source GSM networks to
+    cruise ships, Jan Lübbe joined Pengutronix in 2012. Since then he helps customers
+    understand Linux and how it can solve their problems. Besides his work at Pengutronix,
+    Jan builds wireless mesh networks at the Stratum 0 hacker space in Brunswick.
+    Previously, he presented at Embedded Linux Conference Europe, FOSDEM, the Linux Days in
+    Chemnitz and the OSADL Networking Days.
     
 bosch:
   topic: "Opportunity Open Source: the importance of open source culture for Bosch"
