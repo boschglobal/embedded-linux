@@ -222,7 +222,8 @@ a.link-tile p {
 
 @media (width < 800px) {
     a.link-tile p {
-        font-size: 9pt;
+        font-size: 10pt;
+        line-height: 10pt;
     }
 }
 
