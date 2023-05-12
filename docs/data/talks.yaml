@@ -333,7 +333,21 @@ eclipse_2:
   time: "14:00"
   room: Sizi 2
   abstract: |
-    
+    The most notable impact of using SW in the automotive domain is the decrease in
+    fatalities as ADAS functions are more widely employed. On the other hand, SW complexity
+    has seen an almost exponential growth reaching about 100 million lines of code.<br/>  
+    Hardly any organization can tackle this challenge alone.<br/>  
+    The Eclipse Software Defined Vehicle (SDV) Working Group ’s mission is to foster
+    collaboration across industries to create an open technology platform for the software
+    defined vehicle of the future. The working group community driven by its 36 member
+    organization has chosen a “code first” approach to facilitate more agile and faster
+    time-to-market software development.<br/>  
+    After its formation about a year ago, the SDV WG has onboarded about 20 open source
+    projects and is working on integrating several projects together to create “blueprints”.
+    The frameworks emerging from these initial blueprints show the potential and benefits of
+    utilizing different projects as components to build broader solutions to address more
+    complex problems.<br/> This contribution introduces the SDV WG and Community, as well as
+    its projects and capabilities. 
   biography: |
     
 osadl:
