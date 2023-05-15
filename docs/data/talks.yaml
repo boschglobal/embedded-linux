@@ -477,10 +477,20 @@ bosch_apertis:
   time: "15:30"
   room: Sizi 7
   abstract: |
+    APERTIS is more than another collection of OSS software bundled with a tool to build it, 
+    it is designed to master pain points in creation of modern embedded product families and gives 
+    a complete and operated infrastructure for joint development and continuous integration incl. 
+    hardware in the loop testing using Lava. In this talk we will show how easy it is to setup a 
+    new component incl. automated builds and tests using the APERTIS infrastructure.
     
   biography: |
-    
-
+    Dr. Sascha Effert was already responsible for the support of Linux systems during his studies and 
+    worked on the bring up of a TOP500 cluster. After completing his studies, he worked as a software 
+    architect in the storage environment on Linux-based appliances. Sascha has been working for Bosch
+    in the Cockpit Technologies division since 2013. His current responsibilities include the 
+    utilization of modern open source technologies and collaborative OSS ways of working to master 
+    creation of composed embedded systems.
+      
 codethink:
   topic: Using open source to deliver safety and security assurances in the SDV era
   presenter: Paul Sherwood (primary), John Ellis
