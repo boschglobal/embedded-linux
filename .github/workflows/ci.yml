@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
   pull_request:
-     branches: [ master ]
+    branches: [ master ]
 permissions:
   contents: write
 jobs:
@@ -18,5 +18,12 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material mkdocs-macros-plugin
-      - run: mkdocs gh-deploy --force
+      - name: Install required Python packages
+        run: pip install mkdocs-material mkdocs-macros-plugin
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF##*/})"
+        id: extract_branch
+      - name: Actual Deploy
+        run: mkdocs gh-deploy --force
+        if: steps.extract_branch.outputs.branch == 'master'
