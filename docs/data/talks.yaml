@@ -207,7 +207,15 @@ bosch_top97_2:
   abstract: |
     
   biography: |
-    
+    Since 2020, Dirk Sanderschäfer has been leading the Bosch domain-spanning innovation
+    project TOP97, which is developing the Bosch IoT Linux software system. In 2023, he will
+    found the Bosch Linux Incubation Group with the goal of making embedded Linux usable
+    within the Bosch Group.<br/>  
+    Until 2020, he has led a program for the development of processes, methods and tools for
+    automotive SW development as department head for more than 5 years. Until 2015, he was
+    responsible for IT coordination and launched various infrastructure improvements as well
+    as business unit spin-off and IT merger projects.
+
 eclipse_1:
   topic: The machine economy will be open source or will not be 
   presenter: Frédéric Desbiens
