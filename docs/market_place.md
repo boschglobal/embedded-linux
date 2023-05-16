@@ -10,6 +10,7 @@ The Market Place will have booths from the following exhibitors:
 - Emlix
 - Linux Foundation
 - Pengutronix
+- Red Hat
 - Robert Bosch CoC OSS
 - SUSE
 - TOP97 - BLISS - BLING
