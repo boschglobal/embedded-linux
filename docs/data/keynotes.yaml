@@ -24,15 +24,28 @@ siemens:
     is contributing to others, specifically in the area of real-time, virtualization,
     embedded Linux tooling.
 suse:
-  topic: <em>To be published</em>
-  presenter: <em>To be published</em>
+  topic: Better and faster results with Open Source
+  presenter: Ivo Totev
   affiliation: SUSE
   time: "10:30"
   room: Auditorium
   abstract: |
-    
+    This talk focuses on the benefits of open source and empowering customers to achieve results 
+    faster. Exploring the transformative advantages of open source, including low barrier to engage, 
+    unmatched flexibility, cost-effectiveness, and collaborative innovation, the session illuminates 
+    the vast potential for organizational growth and success. The talk also addresses the future focus
+    areas of the open-source community, such as compatibility, security, and sustainable business 
+    models. Attendees are invited  to discover effective strategies for navigating the ever-evolving 
+    landscape of embedded Linux and achieving remarkable outcomes in the open-source domain.
   biography: |
-    
+    Ivo Totev is SUSE's Chief Innovation Officer. In this role, he spearheads many important growth 
+    initiatives, including developing new strategic partnerships for high-growth areas and driving 
+    stronger value and experience for customers and partners. He is also responsible for helping 
+    customers reimagine their businesses through clear, customer-centric product strategy, as well 
+    as building brand equity and customer engagements focused on business outcomes. Ivo has over 
+    25 years of experience in technology and has served as President of Product Marketing at SAP, 
+    CMO and Head of Cloud Business at Software AG, as well as the CMO of Unit4. Ivo holds a degree 
+    in electrical engineering from Giessen university of applied sciences, and lives in Germany.
 todo_group:
   topic: <em>To be published</em>
   presenter: <em>To be published</em>

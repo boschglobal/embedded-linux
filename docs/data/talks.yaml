@@ -559,6 +559,35 @@ emlix:
     consumer device fields, performing requirements engineering and design throughout the
     entire product life cycle.
 
+collabora:
+  topic: Future improvements coming to APERTIS
+  presenter: Sjoerd Simons, Guy Lunardi
+  affiliation: Collabora
+  time: "16:00"
+  room: Sizi 7
+  abstract: |
+    Tremendous innovations have been happening upstream the past few months and now is a great 
+    time for Bosch projects to take advantage of those. APERTIS is a great vehicle for that, 
+    with the confidence that Bosch is standing behind the operating system and infrastructure 
+    delivering it.The speakers assume that the audience is fully aware of the importance of 
+    understanding your entire software stack. This presentation will touch on core updates, 
+    security features, the new PipeWire audio server, open source graphics drivers, and more. 
+    If we need more time, the APERTIS will be available throughout the day in the MarketPlace all day.
+    
+  biography: |
+    Sjoerd Simons is the Strategy Lead for all core and Linux efforts at Collabora. Sjoerd has been 
+    deeply involved. Sjoerd has been a maintainer and Debian Developer in the Debian project for over 
+    20 years. He has contributed to projects ranging from Uboot all the way up to the GStreamer projects, 
+    passing through the Linux kernel, PulseAudio, graphics toolkits and many more . He has been involved
+    with the APERTIS project since day-1 (long before it was even called APERTIS). 
+    Sjoerd holds a Bachelor of Science from the Eindhoven University of Technology. <br/><br/>
+    Guy Lunardi is the Vice President of Business Development at Collabora and a firm believer in open 
+    source. Guy interacts with the open source community communicating requirements essential to 
+    Collabora's customers. His background in IT management, consulting and software development allows 
+    him to account for many aspects of the product creation efforts. Guy is a native French speaker and 
+    fluent in English based in New York, NY, USA. Guy volunteers with the Central Park Conservancy to 
+    help keep Central Pack beautiful and is a board member of the Document Foundation.
+    
 pengutronix_2:
   topic: "Exploring RAUC: A Flexible Building Block for Embedded Linux Updates"
   presenter: Rouven Czerwinski

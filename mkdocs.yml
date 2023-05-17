@@ -62,6 +62,7 @@ nav:
       - Bosch Apertis: talks/bosch_apertis.md
       - Codethink: talks/codethink.md
       - Emlix: talks/emlix.md
+      - Collabora: talks/collabora.md
       - Pengutronix (2): talks/pengutronix_2.md
       - RISC-V: talks/risc_v.md
   - Market Place: market_place.md
