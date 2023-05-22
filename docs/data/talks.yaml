@@ -199,13 +199,19 @@ adit_1:
     friends and play handball in a sports club.
 
 bosch_top97_2:
-  topic: Bosch "Baumarkt" for embedded Linux
+  topic: 'The offerings within the "BOSCH DYI Store" for Embedded IoT Linux'
   presenter: Dirk Sanderschäfer, Thomas Noserke
   affiliation: Bosch TOP97
   time: "13:00"
   room: Sizi 5
   abstract: |
-    
+    In 2020 TOP97 started the development of the the Bosch Linux  IoT Software System,
+    offering a dedicated environment for all kind of Bosch products running with embedded
+    Linux. TOP97 now comes to an end and many services and solutions are available and free
+    for developers. The successor of TOP97 is the Bosch Linux incubation Group BLING, a kind
+    of DIY store for Linux developers. In this store additional assets like consulting,
+    onboarding and co-development are offered. Dirk and Thomas explain the offerings of
+    BLING and how such assets they can be consumed.
   biography: |
     Since 2020, Dirk Sanderschäfer has been leading the Bosch domain-spanning innovation
     project TOP97, which is developing the Bosch IoT Linux software system. In 2023, he will
