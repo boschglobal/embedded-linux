@@ -99,7 +99,13 @@ bosch:
   time: "14:30"
   room: Auditorium
   abstract: |
-    
+    Invented for life is the motto of us, we are masters in delivering innovations. 
+    Thereby is to be observed that variant diversity and complexity of our products are 
+    permanently increasing. And nowadays most of our products are connected, which means, 
+    they shall kept up-to-date with patches and new functions. Obviously Software plays an 
+    increasingly important role in our business. Hence questions about maintainability 
+    and scaling of SW capabilities are coming up. In this presentation, we will explain 
+    some challenges and elaborate opportunities of open source based collaboration.     
   biography: |
     Matthias Klauda received his PhD in Physics in 1993 from the University of Erlangen. In
     1994 he joined Bosch, where he held responsibilities for Electronics Research &
