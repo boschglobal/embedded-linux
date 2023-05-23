@@ -29,42 +29,42 @@ nav:
     - speakers/index.md
     - Keynotes:
       - keynotes/index.md
+      - Bosch: keynotes/bosch.md
+      - Linux Foundation: keynotes/linux_foundation.md
+      - Pengutronix: keynotes/pengutronix.md
       - Siemens: keynotes/siemens.md
       - SUSE: keynotes/suse.md
       - TODO Group: keynotes/todo_group.md
-      - Linux Foundation: keynotes/linux_foundation.md
-      - Pengutronix: keynotes/pengutronix.md
-      - Bosch: keynotes/bosch.md
     - Talks:
       - talks/index.md
+      - Bosch TOP97 (1): talks/bosch_top97_1.md
+      - Bosch TOP97 (2): talks/bosch_top97_2.md
+      - Bosch TOP97 (3): talks/bosch_top97_3.md
+      - Bosch TOP97 (4): talks/bosch_top97_4.md
+      - Bosch TOP97 (5): talks/bosch_top97_5.md
+      - Bosch Apertis: talks/bosch_apertis.md
+      - Bosch CoC OSS, OET: talks/bosch_coc_oss.md
+      - Bosch IOB: talks/bosch_iob.md
+      - Bosch ROS: talks/ros.md
+      - Bosch SDV: talks/bosch_sdv.md
+      - ADIT (1): talks/adit_1.md
+      - ADIT (2): talks/adit_2.md
+      - AWS: talks/aws.md
+      - Codethink: talks/codethink.md
+      - Collabora: talks/collabora.md
+      - Eclipse Foundation (1): talks/eclipse_1.md
+      - Eclipse Foundation (2): talks/eclipse_2.md
+      - Emlix: talks/emlix.md
+      - ETAS: talks/etas.md
       - Mercedes-Benz: talks/mercedes.md
+      - OSADL (1): talks/osadl.md
+      - OSADL (2): talks/osadl_2.md
+      - Pengutronix (1): talks/pengutronix_1.md
+      - Pengutronix (2): talks/pengutronix_2.md
+      - Red Hat: talks/red_hat.md
+      - RISC-V: talks/risc_v.md
       - SUSE (1): talks/suse_1.md
       - SUSE (2): talks/suse_2.md
-      - Bosch TOP97 (1): talks/bosch_top97_1.md
-      - Bosch IOB: talks/bosch_iob.md
-      - Red Hat: talks/red_hat.md
-      - ETAS: talks/etas.md
-      - ADIT (1): talks/adit_1.md
-      - Bosch TOP97 (2): talks/bosch_top97_2.md
-      - Eclipse Foundation (1): talks/eclipse_1.md
-      - ADIT (2): talks/adit_2.md
-      - Bosch TOP97 (3): talks/bosch_top97_3.md
-      - Pengutronix (1): talks/pengutronix_1.md
-      - AWS: talks/aws.md
-      - Bosch CoC OSS, OET: talks/bosch_coc_oss.md
-      - Eclipse Foundation (2): talks/eclipse_2.md
-      - OSADL: talks/osadl.md
-      - Bosch TOP97 (4): talks/bosch_top97_4.md
-      - OSADL (2): talks/osadl_2.md
-      - Bosch ROS: talks/ros.md
-      - Bosch TOP97 (5): talks/bosch_top97_5.md
-      - Bosch SDV: talks/bosch_sdv.md
-      - Bosch Apertis: talks/bosch_apertis.md
-      - Codethink: talks/codethink.md
-      - Emlix: talks/emlix.md
-      - Collabora: talks/collabora.md
-      - Pengutronix (2): talks/pengutronix_2.md
-      - RISC-V: talks/risc_v.md
   - Market Place: market_place.md
   - Venue: venue.md
   - About:
