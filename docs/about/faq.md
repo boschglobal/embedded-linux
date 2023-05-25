@@ -111,10 +111,11 @@ On the campus you will find standard equipment for presentations, like
 electricity, WIFI, Beamer, etc.
 
 For a market place (approximately 8 m²) additionally we organize the following
-basics: office table (160x80 cm) or high table, electricity, 2 chairs and 1 meta
-board.
+basics: office table (160x80 cm) or high table, electricity, 2 chairs.
+On top of that, we provide a meta board, which can carry printouts on both sides. An 
+example of such a board can be found [here](https://eventura.net/mietwelt-shop/moebel-zubehoer/konferenz-bueromoebel/2136/metaplan-pinnwand-franken-grau-tafelmasse-h150cm-x-b-120cm). The provided meta board will have comparable dimensions and material.
 
-The organization team asks for additional demand separately,
+Any additional equipment requests are to be addressed separately to the [conference organization team](../contact.md).
 
 ## Premises for talks & keynotes 
 
