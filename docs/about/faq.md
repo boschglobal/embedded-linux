@@ -111,8 +111,11 @@ On the campus you will find standard equipment for presentations, like
 electricity, WIFI, Beamer, etc.
 
 For a market place (approximately 8 m²) additionally we organize the following
-basics: office table (160x80 cm) or high table, electricity, 2 chairs and 1 meta
-board.
+basics: office table (160x80 cm) or high table, electricity, 2 chairs.
+Additionally provide a meta board which can carry printouts on both sides. An 
+example is given here behind the link
+https://eventura.net/mietwelt-shop/moebel-zubehoer/konferenz-bueromoebel/2136/metaplan-pinnwand-franken-grau-tafelmasse-h150cm-x-b-120cm
+What you will get at the booth will be similar in dimensions and material.
 
 The organization team asks for additional demand separately,
 
