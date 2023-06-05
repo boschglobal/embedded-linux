@@ -28,10 +28,16 @@ invited to arrange and book specific services and solutions as part of the
 
 External Contributors joining this conference, hence all information exchange is
 open source based. Participation as guest is open for employees of the BOSCH
-Group only.
-
+Group only. 
+To comply with the General Data Protection Regulation (GDPR) of 
+the EU and internal regulations, we do not hand out any listings of personal 
+data of the Bosch-attendees.
 The participation is free of charge for contributors and visitors. All other
 expenses need to be compensated on your own.
+Regarding swag, please adjust the amount and value of your offerings to 
+comparable events. Bosch employees must report gifts worth more than €35, this
+value must not be exceeded.
+
 
  
 ## Event venue
@@ -105,23 +111,39 @@ the demand separately, because this needs some lead time for the IT department.
 
 Please refer to the [Venue page](../venue.md#parking) for parking information.
 
-## Equipment
+## Equipment Meeting Rooms for talks and keynotes
 
-On the campus you will find standard equipment for presentations, like
-electricity, WIFI, Beamer, etc.
+For all rooms we provide a cinema layout.  
+- Room/Sizi 2: 30 seats
+- Room/Sizi 5: 50 seats
+- Room/Sizi 7: 25 seats
+
+1 desk for presentation and a specified number of attendee seats. For the presenter 
+there is a beamer or screen available. The connection can be made via HDMI or 
+Mira Cast (which requires Windows 10). Guest wireless LAN is available at any 
+place during the conference. Furthermore 1 phone hub is at the speakers desk.
+
+In general, a recording of pictures and tone shall be considered. However, we do not 
+have a technical solution yet. Possibilities are to be checked by us in the near future. 
+
+
+
+## Equipment Auditorium Market Place
 
 For a market place (approximately 8 m²) additionally we organize the following
-basics: office table (160x80 cm) or high table, electricity, 2 chairs.
+basics: office table (160x80 cm) or high table, electricity (230V, 6A), 2 chairs.
 On top of that, we provide a meta board, which can carry printouts on both sides. An 
 example of such a board can be found [here](https://eventura.net/mietwelt-shop/moebel-zubehoer/konferenz-bueromoebel/2136/metaplan-pinnwand-franken-grau-tafelmasse-h150cm-x-b-120cm). The provided meta board will have comparable dimensions and material.
 
 Any additional equipment requests are to be addressed separately to the [conference organization team](../contact.md).
+It is possible to send material in parcels of normal size to a postal address of 
+the location. The post office of the location is in a different building, hence we 
+need to take care about fetching your parcels from there. Please get in contact with
+the [conference organization team](../contact.md) to what extend you want to ship upfront.
 
-## Premises for talks & keynotes 
+Your booth presentation will be close to some others and shall not interfere (e. g. noise). 
 
-- Room 2: 30 seats
-- Room 5: 50 seats
-- Room 7: 25 seats
+
 
 ## Dress code
 
