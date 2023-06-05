@@ -144,9 +144,6 @@ the [conference organization team](../contact.md) to what extend you want to shi
 Your booth presentation will be close to some others and shall not interfere (e. g. noise). 
 
 
-## Premises for talks & keynotes 
-
-
 
 ## Dress code
 
