@@ -45,7 +45,15 @@ value must not be exceeded.
 Bosch Digital IT Campus, 4 rooms with a total capacity of 200, 50, 30 and 25
 people.
 
- 
+
+## Response of Bosch employees (June 7th)
+
+627 Bosch employees are invited to this event because they might be engaged 
+with Embedded IoT Linux.
+   137 accepted the invitation, 
+    93 replied tentatively 
+   338 employees did not response so far
+
 ## Address
 
 Robert Bosch GmbH  
@@ -111,7 +119,7 @@ the demand separately, because this needs some lead time for the IT department.
 
 Please refer to the [Venue page](../venue.md#parking) for parking information.
 
-## Equipment Meeting Rooms for talks and keynotes
+## Meeting rooms for talks aand presentations, equipment:
 
 For all rooms we provide a cinema layout.  
 - Room/Sizi 2: 30 seats
@@ -128,7 +136,7 @@ have a technical solution yet. Possibilities are to be checked by us in the near
 
 
 
-## Equipment Auditorium Market Place
+## Auditorium for keynotes and market place. equipment: 
 
 For a market place (approximately 8 m²) additionally we organize the following
 basics: office table (160x80 cm) or high table, electricity (230V, 6A), 2 chairs.
