@@ -119,7 +119,7 @@ the demand separately, because this needs some lead time for the IT department.
 
 Please refer to the [Venue page](../venue.md#parking) for parking information.
 
-## Meeting rooms for talks aand presentations, equipment:
+## Meeting rooms for talks and presentations, equipment:
 
 For all rooms we provide a cinema layout.  
 - Room/Sizi 2: 30 seats
