@@ -50,9 +50,9 @@ people.
 
 627 Bosch employees are invited to this event because they might be engaged 
 with Embedded IoT Linux.
-   137 accepted the invitation, 
-    93 replied tentatively 
-   338 employees did not response so far
+- 137 accepted the invitation
+- 93 replied tentatively 
+- 338 employees did not response so far
 
 ## Address
 
