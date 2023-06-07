@@ -136,7 +136,7 @@ have a technical solution yet. Possibilities are to be checked by us in the near
 
 
 
-## Auditorium for keynotes and market place. equipment: 
+## Auditorium equipment (keynotes and market place)
 
 For a market place (approximately 8 m²) additionally we organize the following
 basics: office table (160x80 cm) or high table, electricity (230V, 6A), 2 chairs.
