@@ -475,8 +475,25 @@ bosch_top97_5:
   time: "15:30"
   room: Sizi 5
   abstract: |
+    A secure boot process establishes a chain of trust from (ideally) the hardware to the 
+    boot loader to the kernel and the applications of an embedded Linux system. Too often, 
+    the last link in this chain which secures the applications and their configuration data 
+    is weakened by relying on a read-only file system which does not protect against e.g., 
+    data manipulation while the system is powered off.<br/>
+    In this talk, we present a blueprint for a secure boot process and a data integrity 
+    solution that provide assurance that applications and (static) configuration data has 
+    not been tampered with.<br/>
+    The design choices allowed by the building blocks of the implementation - OverlayFS, 
+    dm-verity, and rustBoot - as well as the (planned) integration with RAUC for system 
+    updates are examined and compared.    
     
   biography: |
+    Ulrich Matejek started working as a security consultant for ETAS in 2018 where his
+    responsibilities include a wide range of topics, ranging from security analyses and
+    security concepts to supporting customers during their integration of CycurHSM to 
+    security in Linux on IoT devices and future concepts for trust-based automotive security.
+    
+    
     
 bosch_sdv:
   topic: Eclipse SDV with Kuksa, Velocitas and Leda
