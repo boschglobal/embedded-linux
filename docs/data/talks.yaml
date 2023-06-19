@@ -112,8 +112,12 @@ bosch_iob:
   abstract: |
     
   biography: |
-    
-
+    Marcel Kurzmann joined Bosch in 1997. After establishing the test-automation service team 
+    at Bosch Engineering and Acquisition Project Management in the automotive section he took 
+    over the Quality Management of Bosch Software Innovations (now Bosch.IO) in 2008. From 
+    2015 he was responsible for the Open Source Management System of Bosch.IO and with that 
+    established Bosch-internal Open Source Management Services. He is member of the Center 
+    of Competence Open Source at Bosch and represents Bosch in the OpenChain Governing Board.
 red_hat:
   topic: "Navigating Edge Computing Challenges with Linux and Containers: A Red Hat Perspective"
   presenter: Stefan Bergstein, Danijel Soldo
