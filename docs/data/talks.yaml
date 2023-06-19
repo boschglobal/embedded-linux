@@ -3,7 +3,7 @@ mercedes:
   presenter: Dr. Christian Wege, Dr. David Schumm
   affiliation: Mercedes-Benz Group AG
   time: "11:30"
-  room: Sizi 5
+  room: S 5
   abstract: |
     The FOSS Disclosure Portal of Mercedes-Benz is a custom-built solution to automate and
     digitize the process for disclosure of the Free & Open Source Software (FOSS)
@@ -40,7 +40,7 @@ suse_1:
   presenter: Naveen Suryakumar, Martin Wolf
   affiliation: SUSE
   time: "11:30"
-  room: Sizi 2
+  room: S 2
   abstract: |
     Building an IoT embedded device is easy. Wait.. What about building an exemplary
     device?<br/>  
@@ -68,7 +68,7 @@ suse_2:
   presenter: Christophe Le Dorze
   affiliation: SUSE
   time: "12:00"
-  room: Sizi 5
+  room: S 5
   abstract: |
     SUSE Edge 2.0 is a groundbreaking solution designed to simplify and accelerate edge
     infrastructure management. Motivated by the increasing demand for efficient edge
@@ -98,7 +98,7 @@ bosch_top97_1:
   presenter: Thomas Mittelstädt
   affiliation: Bosch TOP97
   time: "12:00"
-  room: Sizi 2
+  room: S 2
   abstract: |
     Looking at system architectures for complex embedded systems, similarities can be observed
     across various industries. Beside a rich OS (such as Linux), often an RTOS and virtualization
@@ -125,7 +125,7 @@ bosch_iob:
   presenter: Marcel Kurzmann
   affiliation: Bosch IOB
   time: "12:00"
-  room: Sizi 7
+  room: S 7
   abstract: |
     
   biography: |
@@ -136,7 +136,7 @@ red_hat:
   presenter: Stefan Bergstein, Danijel Soldo
   affiliation: Red Hat
   time: "12:30"
-  room: Sizi 5
+  room: S 5
   abstract: |
     Linux for IoT is rapidly gaining momentum as the go-to operating system for edge devices
     in the Internet of Things (IoT) and automotive landscape. In this technical talk, we
@@ -169,7 +169,7 @@ etas:
   presenter: Daniel Krippner
   affiliation: ETAS
   time: "12:30"
-  room: Sizi 2
+  room: S 2
   abstract: |
     Talking points:<br/>
     1. What is this SDV thing?<br/>
@@ -189,7 +189,7 @@ adit_1:
   presenter: Stephan Glinz
   affiliation: ADIT
   time: "12:30"
-  room: Sizi 7
+  room: S 7
   abstract: |
     A developer at Advanced Driver Information Technology Corporation usually works with
     multiple embedded platforms. The constant change of the targets can consume a lot of
@@ -220,7 +220,7 @@ bosch_top97_2:
   presenter: Dirk Sanderschäfer, Thomas Noserke
   affiliation: Bosch TOP97
   time: "13:00"
-  room: Sizi 5
+  room: S 5
   abstract: |
     In 2020 TOP97 started the development of the the Bosch Linux  IoT Software System,
     offering a dedicated environment for all kind of Bosch products running with embedded
@@ -248,7 +248,7 @@ eclipse_1:
   presenter: Frédéric Desbiens
   affiliation: Eclipse Foundation
   time: "13:00"
-  room: Sizi 2
+  room: S 2
   abstract: |
     The machine economy is on our doorstep. Embedded technologies play a critical part in
     building it.<br/>  
@@ -279,7 +279,7 @@ adit_2:
   presenter: Michael Methner
   affiliation: ADIT
   time: "13:00"
-  room: Sizi 7
+  room: S 7
   abstract: |
     DLT is the central logging system in In-Vehicle Infotainment (IVI) devices. Started out
     by BMW in 2011 as part of the GenIVI consortium, DLT has grown to the de-facto standard
@@ -304,17 +304,36 @@ bosch_top97_3:
   presenter: Philipp Ahmann 
   affiliation: Bosch TOP97
   time: "13:30"
-  room: Sizi 5
+  room: S 5
   abstract: |
-    
+  Open-source software is not for free - the less you give, the more it costs. 
+  This may sound contradictory, but can become especially true for those ignoring the 
+  differences between an open source community and an commercially contracted software provider.
+  
+  As projects and product development are typically driven by schedule, resources, and costs, 
+  it sounds logical for a project manager to take quick-wins by selecting existing open-source 
+  software components, during product development phase. However, the total cost of software 
+  components over lifetime and the impact a bad package selection can have, are easily underestimated. 
+  It will become even more severe, if software gets locally modified and maintained without 
+  upstreaming to the original source. 
+
+  Additionally, the talk explains why there is (typically) no way around open source from a project
+  manager perspective and which additionally benefits are created beside cost, content and schedule 
+  improvements.
   biography: |
-    
+  Philipp Ahmann is a technical business development manager at Robert Bosch GmbH with focus on 
+  Open Source activities. He represents the ELISA project of the Linux Foundation as technical 
+  steering committee chair and is a member of the Linux Foundation Europe Advisory Board. 
+  He has more than 10 years of experience in the field of Linux automotive SW base platforms 
+  acting in multiple roles. 
+  Currently he contributes to a project focusing on embedded Linux in industrial applications 
+  and wider IoT scope.
 pengutronix_1:
   topic: "From Vulnerable to Vigilant: A 10+ Year Roadmap for Embedded Software Maintenance"
   presenter: Jan Lübbe
   affiliation: Pengutronix
   time: "13:30"
-  room: Sizi 2
+  room: S 2
   abstract: |
     While the technical aspects of building embedded Linux systems may seem straightforward
     initially, the inherent complexity and continuous development often lead to significant
@@ -338,7 +357,7 @@ aws:
   presenter: Richard Elberger
   affiliation: AWS
   time: "13:30"
-  room: Sizi 7
+  room: S 7
   abstract: |
     The AWS cloud delivers on security, scalability, and resiliency, but can it deliver on
     the I/O bandwidth that is required for engineering teams build, deliver, and maintain
@@ -356,7 +375,7 @@ bosch_coc_oss:
   presenter: Hans Malte Kern
   affiliation: Bosch CoC OSS, OET
   time: "14:00"
-  room: Sizi 5
+  room: S 5
   abstract: |
     
   biography: |
@@ -366,7 +385,7 @@ eclipse_2:
   presenter: Sara Gallian
   affiliation: Eclipse Foundation
   time: "14:00"
-  room: Sizi 2
+  room: S 2
   abstract: |
     The most notable impact of using SW in the automotive domain is the decrease in
     fatalities as ADAS functions are more widely employed. On the other hand, SW complexity
@@ -390,7 +409,7 @@ osadl:
   presenter: Caren Kresse
   affiliation: OSADL
   time: "14:00"
-  room: Sizi 7
+  room: S 7
   abstract: |
     A major advantage of Free and Open Source software (FOSS) is the possibility to reuse
     existing components. In industry, such software is normally compiled for use in
@@ -416,21 +435,27 @@ osadl:
     trainings on this topic.
 
 bosch_top97_4:
-  topic: Security reliability
+  topic: OS Hardening via HW-assisted Virtualization Techniques
   presenter: Andreas Bartelt
   affiliation: Bosch TOP97
-  time: "15:00"
-  room: Sizi 5
+  time: "14:30"
+  room: S 5
   abstract: |
-    
+  This presentation provides an overview on how a type-1 hypervisor (e.g., Xen) could provide 
+  benefits with regard to securing Linux-based IoT devices. In addition to security, 
+  type-1 hypervisors could facilitate fulfilment of further quality attribute requirements 
+  (e.g., in scope of real-time and safety). However, it turns out that combining these quality 
+  attributes on a single system isn’t as straightforward as initially expected.
   biography: |
-    
+  Andreas Bartelt is very skeptical that publishing his biography on github 
+  would be adequate for the purpose of an internal Bosch conference.
+  
 osadl_2:
   topic: "Industry-grade Linux: Outcome of a recent survey and follow-up"
   presenter: Carsten Emde
   affiliation: OSADL
-  time: "15:00"
-  room: Sizi 2
+  time: "14:30"
+  room: S 2
   abstract: |
     The use of the Linux kernel and other Open Source software in embedded systems poses a
     completely different challenge than, for example, in standard PCs. The latter usually
@@ -459,8 +484,8 @@ ros:
   topic: "Introduction to ROS: Building Robotics Applications with the Help of a Great Community"
   presenter: Christian Henkel
   affiliation: Bosch (ROS)
-  time: "15:00"
-  room: Sizi 7
+  time: "14:30"
+  room: S 7
   abstract: |
     The Robot Operating System (ROS) is a widely adopted platform for building robotics
     applications due to its modular and distributed architecture.<br/>  
@@ -489,8 +514,8 @@ bosch_top97_5:
   topic: Verified Boot (Security)
   presenter: Ulrich Matejek
   affiliation: Bosch TOP97
-  time: "15:30"
-  room: Sizi 5
+  time: "15:00"
+  room: S 5
   abstract: |
     A secure boot process establishes a chain of trust from (ideally) the hardware to the 
     boot loader to the kernel and the applications of an embedded Linux system. Too often, 
@@ -516,8 +541,8 @@ bosch_sdv:
   topic: Eclipse SDV with Kuksa, Velocitas and Leda
   presenter: Sven Erik Jeroschewski
   affiliation: Bosch SDV
-  time: "15:30"
-  room: Sizi 2
+  time: "15:00"
+  room: S 2
   abstract: |
     
   biography: |
@@ -526,8 +551,8 @@ bosch_apertis:
   topic: The power of Apertis – from development to continuous testing in minutes
   presenter: Sascha Effert
   affiliation: Bosch
-  time: "15:30"
-  room: Sizi 7
+  time: "15:00"
+  room: S 7
   abstract: |
     APERTIS is more than another collection of OSS software bundled with a tool to build it, 
     it is designed to master pain points in creation of modern embedded product families and gives 
@@ -547,8 +572,8 @@ codethink:
   topic: Using open source to deliver safety and security assurances in the SDV era
   presenter: Paul Sherwood (primary), John Ellis
   affiliation: Codethink
-  time: "16:00"
-  room: Sizi 5
+  time: "15:30"
+  room: S 5
   abstract: |
     Codethink achieved ASIL-D Tool certification for our Deterministic Construction Service
     (DCS) in 2021. In 2023 we expect to achieve ISO 26262 certification of a Linux-based OS
@@ -573,8 +598,8 @@ emlix:
   topic: Build Automation for Embedded Linux Systems as a Strategic Technology Decision
   presenter: Thomas Brinker
   affiliation: Emlix
-  time: "16:00"
-  room: Sizi 2
+  time: "15:30"
+  room: S 2
   abstract: |
     Increasing demands on professionalism, standard compliance, security, safety and
     maintainability of embedded Linux systems mean that the selection of an appropriate
@@ -603,8 +628,8 @@ collabora:
   topic: Future improvements coming to APERTIS
   presenter: Sjoerd Simons, Guy Lunardi
   affiliation: Collabora
-  time: "16:00"
-  room: Sizi 7
+  time: "15:30"
+  room: S 7
   abstract: |
     Tremendous innovations have been happening upstream the past few months and now is a great 
     time for Bosch projects to take advantage of those. APERTIS is a great vehicle for that, 
@@ -633,7 +658,7 @@ pengutronix_2:
   presenter: Rouven Czerwinski
   affiliation: Pengutronix
   time: "16:30"
-  room: Sizi 5
+  room: S 5
   abstract: |
     In this talk, we will delve into RAUC, the embedded Linux update framework, focusing on
     its unique features and advantages for managing system updates.<br/>  
@@ -656,7 +681,7 @@ risc_v:
   presenter: Pete Lewin
   affiliation: RISC-V
   time: "16:30"
-  room: Sizi 2
+  room: S 2
   abstract: |
     An intense period of innovation is driving the automotive supply chain to reimagine
     compute architectures, requiring companies to take more control of their computing
