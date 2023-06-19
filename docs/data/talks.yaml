@@ -100,9 +100,26 @@ bosch_top97_1:
   time: "12:00"
   room: Sizi 2
   abstract: |
-    
+    Looking at system architectures for complex embedded systems, similarities can be observed
+    across various industries. Beside a rich OS (such as Linux), often an RTOS and virtualization
+    or containers are involved. However, when it comes to prototyping such systems, the
+    existing guidelines are limited and reproducing demos is hard and time consuming.
+    The ELISA project’s systems working group focuses on creating an exemplary system
+    architecture using Linux (like from AGL, CIP or APERTIS), Xen and Zephyr in a reproducible form.
+    This includes step-by-step documentation for users on different expert levels and various
+    entry points to approach these systems. The results of this activity are presented and shared
+    as part of the talk. Additionally, an outlook to further work is provided, which includes picking
+    up new requirements such as a system SBOM. The demand for strong interaction and collaboration
+    among various open source projects will also be shortly addressed in this talk. Finally, the
+    talk gets rounded up by showcasing the system implementation state. The demonstrated example
+    is based on embedded automotive hardware and facilitates the usage of the AGL reference stack
+    along with Xen and Zephyr.
   biography: |
-    
+    Thomas Mittelstaedt is a senior developer at Robert Bosch GmbH with focus on Apertis
+    (apertis.org) and technical support for acquisition tasks. He has more than 30 years of
+    experience at multiple operating systems and at build & integration systems. Currently
+    he contributes to a project focusing on embedded Linux in industrial applications and
+    provides trainings, documentation and technical support to all kind of Bosch users.
 bosch_iob:
   topic: SW Management in the Embedded IoT Linux context 
   presenter: Marcel Kurzmann
