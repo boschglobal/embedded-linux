@@ -7,16 +7,16 @@ mercedes:
   abstract: |
     The FOSS Disclosure Portal of Mercedes-Benz is a custom-built solution to automate and
     digitize the process for disclosure of the Free & Open Source Software (FOSS)
-    components, which are included in products and applications.<br/>  
+    components, which are included in products and applications.  
     With the FOSS Disclosure Portal we aim at a more efficient, transparent and digital
     software supply chain regarding open source: With the FOSS Disclosure Portal we enable
     our internal and external software suppliers to deliver us information on used open
     source via a technical interface (API) in an ISO standardized exchange format as
-    Software Bill of Material (SBOM/SPDX).<br/>  
+    Software Bill of Material (SBOM/SPDX).  
     Based on these SBOM deliveries, the system supports the responsible project owners
     through automated compliance checks and quality checks on a central inventory. This way
     we enable checking license conformance much easier and faster, identified issues are
-    directly resolved with the collaboration of the software supplier.<br/>  
+    directly resolved with the collaboration of the software supplier.  
     In this talk, we discuss the role and benefits of Software Bill of Materials (SBOM) for
     Free & Open Source Software from a license compliance perspective of an automotive OEM.
     After an introduction of basic concepts of SBOM, we sketch the FOSS SBOM consumption
@@ -27,7 +27,8 @@ mercedes:
     Source Program Office of Mercedes-Benz. Before this, he has worked on FOSS strategy
     topics at Mercedes-Benz Group for more than ten years and has been one of the initiators
     to propose FOSS as IT Joint Priority. Every day he strives to make the voice of the
-    developer heard in the creation of the FOSS governance processes.<br/><br/>  
+    developer heard in the creation of the FOSS governance processes.
+
     Dr. David Schumm is member of the FOSS IT team and co-creating the FOSS Disclosure
     Portal in the Product Owner role, together with a virtual team of colleagues from Legal
     & Compliance, Research & Development, IT and software subsidiaries. Before this
@@ -43,10 +44,10 @@ suse_1:
   room: Sizi 2
   abstract: |
     Building an IoT embedded device is easy. Wait.. What about building an exemplary
-    device?<br/>  
+    device?  
     To develop such a device, right ingredients of tools and framework are required, which
     not only solve the functional requirements but also are best-in-class in compliance and
-    security with reduced DevOp friction and Time to market.<br/>  
+    security with reduced DevOp friction and Time to market.  
     This session focuses on the benefits of using open source software for developing IoT
     embedded devices and SUSE’s contribution towards it. SUSE explains how open source
     software can help achieve nirvana or a state of perfect harmony in IoT development by
@@ -59,9 +60,10 @@ suse_1:
     Naveen Suryakumar is based in Berlin, Germany and running embedded partner program for
     DACH and Nordics region at SUSE. He has 13 years of tech industry experience in various
     roles with a multicultural background living several years in India, Singapore and in
-    Germany.<br/><br/> Martin Wolf is an Account Executive covering the German Automotive
-    Industry with 20 years of experience in injecting Open-Source Innovation into the
-    Enterprise.
+    Germany.
+    
+    Martin Wolf is an Account Executive covering the German Automotive Industry with 20
+    years of experience in injecting Open-Source Innovation into the Enterprise.
 
 suse_2:
   topic: "Revolutionizing Edge Computing: Introducing SUSE Edge 2.0 for Scalable and Secure Infrastructures"
@@ -75,12 +77,12 @@ suse_2:
     operations, SUSE has created a fully integrated platform that streamlines Kubernetes and
     Linux OS lifecycle management across distributed locations. The solution offers
     customers reduced operational complexity, centralized management, and improved security
-    for various edge use cases, including general edge, telco, retail etc.<br/>
+    for various edge use cases, including general edge, telco, retail etc.  
     Built on the latest versions of Rancher, SLE Micro, and SUSE NeuVector, SUSE Edge 2.0
     provides an end-to-end cloud-native edge management solution with security integrated
     across the entire stack. Customers can leverage SUSE Edge 2.0 to deploy modern,
     cloud-native applications at the edge without requiring advanced IT skills or on-site
-    technical expertise.<br/>
+    technical expertise.  
     By offering a comprehensive solution to meet customers' evolving edge infrastructure
     needs, SUSE Edge 2.0 allows organizations to simplify edge deployments, scale
     operations, and ultimately transform their edge management strategies.
@@ -88,7 +90,7 @@ suse_2:
     Christophe Le Dorze is a Senior Technology Expert and Solution Architect with a strong
     background in edge and embedded technologies, DevOps, DevSecOps, and cybersecurity.
     Starting his career in the French Air Force, he gained experience in network and
-    security operations before transitioning to the private sector.<br/>
+    security operations before transitioning to the private sector.  
     Christophe serves now at SUSE, addressing complex challenges across numerous industries
     such as automotive, aerospace, and healthcare. He brings the agility, scalability, and
     maturity acquired by SUSE & Rancher as an open-source leader in the IT space to the OT
@@ -132,7 +134,7 @@ bosch_iob:
     stating that "Based on the circumstances, that there are different Linux distributions, 
     typically demanding license and obligation setups, architectural aspects to consider 
     and a broad variety of distribution contexts, this could be seen as the 
-    "champions league" of Open Source Compliance Management Automation." <br/>
+    "champions league" of Open Source Compliance Management Automation."   
     The circumstances didn't change, but now after two years in the course of the TOP97 
     project we had the chance to have a deeper look, widen the horizon (Apertis, Yocto, 
     Elbe, ...), create a build based prototype workflow and also enhance the scope from 
@@ -160,11 +162,11 @@ red_hat:
     will delve into the intricacies of quick image generation, efficient over-the-air
     updates, zero-touch provisioning, and intelligent rollbacks, and how to address these
     use cases. We will also explore container deployment and lifecycle management,
-    highlighting the benefits of containerization for edge computing.<br/>  
+    highlighting the benefits of containerization for edge computing.  
     Furthermore, we will discuss the various ways in which Red Hat contributes to the
     development of IoT Linux open-source communities (i.e. Automotive SIG) and provide an
     introduction to Red Hat's product offerings and how they can help you build and manage
-    your IoT Edge deployments.<br/>  
+    your IoT Edge deployments.  
     Join us for an informative session that will equip you with the knowledge and tools
     necessary to succeed in the exciting world of IoT Edge computing with Linux, Kubernetes,
     and containers.
@@ -174,7 +176,8 @@ red_hat:
     Learning and Cloud practitioner and has an extensive software engineering background.
     Before joining Red Hat, Stefan worked for ISVs as a Software Architect with a focus on
     IT and Hybrid Cloud management products. He has also gained practical manufacturing
-    experience in the aircraft and process industries.<br/><br/>  
+    experience in the aircraft and process industries.
+    
     Danijel is a Solution Architect at Red Hat tinkering with solutions together with German
     customers in the manufacturing and automotive industry. He is passionate about Open
     Source, performance analysis and Kubernetes-based solutions. With a background in Linux
@@ -187,12 +190,13 @@ etas:
   time: "12:30"
   room: Sizi 2
   abstract: |
-    Talking points:<br/>
-    1. What is this SDV thing?<br/>
-    2. Which initiatives/groups are pursuing this?<br/>
-    3. Introducing the Eclipse SDV Working Group<br/>
-    4. Key question: what does "automotive-grade" OSS mean?<br/>
-    5. Safety for SoUP - activities, approaches, thoughts<br/>
+    Talking points:
+
+    1. What is this SDV thing?
+    2. Which initiatives/groups are pursuing this?
+    3. Introducing the Eclipse SDV Working Group
+    4. Key question: what does "automotive-grade" OSS mean?
+    5. Safety for SoUP - activities, approaches, thoughts
   biography: |
     Daniel Krippner is an Enterprise Architect and Tech Strategist within the Bosch/ETAS
     organization, engaged in open source communities like Eclipse SDV or SOAFEE, and
@@ -211,12 +215,12 @@ adit_1:
     multiple embedded platforms. The constant change of the targets can consume a lot of
     hours till days and causes a cable tangle on the desk. Furthermore, the developer must
     build and flash the correct software. Therefore, and triggered by the Corona Pandemic
-    and the short-term of home office, the Remote Target Access (RTA) project was started.<br/>  
+    and the short-term of home office, the Remote Target Access (RTA) project was started.  
     RTA is a development framework that enables remote control of the embedded development
     platforms such as reset, power on and off and switching system states, e.g. enter flash
     mode. It also supports Audio Input/Output forwarding, USB over IP and remote touch input
     with commonly used technologies like SSH, USB/IP, Arduino, GStreamer and Virtual Network
-    Computing (VNC).<br/>  
+    Computing (VNC).  
     In this presentation, Stephan Glinz will present the concepts and the main requirement
     "Working with this system should feel like having the target on the table" of this
     project, as well as the hardware construction and the configuration to enables power
@@ -249,15 +253,17 @@ bosch_top97_2:
     Since 2020, Dirk Sanderschäfer has been leading the Bosch domain-spanning innovation
     project TOP97, which is developing the Bosch IoT Linux software system. In 2023, he will
     found the Bosch Linux Incubation Group with the goal of making embedded Linux usable
-    within the Bosch Group.<br/>  
+    within the Bosch Group.  
     Until 2020, he has led a program for the development of processes, methods and tools for
     automotive SW development as department head for more than 5 years. Until 2015, he was
     responsible for IT coordination and launched various infrastructure improvements as well
-    as business unit spin-off and IT merger projects.<br/> <br/>
-    In 2019, Thomas Noserke kicked off the Bosch cross division innovation project “Bosch IoT Linux Software 
-    System which he is technically leading till today. Thomas has technical and business background 
-    based on over 20 years experience in automotive and IT industries in the areas of SW development, 
-    product management, innovation/technology management and business development.  
+    as business unit spin-off and IT merger projects.
+
+    In 2019, Thomas Noserke kicked off the Bosch cross division innovation project “Bosch
+    IoT Linux Software System which he is technically leading till today. Thomas has
+    technical and business background based on over 20 years experience in automotive and IT
+    industries in the areas of SW development, product management, innovation/technology
+    management and business development.  
 
 eclipse_1:
   topic: The machine economy will be open source or will not be 
@@ -267,7 +273,7 @@ eclipse_1:
   room: Sizi 2
   abstract: |
     The machine economy is on our doorstep. Embedded technologies play a critical part in
-    building it.<br/>  
+    building it.  
     While the industrial revolution improved our lives, it was not built on sustainable
     energy sources and infrastructure. We cannot afford to build the machine economy in the
     same way. A sustainable machine economy will only emerge from a shared, vendor-neutral
@@ -286,7 +292,7 @@ eclipse_1:
     of open source. In the past, he worked as a product manager, solutions architect, and
     developer for companies as diverse as Pivotal, Cisco, and Oracle. Frédéric holds an MBA
     in electronic commerce, a BASc in Computer Science, and a BEd, all from Université Laval
-    (Québec City, Canada).<br/><br/>  
+    (Québec City, Canada).  
     Frédéric is the author of "Building Enterprise IoT Solutions using Eclipse IoT
     Technologies: An Open-Source Approach to Edge Computing," published in December 2022 by
     Apress (ISBN: 978-1484288818).
@@ -299,11 +305,11 @@ adit_2:
   abstract: |
     DLT is the central logging system in In-Vehicle Infotainment (IVI) devices. Started out
     by BMW in 2011 as part of the GenIVI consortium, DLT has grown to the de-facto standard
-    of logging used by many automotive manufacturers.<br/>  
+    of logging used by many automotive manufacturers.  
     In this talk, Michael Methner will present how DLT enables logging use cases like log
     storage, multi OS logging, collection of log messages from native logging systems and
     user-friendly representation of logs. This all serves the goal to enable developers to
-    understand system behavior in complex systems.<br/>  
+    understand system behavior in complex systems.  
     In the second part of the talk, Michael will present how ADIT interacts with the Open
     Source community of DLT. While open source maintenance takes some work time, it has many
     benefits like community contributions, peer reviews and security analysis for free.
@@ -335,7 +341,7 @@ pengutronix_1:
     While the technical aspects of building embedded Linux systems may seem straightforward
     initially, the inherent complexity and continuous development often lead to significant
     risk down the line. The reality is that even some newly launched products contain
-    outdated or vulnerable software.<br/>  
+    outdated or vulnerable software.  
     In this presentation, Jan Lübbe will examine the reasons behind the failure of seemingly
     reasonable development and long-term maintenance approaches and propose a sustainable
     workflow for effective software management. By integrating required features into the
@@ -386,19 +392,20 @@ eclipse_2:
   abstract: |
     The most notable impact of using SW in the automotive domain is the decrease in
     fatalities as ADAS functions are more widely employed. On the other hand, SW complexity
-    has seen an almost exponential growth reaching about 100 million lines of code.<br/>  
-    Hardly any organization can tackle this challenge alone.<br/>  
+    has seen an almost exponential growth reaching about 100 million lines of code.  
+    Hardly any organization can tackle this challenge alone.  
     The Eclipse Software Defined Vehicle (SDV) Working Group ’s mission is to foster
     collaboration across industries to create an open technology platform for the software
     defined vehicle of the future. The working group community driven by its 36 member
     organization has chosen a “code first” approach to facilitate more agile and faster
-    time-to-market software development.<br/>  
+    time-to-market software development.  
     After its formation about a year ago, the SDV WG has onboarded about 20 open source
     projects and is working on integrating several projects together to create “blueprints”.
     The frameworks emerging from these initial blueprints show the potential and benefits of
     utilizing different projects as components to build broader solutions to address more
-    complex problems.<br/> This contribution introduces the SDV WG and Community, as well as
-    its projects and capabilities. 
+    complex problems.  
+    This contribution introduces the SDV WG and Community, as well as its projects and
+    capabilities. 
   biography: |
     
 osadl:
@@ -457,11 +464,13 @@ osadl_2:
     which then have to be provided individually. To make this more efficient, providing
     missing features should be managed collectively, but before doing so it must be known
     which features are most needed. For this reason, an online survey was recently
-    conducted, adressing the following areas:<br/>  
-    • Development: Low memory footprint, hardware virtualization, containers, unsupported
-    hardware, better mainline support, cloud connectivity<br/>  
-    • Management: Life cycle more than 10 years, security updates, continuous integration,
-    license compliance<br/>  
+    conducted, adressing the following areas:
+
+    - Development: Low memory footprint, hardware virtualization, containers, unsupported
+      hardware, better mainline support, cloud connectivity  
+    - Management: Life cycle more than 10 years, security updates, continuous integration,
+      license compliance
+
     Despite the low response rate, it can be concluded that participants primarily want
     better support for security updates and license compliance. This presentation will
     explain the results and show what steps have already been taken to implement them.
@@ -479,20 +488,20 @@ ros:
   room: Sizi 7
   abstract: |
     The Robot Operating System (ROS) is a widely adopted platform for building robotics
-    applications due to its modular and distributed architecture.<br/>  
+    applications due to its modular and distributed architecture.  
     In this talk, we will introduce ROS and explore its core components and
-    functionalities.<br/>  
+    functionalities.  
     We will also highlight the role of the ROS community in supporting and enhancing the
     platform, and discuss the benefits of working within a collaborative and open source
-    community.<br/>  
+    community.  
     The components of ROS include a middleware that allows for the communication between the
-    robots components.<br/>  
+    robots components.  
     We will also highlight the development tools and processes for the building and
     distribution of ROS software and outline some of the most important packages that are
-    available.<br/>  
-    Many business units of Bosch contribute to ROS today.<br/>  
+    available.  
+    Many business units of Bosch contribute to ROS today.  
     We will describe how and why Bosch makes use of this powerful open source platform and
-    what can be learned from this.<br/>  
+    what can be learned from this.  
   biography: |
     Christian Henkel received the M. Sc. Degree in mechatronics from the University of
     Stuttgart in 2015. He is working towards a doctoral degree from the Technical University
@@ -512,10 +521,10 @@ bosch_top97_5:
     boot loader to the kernel and the applications of an embedded Linux system. Too often, 
     the last link in this chain which secures the applications and their configuration data 
     is weakened by relying on a read-only file system which does not protect against e.g., 
-    data manipulation while the system is powered off.<br/>
+    data manipulation while the system is powered off.  
     In this talk, we present a blueprint for a secure boot process and a data integrity 
     solution that provide assurance that applications and (static) configuration data has 
-    not been tampered with.<br/>
+    not been tampered with.  
     The design choices allowed by the building blocks of the implementation - OverlayFS, 
     dm-verity, and rustBoot - as well as the (planned) integration with RAUC for system 
     updates are examined and compared.    
@@ -578,7 +587,8 @@ codethink:
     extensive experience consulting to organizations including BMW, Bosch, JLR, LG
     Electronics, Visteon, and VW. Paul is a long-standing member of the open-source
     community and has presented innovative topics over the last 10 years, particularly
-    around software integration and safety-relevant systems.<br/><br/>  
+    around software integration and safety-relevant systems.
+
     John joined Codethink in January 2023. As a former executive at Motorola, and Global
     Technologist at Ford Motor Company, John led or participated in teams that built many of
     the innovations we see today in connected vehicles on the ground and in the air. He has
@@ -594,19 +604,19 @@ emlix:
   abstract: |
     Increasing demands on professionalism, standard compliance, security, safety and
     maintainability of embedded Linux systems mean that the selection of an appropriate
-    build automation is a critical success factor for open source based products.<br/><br/>  
+    build automation is a critical success factor for open source based products.    
     In the first part the presentation briefly introduces the most important high level
     requirements on an industrial grade Linux which is meant to be used e.g. in automotive
     or medical technology. In the next step the requirements for the build automation and
-    build infrastructure will be derived.<br/>  
+    build infrastructure will be derived.  
     In the second part the most common embedded Linux build and build automation systems
-    will be compared against these requirements.<br/>  
+    will be compared against these requirements.  
     The presentation focuses in particular on complexity and useability, CI/CD/CT demands,
     automated documentation, reproducibility and open source compliance. Furthermore the
     feasibility and potential efforts of platform strategies will be discussed as well as
     the practicability of embedded Linux CVE monitoring and lifecycle maintenance concepts
-    which each build system.<br/><br/>  
-    These fields of action are critical elements of a strategic technology planning.<br/>  
+    which each build system.    
+    These fields of action are critical elements of a strategic technology planning.  
     Target group of the presentation are embedded Linux developers as well as development
     and product managers.
   biography: |
@@ -622,27 +632,31 @@ collabora:
   time: "16:00"
   room: Sizi 7
   abstract: |
-    Tremendous innovations have been happening upstream the past few months and now is a great 
-    time for Bosch projects to take advantage of those. APERTIS is a great vehicle for that, 
-    with the confidence that Bosch is standing behind the operating system and infrastructure 
-    delivering it.The speakers assume that the audience is fully aware of the importance of 
-    understanding your entire software stack. This presentation will touch on core updates, 
-    security features, the new PipeWire audio server, open source graphics drivers, and more. 
-    If we need more time, the APERTIS will be available throughout the day in the MarketPlace all day.
+    Tremendous innovations have been happening upstream the past few months and now is a
+    great time for Bosch projects to take advantage of those. APERTIS is a great vehicle for
+    that, with the confidence that Bosch is standing behind the operating system and
+    infrastructure delivering it.The speakers assume that the audience is fully aware of the
+    importance of understanding your entire software stack. This presentation will touch on
+    core updates, security features, the new PipeWire audio server, open source graphics
+    drivers, and more. If we need more time, the APERTIS will be available throughout the
+    day in the MarketPlace all day.
     
   biography: |
-    Sjoerd Simons is the Strategy Lead for all core and Linux efforts at Collabora. Sjoerd has been 
-    deeply involved. Sjoerd has been a maintainer and Debian Developer in the Debian project for over 
-    20 years. He has contributed to projects ranging from Uboot all the way up to the GStreamer projects, 
-    passing through the Linux kernel, PulseAudio, graphics toolkits and many more . He has been involved
-    with the APERTIS project since day-1 (long before it was even called APERTIS). 
-    Sjoerd holds a Bachelor of Science from the Eindhoven University of Technology. <br/><br/>
-    Guy Lunardi is the Vice President of Business Development at Collabora and a firm believer in open 
-    source. Guy interacts with the open source community communicating requirements essential to 
-    Collabora's customers. His background in IT management, consulting and software development allows 
-    him to account for many aspects of the product creation efforts. Guy is a native French speaker and 
-    fluent in English based in New York, NY, USA. Guy volunteers with the Central Park Conservancy to 
-    help keep Central Pack beautiful and is a board member of the Document Foundation.
+    Sjoerd Simons is the Strategy Lead for all core and Linux efforts at Collabora. Sjoerd
+    has been deeply involved. Sjoerd has been a maintainer and Debian Developer in the
+    Debian project for over 20 years. He has contributed to projects ranging from Uboot all
+    the way up to the GStreamer projects, passing through the Linux kernel, PulseAudio,
+    graphics toolkits and many more . He has been involved with the APERTIS project since
+    day-1 (long before it was even called APERTIS). Sjoerd holds a Bachelor of Science from
+    the Eindhoven University of Technology.
+
+    Guy Lunardi is the Vice President of Business Development at Collabora and a firm
+    believer in open source. Guy interacts with the open source community communicating
+    requirements essential to Collabora's customers. His background in IT management,
+    consulting and software development allows him to account for many aspects of the
+    product creation efforts. Guy is a native French speaker and fluent in English based in
+    New York, NY, USA. Guy volunteers with the Central Park Conservancy to help keep Central
+    Pack beautiful and is a board member of the Document Foundation.
     
 pengutronix_2:
   topic: "Exploring RAUC: A Flexible Building Block for Embedded Linux Updates"
@@ -652,11 +666,11 @@ pengutronix_2:
   room: Sizi 5
   abstract: |
     In this talk, we will delve into RAUC, the embedded Linux update framework, focusing on
-    its unique features and advantages for managing system updates.<br/>  
+    its unique features and advantages for managing system updates.  
     The presentation will begin with an introduction to the fundamental concepts surrounding
     A/B fallback and update signing in the context of embedded Linux updates. We will then
     explore how RAUC addresses these concerns by offering a flexible building block for
-    streamlined update management.<br/>  
+    streamlined update management.  
     The discussion will progress to cover RAUC's bundle-based update system, which allows
     for comprehensive system updates without the need for local storage, thanks to HTTP
     streaming. Additionally, we will demonstrate how adaptive updates minimize download
@@ -677,20 +691,20 @@ risc_v:
     An intense period of innovation is driving the automotive supply chain to reimagine
     compute architectures, requiring companies to take more control of their computing
     platforms, specifying new architectures based on the demands, constraints and
-    opportunities of automotive applications.<br/>  
+    opportunities of automotive applications.  
     RISC-V is an open standard Instruction Set Architecture (ISA) that enables companies the
     freedom to design their best possible processors for their application. Over 10 billion
     RISC-V cores have already shipped, with this adoption spreading innovation across all
-    domains and performance points.<br/>  
+    domains and performance points.  
     The RISC-V ecosystem of member companies delivers the technologies and tools to develop
     these new platforms with flexible multi-sourcing across a range of development options
     from buying chips, to licensing processor IP, to designing your own cores. Joining as a
     member of RISC-V enables you to be part of the conversations shaping the future of the
-    standard.<br/>  
+    standard.  
     RISC-V enables design flexibility and freedom, delivering levels of customisation not
     possible with other compute architectures.Come to this talk by Peter Lewin, the Chair of
     the Automotive Special Interest Group, to find out more about RISC-V and its ecosystem
-    and how it can enable the next generation of automotive computing.<br/>  
+    and how it can enable the next generation of automotive computing.  
   biography: |
     Pete looks after the RISC-V CPU ecosystem at Imagination technologies. Prior to this he
     worked for over 20 years in the CPU IP business in various technical, marketing and
