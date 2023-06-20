@@ -7,7 +7,7 @@ siemens:
   abstract: |
     Building products and services upon open source software (OSS) has become standard, also
     in the domains of Siemens. However, driving or creating OSS according to our needs
-    remains challenging.<br/>  
+    remains challenging.  
     In this talk, we will try to shed a light on how Siemens embraces OSS, where we believe
     having been successful already, and where we want to improve further. We will look at
     some of our community engagements, may they be directly or via foundations. We will
@@ -77,7 +77,7 @@ pengutronix:
     patterns to address complexity and reduce risk in embedded Linux product development
     across independent teams. We discuss the concept of long-term maintenance, emphasizing
     the importance of continuous maintenance, upstreaming, and automated processes in
-    ensuring secure and fully functional long-life devices.<br/>  
+    ensuring secure and fully functional long-life devices.  
     Focusing on collaborative approaches to risk reduction, we highlight open-source
     collaboration models found in OpenEmbedded/Yocto and the Linux kernel and their
     potential adoption within a multinational company. We emphasize the benefits of shared
