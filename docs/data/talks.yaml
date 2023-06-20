@@ -110,7 +110,19 @@ bosch_iob:
   time: "12:00"
   room: Sizi 7
   abstract: |
-    
+    Back in 2021 we presented our view on [Open Source Management for Linux systems and the 
+    challenges we saw on automating Open Source Management](https://ocs2021.sched.com/event/pcuC/open-compliance-reference-tooling-meets-linux-marcel-kurzmann-bosch)
+    stating that "Based on the circumstances, that there are different Linux distributions, 
+    typically demanding license and obligation setups, architectural aspects to consider 
+    and a broad variety of distribution contexts, this could be seen as the 
+    "champions league" of Open Source Compliance Management Automation." <br/>
+    The circumstances didn't change, but now after two years in the course of the TOP97 
+    project we had the chance to have a deeper look, widen the horizon (Apertis, Yocto, 
+    Elbe, ...), create a build based prototype workflow and also enhance the scope from 
+    mere Open Source Management to a holistic Software Management perspective (also 
+    covering questions about SBOMs, security, export control, ...). The talk will give 
+    an insight in the journey behind us, update on the current status of the progress 
+    and an outlook about the services that are planned in the future.
   biography: |
     Marcel Kurzmann joined Bosch in 1997. After establishing the test-automation service team 
     at Bosch Engineering and Acquisition Project Management in the automotive section he took 
