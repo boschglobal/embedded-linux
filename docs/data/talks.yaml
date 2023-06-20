@@ -100,9 +100,26 @@ bosch_top97_1:
   time: "12:00"
   room: Sizi 2
   abstract: |
-    
+    Looking at system architectures for complex embedded systems, similarities can be observed
+    across various industries. Beside a rich OS (such as Linux), often an RTOS and virtualization
+    or containers are involved. However, when it comes to prototyping such systems, the
+    existing guidelines are limited and reproducing demos is hard and time consuming.
+    The ELISA project’s systems working group focuses on creating an exemplary system
+    architecture using Linux (like from AGL, CIP or APERTIS), Xen and Zephyr in a reproducible form.
+    This includes step-by-step documentation for users on different expert levels and various
+    entry points to approach these systems. The results of this activity are presented and shared
+    as part of the talk. Additionally, an outlook to further work is provided, which includes picking
+    up new requirements such as a system SBOM. The demand for strong interaction and collaboration
+    among various open source projects will also be shortly addressed in this talk. Finally, the
+    talk gets rounded up by showcasing the system implementation state. The demonstrated example
+    is based on embedded automotive hardware and facilitates the usage of the AGL reference stack
+    along with Xen and Zephyr.
   biography: |
-    
+    Thomas Mittelstaedt is a senior developer at Robert Bosch GmbH with focus on Apertis
+    (apertis.org) and technical support for acquisition tasks. He has more than 30 years of
+    experience at multiple operating systems and at build & integration systems. Currently
+    he contributes to a project focusing on embedded Linux in industrial applications and
+    provides trainings, documentation and technical support to all kind of Bosch users.
 bosch_iob:
   topic: SW Management in the Embedded IoT Linux context 
   presenter: Marcel Kurzmann
@@ -110,10 +127,26 @@ bosch_iob:
   time: "12:00"
   room: Sizi 7
   abstract: |
-    
+    Back in 2021 we presented our view on [Open Source Management for Linux systems and the 
+    challenges we saw on automating Open Source Management](https://ocs2021.sched.com/event/pcuC/open-compliance-reference-tooling-meets-linux-marcel-kurzmann-bosch)
+    stating that "Based on the circumstances, that there are different Linux distributions, 
+    typically demanding license and obligation setups, architectural aspects to consider 
+    and a broad variety of distribution contexts, this could be seen as the 
+    "champions league" of Open Source Compliance Management Automation." <br/>
+    The circumstances didn't change, but now after two years in the course of the TOP97 
+    project we had the chance to have a deeper look, widen the horizon (Apertis, Yocto, 
+    Elbe, ...), create a build based prototype workflow and also enhance the scope from 
+    mere Open Source Management to a holistic Software Management perspective (also 
+    covering questions about SBOMs, security, export control, ...). The talk will give 
+    an insight in the journey behind us, update on the current status of the progress 
+    and an outlook about the services that are planned in the future.
   biography: |
-    
-
+    Marcel Kurzmann joined Bosch in 1997. After establishing the test-automation service team 
+    at Bosch Engineering and Acquisition Project Management in the automotive section he took 
+    over the Quality Management of Bosch Software Innovations (now Bosch.IO) in 2008. From 
+    2015 he was responsible for the Open Source Management System of Bosch.IO and with that 
+    established Bosch-internal Open Source Management Services. He is member of the Center 
+    of Competence Open Source at Bosch and represents Bosch in the OpenChain Governing Board.
 red_hat:
   topic: "Navigating Edge Computing Challenges with Linux and Containers: A Red Hat Perspective"
   presenter: Stefan Bergstein, Danijel Soldo
@@ -475,8 +508,25 @@ bosch_top97_5:
   time: "15:30"
   room: Sizi 5
   abstract: |
+    A secure boot process establishes a chain of trust from (ideally) the hardware to the 
+    boot loader to the kernel and the applications of an embedded Linux system. Too often, 
+    the last link in this chain which secures the applications and their configuration data 
+    is weakened by relying on a read-only file system which does not protect against e.g., 
+    data manipulation while the system is powered off.<br/>
+    In this talk, we present a blueprint for a secure boot process and a data integrity 
+    solution that provide assurance that applications and (static) configuration data has 
+    not been tampered with.<br/>
+    The design choices allowed by the building blocks of the implementation - OverlayFS, 
+    dm-verity, and rustBoot - as well as the (planned) integration with RAUC for system 
+    updates are examined and compared.    
     
   biography: |
+    Ulrich Matejek started working as a security consultant for ETAS in 2018 where his
+    responsibilities include a wide range of topics, ranging from security analyses and
+    security concepts to supporting customers during their integration of CycurHSM to 
+    security in Linux on IoT devices and future concepts for trust-based automotive security.
+    
+    
     
 bosch_sdv:
   topic: Eclipse SDV with Kuksa, Velocitas and Leda

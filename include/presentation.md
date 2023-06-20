@@ -1,26 +1,29 @@
 {% macro overview(metadata) -%}
 
-<h1>{{ metadata.topic }}</h1>
+# {{ metadata.topic }}
 
-<p>
-    By <strong>{{ metadata.presenter }}</strong> of <strong>{{
-    metadata.affiliation }}</strong><br/>
-    Time: <strong>{{ metadata.time }}</strong>&nbsp;
-    Room: <strong>{{ metadata.room }}</strong>
-</p>
+By <strong>{{ metadata.presenter }}</strong> of <strong>{{metadata.affiliation }}</strong>  
+Time: <strong>{{ metadata.time }}</strong>&nbsp;Room: <strong>{{ metadata.room }}</strong>
 
-{%- if metadata.abstract -%}
-<h2>Abstract</h2>
-<p>
-    {{ metadata.abstract }}
-</p>
+{% if metadata.abstract -%}
+## Abstract
+
+{{ metadata.abstract }}
+
 {% endif %}
 
-{%- if metadata.biography -%}
-<h2>Biography</h2>
-<p>
-    {{ metadata.biography }}
-</p>
+{% if metadata.biography -%}
+## Biography
+
+{{ metadata.biography }}
+
+{% endif %}
+
+{% if metadata.slides -%}
+## Slides
+
+[Download slides]({{ metadata.slides }}){ .md-button .md-button--primary }
+
 {% endif %}
 
 {% endmacro %}
