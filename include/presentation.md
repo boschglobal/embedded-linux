@@ -23,4 +23,9 @@
 </p>
 {% endif %}
 
+{%- if metadata.slides -%}
+<h2>Slides</h2>
+[Download slides]({{ metadata.slides }}){ .md-button .md-button--primary }
+{% endif %}
+
 {% endmacro %}
