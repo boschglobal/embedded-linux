@@ -126,9 +126,9 @@ Please refer to the [Venue page](../venue.md#parking) for parking information.
 
 For all rooms we provide a cinema layout.
 
-- Room/Sizi 2: 30 seats
-- Room/Sizi 5: 50 seats
-- Room/Sizi 7: 25 seats
+- Room S4: 60 seats
+- Room S5: 50 seats
+- Room S6: 40 seats
 
 1 desk for presentation and a specified number of attendee seats. For the
 presenter there is a beamer or screen available. The connection can be made via

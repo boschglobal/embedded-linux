@@ -42,11 +42,12 @@ nav:
       - Bosch TOP97 (3): talks/bosch_top97_3.md
       - Bosch TOP97 (4): talks/bosch_top97_4.md
       - Bosch TOP97 (5): talks/bosch_top97_5.md
-      - Bosch Apertis: talks/bosch_apertis.md
+      - Bosch AE: talks/bosch_ae.md
       - Bosch CoC OSS, OET: talks/bosch_coc_oss.md
       - Bosch IOB: talks/bosch_iob.md
       - Bosch ROS: talks/ros.md
       - Bosch SDV: talks/bosch_sdv.md
+      - Bosch XC: talks/bosch_xc.md
       - ADIT (1): talks/adit_1.md
       - ADIT (2): talks/adit_2.md
       - AWS: talks/aws.md
