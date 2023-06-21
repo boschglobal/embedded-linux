@@ -1,7 +1,7 @@
 ---
 hide:
   - toc
-presentation: bosch_apertis
+presentation: bosch_ae
 ---
 
 {% import 'presentation.md' as presentation %}
