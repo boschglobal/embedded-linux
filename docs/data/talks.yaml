@@ -328,9 +328,28 @@ bosch_top97_3:
   time: "13:30"
   room: Sizi 5
   abstract: |
-    
+    Open-source software is not for free - the less you give, the more it costs. This may
+    sound contradictory, but can become especially true for those ignoring the differences
+    between an open source community and an commercially contracted software provider.
+
+    As projects and product development are typically driven by schedule, resources, and
+    costs, it sounds logical for a project manager to take quick-wins by selecting existing
+    open-source software components, during product development phase. However, the total
+    cost of software components over lifetime and the impact a bad package selection can
+    have, are easily underestimated. It will become even more severe, if software gets
+    locally modified and maintained without upstreaming to the original source. 
+
+    Additionally, the talk explains why there is (typically) no way around open source from
+    a project manager perspective and which additionally benefits are created beside cost,
+    content and schedule improvements.
   biography: |
-    
+    Philipp Ahmann is a technical business development manager at Robert Bosch GmbH with
+    focus on Open Source activities. He represents the ELISA project of the Linux Foundation
+    as technical steering committee chair and is a member of the Linux Foundation Europe
+    Advisory Board. He has more than 10 years of experience in the field of Linux automotive
+    SW base platforms acting in multiple roles.  
+    Currently he contributes to a project focusing on embedded Linux in industrial
+    applications and wider IoT scope.
 pengutronix_1:
   topic: "From Vulnerable to Vigilant: A 10+ Year Roadmap for Embedded Software Maintenance"
   presenter: Jan Lübbe
@@ -445,7 +464,12 @@ bosch_top97_4:
   time: "15:00"
   room: Sizi 5
   abstract: |
-    
+    This presentation provides an overview on how a type-1 hypervisor (e.g., Xen) could
+    provide benefits with regard to securing Linux-based IoT devices. In addition to
+    security, type-1 hypervisors could facilitate fulfilment of further quality attribute
+    requirements (e.g., in scope of real-time and safety). However, it turns out that
+    combining these quality attributes on a single system isn’t as straightforward as
+    initially expected.
   biography: |
     
 osadl_2:
