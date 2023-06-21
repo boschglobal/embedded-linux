@@ -41,6 +41,6 @@ that are used during the conference in building Fe 070.
 
 **Room capacities**
 
-- SiZi 2: 30 persons
-- SiZi 5: 50 persons
-- SiZi 7: 25 persons
+- Room S4: 60 seats
+- Room S5: 50 seats
+- Room S6: 40 seats

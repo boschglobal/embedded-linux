@@ -8,7 +8,8 @@ hide:
 
 {% import 'tiles.md' as tiles %}
 
-All keynotes take place in the Auditorium and last between 10 and 15 minutes.
+All keynotes take place in the Auditorium K. Each keynote will last between 10
+and 15 minutes.
 
 The Auditorium's location is found on the [floor plan](../venue#floor-plan).
 
