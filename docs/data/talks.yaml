@@ -679,7 +679,7 @@ pengutronix_2:
   topic: "Exploring RAUC: A Flexible Building Block for Embedded Linux Updates"
   presenter: Rouven Czerwinski
   affiliation: Pengutronix
-  time: "16:30"
+  time: "16:00"
   room: S4
   abstract: |
     In this talk, we will delve into RAUC, the embedded Linux update framework, focusing on
@@ -702,7 +702,7 @@ risc_v:
   topic: "RISC-V: Enabling the compute architectures for a new generation of vehicles"
   presenter: Pete Lewin
   affiliation: RISC-V
-  time: "16:30"
+  time: "16:00"
   room: S5
   abstract: |
     An intense period of innovation is driving the automotive supply chain to reimagine
@@ -733,7 +733,7 @@ bosch_ae:
   topic: Bosch MEMS Mobility Sensors – Linux drivers open new market segments in infotainment and telematics
   presenter: Kai Dolde
   affiliation: Bosch AE
-  time: "16:30"
+  time: "16:00"
   room: S6
   abstract: |
 
