@@ -561,12 +561,12 @@ bosch_sdv:
     the Kuksa.Val data broker, data providers for the data broker, and a runtime to execute applications
     developed with Eclipse Velocitas.
   biography: |
-   Sven Erik Jeroschewski is a Software Engineer with Bosch Digital. In collaboration with ETAS, 
-   he applies and extends open-source technologies in a technically sound and compliant manner 
-   to domains such as automotive or industry. In that process, he actively works within the 
-   automotive open-source ecosystem and acts as a committer for Eclipse Kuksa. 
-   Sven studied Computer Engineering at the TU Berlin and the University of Oklahoma, 
-   focusing on networked embedded systems and connected driving. 
+    Sven Erik Jeroschewski is a Software Engineer with Bosch Digital. In collaboration with ETAS, 
+    he applies and extends open-source technologies in a technically sound and compliant manner 
+    to domains such as automotive or industry. In that process, he actively works within the 
+    automotive open-source ecosystem and acts as a committer for Eclipse Kuksa. 
+    Sven studied Computer Engineering at the TU Berlin and the University of Oklahoma, 
+    focusing on networked embedded systems and connected driving. 
 osadl:
   topic: "Sharing and reusing FOSS compliance material: OSSelot – The Open Source Curation Database"
   presenter: Caren Kresse
