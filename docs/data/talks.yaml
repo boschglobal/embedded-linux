@@ -543,23 +543,23 @@ bosch_sdv:
   time: "15:00"
   room: S5
   abstract: |
-  In the Eclipse SDV working group, ETAS supports the development of multiple OSS projects 
-  to significantly increase the development speed of new vehicle functionalities. 
-  During this talk, we will showcase these Eclipse SDV technologies by presenting how we used 
-  them to develop a fleet management system on top of Linux, implementing the rFMS standard.
-  Among other efforts, a central architectural component is to establish an abstraction layer for 
-  exchanging data between deeply embedded vehicle systems and more high-level applications in a 
-  uniform way. 
-  This abstraction benefits many use cases by making it easier to build and port applications. 
-  The data broker from Eclipse Kuksa.val acts as an abstraction layer to leverage the advantages 
-  of a standardized description of vehicle signals, like the COVESA Vehicle Signal Specification 
-  (VSS) that introduces a domain taxonomy for vehicle signals. In addition, the Eclipse Velocitas 
-  project supports application developers during their work by providing an SDK to interact with the 
-  Kuksa.Val data broker, a pre-configured development environment within a container, and templates 
-  for executing CI/CD processes. 
-  The Eclipse Leda project supports device integrators by providing a Linux distribution combining 
-  the Kuksa.Val data broker, data providers for the data broker, and a runtime to execute applications
-  developed with Eclipse Velocitas.
+    In the Eclipse SDV working group, ETAS supports the development of multiple OSS projects 
+    to significantly increase the development speed of new vehicle functionalities. 
+    During this talk, we will showcase these Eclipse SDV technologies by presenting how we used 
+    them to develop a fleet management system on top of Linux, implementing the rFMS standard.
+    Among other efforts, a central architectural component is to establish an abstraction layer for 
+    exchanging data between deeply embedded vehicle systems and more high-level applications in a 
+    uniform way. 
+    This abstraction benefits many use cases by making it easier to build and port applications. 
+    The data broker from Eclipse Kuksa.val acts as an abstraction layer to leverage the advantages 
+    of a standardized description of vehicle signals, like the COVESA Vehicle Signal Specification 
+    (VSS) that introduces a domain taxonomy for vehicle signals. In addition, the Eclipse Velocitas 
+    project supports application developers during their work by providing an SDK to interact with the 
+    Kuksa.Val data broker, a pre-configured development environment within a container, and templates 
+    for executing CI/CD processes. 
+    The Eclipse Leda project supports device integrators by providing a Linux distribution combining 
+    the Kuksa.Val data broker, data providers for the data broker, and a runtime to execute applications
+    developed with Eclipse Velocitas.
   biography: |
    Sven Erik Jeroschewski is a Software Engineer with Bosch Digital. In collaboration with ETAS, 
    he applies and extends open-source technologies in a technically sound and compliant manner 
