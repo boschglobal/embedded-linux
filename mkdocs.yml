@@ -34,7 +34,6 @@ nav:
       - Pengutronix: keynotes/pengutronix.md
       - Siemens: keynotes/siemens.md
       - SUSE: keynotes/suse.md
-      - TODO Group: keynotes/todo_group.md
     - Talks:
       - talks/index.md
       - Bosch TOP97 (1): talks/bosch_top97_1.md
