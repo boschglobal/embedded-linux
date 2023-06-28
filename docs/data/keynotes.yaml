@@ -1,33 +1,8 @@
-siemens:
-  topic: Living Open Source at Siemens
-  presenter: Jan Kiszka
-  affiliation: Siemens
-  time: "10:15"
-  room: Auditorium K
-  abstract: |
-    Building products and services upon open source software (OSS) has become standard, also
-    in the domains of Siemens. However, driving or creating OSS according to our needs
-    remains challenging.  
-    In this talk, we will try to shed a light on how Siemens embraces OSS, where we believe
-    having been successful already, and where we want to improve further. We will look at
-    some of our community engagements, may they be directly or via foundations. We will
-    furthermore underline the increasing importance of working with our customers and
-    suppliers also via OSS communities - openly, constructively, and on eye level. Last but
-    not least, we will point out what key role "upstream first" plays in this while not
-    denying that this is continuous hard work for everyone who is in touch with both OSS and
-    business needs.
-  biography: |
-    Jan Kiszka is working as consultant, open source evangelist and Principal Key Expert
-    Engineer in the Competence Center Embedded Linux at Siemens Technology. He is supporting
-    Siemens businesses with adapting, enhancing or strategically driving open source as
-    platform for their product demands. He is maintaining several open source projects and
-    is contributing to others, specifically in the area of real-time, virtualization,
-    embedded Linux tooling.
 suse:
   topic: Better and faster results with Open Source
   presenter: Ivo Totev
   affiliation: SUSE
-  time: "10:30"
+  time: "10:15"
   room: Auditorium K
   abstract: |
     This talk focuses on the benefits of open source and empowering customers to achieve results 
@@ -46,31 +21,38 @@ suse:
     25 years of experience in technology and has served as President of Product Marketing at SAP, 
     CMO and Head of Cloud Business at Software AG, as well as the CMO of Unit4. Ivo holds a degree 
     in electrical engineering from Giessen university of applied sciences, and lives in Germany.
-todo_group:
-  topic: <em>To be published</em>
-  presenter: <em>To be published</em>
-  affiliation: TODO Group
-  time: "10:45"
-  room: Auditorium K
-  abstract: |
-    
-  biography: |
-    
 linux_foundation:
-  topic: "Public Policies: Influence from the EU?"
+  topic: A mature Open Source Community in the Focus of European regulators
   presenter: Mirko Boehm
   affiliation: Linux Foundation Europe
-  time: "11:00"
+  time: "10:30"
   room: Auditorium K
   abstract: |
-    
+    As open source software becomes the foundation to build digital products, to run the backbones
+    of ICT infrastructure and to ensure digital sovereignty and cyber resilience, both the technology
+    as well as the communities that develop it inevitably move into the focus of regulators. The
+    European Union is advancing a number of policy initiatives that regulate liability, cyber security,
+    data handling and AI applications in digital products, among others. This is a challenge for the
+    still quite decentralized and globally operating open source community. How will the open
+    source community participate in the legislative processes, and what may be the potential
+    impacts of the upcoming regulation on the open source development process and community
+    dynamics?  
   biography: |
-    
+    Mirko Boehm is a Free and Open Source Software contributor, community manager, licensing
+    expert and researcher, with contributions to major Open Source projects like the KDE Desktop
+    (since 1997, including several years on the KDE e.V. board), the Open Invention Network, the
+    Open Source Initiative and others. He is a visiting lecturer and researcher on Free and Open
+    Source Software at the Technical University of Berlin. Mirko Boehm has a wide range of
+    experience as an entrepreneur, corporate manager, software developer and German Air Force
+    officer. He joined the Linux Foundation in June 2023 as Senior Director for Community
+    Development for LF Europe, where he focuses on driving engagement and collaboration
+    between all European Open Source stakeholders. Mirko speaks English and German and lives
+    in the Berlin area.  
 pengutronix:
   topic: "Community Collaboration Patterns: Addressing Risk and Complexity"
-  presenter: Jan Lübbe (CTO) 
+  presenter: Jan Lübbe 
   affiliation: Pengutronix
-  time: "11:15"
+  time: "10:45"
   room: Auditorium K
   abstract: |
     In this keynote, we explore the benefits of leveraging open-source collaboration
@@ -91,7 +73,31 @@ pengutronix:
     Jan builds wireless mesh networks at the Stratum 0 hacker space in Brunswick.
     Previously, he presented at Embedded Linux Conference Europe, FOSDEM, the Linux Days in
     Chemnitz and the OSADL Networking Days.
-    
+siemens:
+  topic: Living Open Source at Siemens
+  presenter: Jan Kiszka
+  affiliation: Siemens
+  time: "11:00"
+  room: Auditorium K
+  abstract: |
+    Building products and services upon open source software (OSS) has become standard, also
+    in the domains of Siemens. However, driving or creating OSS according to our needs
+    remains challenging.  
+    In this talk, we will try to shed a light on how Siemens embraces OSS, where we believe
+    having been successful already, and where we want to improve further. We will look at
+    some of our community engagements, may they be directly or via foundations. We will
+    furthermore underline the increasing importance of working with our customers and
+    suppliers also via OSS communities - openly, constructively, and on eye level. Last but
+    not least, we will point out what key role "upstream first" plays in this while not
+    denying that this is continuous hard work for everyone who is in touch with both OSS and
+    business needs.
+  biography: |
+    Jan Kiszka is working as consultant, open source evangelist and Principal Key Expert
+    Engineer in the Competence Center Embedded Linux at Siemens Technology. He is supporting
+    Siemens businesses with adapting, enhancing or strategically driving open source as
+    platform for their product demands. He is maintaining several open source projects and
+    is contributing to others, specifically in the area of real-time, virtualization,
+    embedded Linux tooling.    
 bosch:
   topic: "Opportunity Open Source: the importance of open source culture for Bosch"
   presenter: Dr. Matthias Klauda (XC/EE)
