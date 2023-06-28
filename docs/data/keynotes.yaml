@@ -28,15 +28,15 @@ linux_foundation:
   time: "10:30"
   room: Auditorium K
   abstract: |
-  As open source software becomes the foundation to build digital products, to run the backbones
-  of ICT infrastructure and to ensure digital sovereignty and cyber resilience, both the technology
-  as well as the communities that develop it inevitably move into the focus of regulators. The
-  European Union is advancing a number of policy initiatives that regulate liability, cyber security,
-  data handling and AI applications in digital products, among others. This is a challenge for the
-  still quite decentralized and globally operating open source community. How will the open
-  source community participate in the legislative processes, and what may be the potential
-  impacts of the upcoming regulation on the open source development process and community
-  dynamics?  
+    As open source software becomes the foundation to build digital products, to run the backbones
+    of ICT infrastructure and to ensure digital sovereignty and cyber resilience, both the technology
+    as well as the communities that develop it inevitably move into the focus of regulators. The
+    European Union is advancing a number of policy initiatives that regulate liability, cyber security,
+    data handling and AI applications in digital products, among others. This is a challenge for the
+    still quite decentralized and globally operating open source community. How will the open
+    source community participate in the legislative processes, and what may be the potential
+    impacts of the upcoming regulation on the open source development process and community
+    dynamics?  
   biography: |
   Mirko Boehm is a Free and Open Source Software contributor, community manager, licensing
   expert and researcher, with contributions to major Open Source projects like the KDE Desktop
