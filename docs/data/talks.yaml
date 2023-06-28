@@ -754,26 +754,26 @@ bosch_ae:
   time: "16:00"
   room: S6
   abstract: |
-  Motivation
-  The product family of Bosch MEMS Mobility Sensors addresses sensing requirements of automotive 
-  use-cases in non-safety related domains such as telematics and infotainment.
-  For sensor applications in consumer markets, supporting host-software (Linux driver, Android HAL)
-  is standardized and established. In contrast, the automotive industry shifts gradually to 
-  software-defined eco-systems being slowly but continuously influenced by expectations and 
-  standards initially settled in consumer electronics.
-  Linux drivers at Automotive Electronics enable smooth system integration for reference designers,
-  distributors, and direct customers and enable new market shares, keeping balance to comply 
-  with automotive regulations and expectations. Additional driver upstreaming will increase
-  the visibility of Bosch in the Linux community and attract more customers to use our sensors
-  to keep Bosch in the leading position in the MEMS market.
-  
-  Methods
-  We develop Linux drivers and Android HAL, using RasPi and an automated CI Pipeline, 
-  for our internal and external customers. 
-  The drivers are published on www.github.com/boschmemssolutions.
-  
-  Results
-  Development of Linux Drivers for MEMS Sensors is an essential element of the Mobility Sensor business, enabling new market shares and customer awards.
+    Motivation  
+    The product family of Bosch MEMS Mobility Sensors addresses sensing requirements of automotive 
+    use-cases in non-safety related domains such as telematics and infotainment.
+    For sensor applications in consumer markets, supporting host-software (Linux driver, Android HAL)
+    is standardized and established. In contrast, the automotive industry shifts gradually to 
+    software-defined eco-systems being slowly but continuously influenced by expectations and 
+    standards initially settled in consumer electronics.
+    Linux drivers at Automotive Electronics enable smooth system integration for reference designers,
+    distributors, and direct customers and enable new market shares, keeping balance to comply 
+    with automotive regulations and expectations. Additional driver upstreaming will increase
+    the visibility of Bosch in the Linux community and attract more customers to use our sensors
+    to keep Bosch in the leading position in the MEMS market.
+    
+    Methods  
+    We develop Linux drivers and Android HAL, using RasPi and an automated CI Pipeline, 
+    for our internal and external customers. 
+    The drivers are published on www.github.com/boschmemssolutions.
+    
+    Results  
+    Development of Linux Drivers for MEMS Sensors is an essential element of the Mobility Sensor business, enabling new market shares and customer awards.
   biography: |
   Kai Dolde is working as a customer project manager and SW project manager for MEMS Sensors at 
   AE/PAS1 (Product Area Sensors) at Bosch in Reutlingen. He initiated the Linux driver development 
