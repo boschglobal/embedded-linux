@@ -46,14 +46,14 @@ Bosch Digital IT Campus, 4 rooms with a total capacity of 200, 50, 30 and 25
 people.
 
 
-## Response of Bosch employees (June 7th)
+## Response of Bosch employees (June 28th)
 
 627 Bosch employees are invited to this event because they might be engaged 
 with Embedded IoT Linux.
 
-- 137 accepted the invitation
-- 93 replied tentatively 
-- 338 employees did not response so far
+- 139 accepted the invitation
+- 89 replied tentatively 
+- 332 employees did not response so far
 
 ## Address
 
@@ -121,6 +121,10 @@ the demand separately, because this needs some lead time for the IT department.
 ## Parking
 
 Please refer to the [Venue page](../venue.md#parking) for parking information.
+
+## Call for papers
+
+Please deliver your presentations by July 10th latest.
 
 ## Meeting room equipment (talks and presentations):
 
