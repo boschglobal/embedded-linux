@@ -5,6 +5,13 @@
 By <strong>{{ metadata.presenter }}</strong> of <strong>{{metadata.affiliation }}</strong>  
 Time: <strong>{{ metadata.time }}</strong>&nbsp;Room: <strong>{{ metadata.room }}</strong>
 
+{% if metadata.description -%}
+## Description
+
+{{ metadata.description }}
+
+{% endif %}
+
 {% if metadata.abstract -%}
 ## Abstract
 
