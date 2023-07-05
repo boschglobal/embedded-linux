@@ -64,6 +64,33 @@ suse_1:
     
     Martin Wolf is an Account Executive covering the German Automotive Industry with 20
     years of experience in injecting Open-Source Innovation into the Enterprise.
+
+bosch_top97_6:
+  topic: Why Rust for embedded systems security development? A security guy's perspective
+  presenter: Nihal Pasham
+  affiliation: Bosch TOP97
+  time: "11:30"
+  room: S6
+  abstract: |
+    The general consensus amongst systems programmers (and by extension embedded systems developers) 
+    has been that you can either have fine-grained system control or performance or safety 
+    (or some combination of 2 of these 3) but you can’t have all three. Rust is the first mainstream 
+    (i.e. popular) programming language to provide programmers the ability to write code without this 
+    compromise via its novel ownership and borrowing concept. Rust’s ownership and borrowing model 
+    coupled with the fact that we do not require a garbage collector for memory management has pushed 
+    Rust’s adoption into domains that were exclusively dominated by languages such as C/C++. This talk 
+    will focus on what Rust has to offer to an embedded systems security software engineer - safety by 
+    construction, zero-cost abstractions, no hidden states, powerful compile-time checks. These features 
+    have allowed us to build demonstrators with sizeable benefits such as better performance/watt, smaller
+    code-sizes and lower code complexity with a significantly higher bar on safety and security. As an 
+    example, we have an open-source project called rustBoot - a prototype standalone bootloader, written 
+    entirely in Rust, designed to run on anything from a microcontroller to a system on chip.
+  biography: |
+    Nihal is a systems security architect with Bosch. He specializes in automotive, industrial and 
+    enterprise systems security. He has been a part of the ‘connected devices’ industry for over 13+ 
+    years, researched and integrated security solutions for Fortune’s top 50 in APJ and India and 
+    provides technical leadership in the following areas - IoT (sensor/edge/gateway) security, 
+    Connected Systems Security, DDoS mitigation, Embedded high assurance computing. 
 suse_2:
   topic: "Revolutionizing Edge Computing: Introducing SUSE Edge 2.0 for Scalable and Secure Infrastructures"
   presenter: Christophe Le Dorze
