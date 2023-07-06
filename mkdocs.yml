@@ -27,7 +27,7 @@ nav:
   - Agenda: agenda.md
   - Speakers:
     - speakers/index.md
-    - Keynotes:
+    - Keynotes schedule:
       - keynotes/index.md
       - Bosch: keynotes/bosch.md
       - Linux Foundation: keynotes/linux_foundation.md
@@ -35,7 +35,7 @@ nav:
       - Pengutronix: keynotes/pengutronix.md
       - Siemens: keynotes/siemens.md
       - SUSE: keynotes/suse.md
-    - Talks:
+    - Talks schedule:
       - talks/index.md
       - Bosch TOP97 (1): talks/bosch_top97_1.md
       - Bosch TOP97 (2): talks/bosch_top97_2.md
