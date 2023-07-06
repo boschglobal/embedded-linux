@@ -13,6 +13,8 @@ hide:
 ## Conference agenda
 
 The conference will take place on Thursday, July 13.
+The full list of keynotes can be found [here](https://boschglobal.github.io/embedded-linux/keynotes/)).
+The full list of talks can be found [here](https://boschglobal.github.io/embedded-linux/talks/)).
 
 ![Conference program](images/program_image.svg)
 
