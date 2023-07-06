@@ -14,8 +14,9 @@ hide:
 
 The conference will take place on Thursday, July 13.
 
-Please refer to the [keynote schedule](keynotes/), the [talk schedule](talks/)
-and the [market place](market_place) for program details.
+Please refer to the [keynote schedule](/embedded-linux/keynotes), the [talk
+schedule](/embedded-linux/talks) and the [market
+place](/embedded-linux/market_place) for program details.
 
 ![Conference program](images/program_image.svg)
 
