@@ -685,7 +685,7 @@ osadl_2:
   presenter: Carsten Emde
   affiliation: OSADL
   time: "15:30"
-  room: S5
+  room: S6
   abstract: |
     The use of the Linux kernel and other Open Source software in embedded systems poses a
     completely different challenge than, for example, in standard PCs. The latter usually
