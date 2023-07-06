@@ -13,6 +13,7 @@ hide:
 ## Conference agenda
 
 The conference will take place on Thursday, July 13.
+[Talks schedule](https://boschglobal.github.io/embedded-linux/talks/)
 
 ![Conference program](images/program_image.svg)
 
