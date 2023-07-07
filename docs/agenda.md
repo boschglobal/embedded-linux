@@ -18,14 +18,18 @@ Please refer to the [keynote schedule](/embedded-linux/keynotes), the [talk
 schedule](/embedded-linux/talks) and the [market
 place](/embedded-linux/market_place) for program details.
 
-<img src="/embedded-linux/images/program_image.svg" alt="Conference program" usemap="#agendamap">
-
-<map name="agendamap">
-  <area shape="rect" coords="75,85,240,138" alt="Keynotes" href="/embedded-linux/keynotes/">
-  <area shape="rect" coords="75,142,238,373" alt="Market Place" href="/embedded-linux/market_place/">
-  <area shape="rect" coords="75,377,240,500" alt="Closing Keynote" href="/embedded-linux/keynotes/bosch/">
-  <area shape="rect" coords="242,135,800,385" alt="Talks" href="/embedded-linux/talks/">
-</map>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700px" viewBox="0 0 1613 1014">
+  <image width="1613" height="1014" xlink:href="/embedded-linux/images/program_image.svg"></image>
+  <a xlink:href="/embedded-linux/keynotes/">
+    <rect x="177" y="202" fill="#fff" opacity="0" width="369" height="103"></rect>
+  </a><a xlink:href="/embedded-linux/market_place/">
+    <rect x="177" y="316" fill="#fff" opacity="0" width="368" height="549"></rect>
+  </a><a xlink:href="/embedded-linux/keynotes/bosch/">
+    <rect x="177" y="874" fill="#fff" opacity="0" width="368" height="121"></rect>
+  </a><a xlink:href="/embedded-linux/talks/">
+    <rect x="554" y="317" fill="#fff" opacity="0" width="1051" height="563"></rect>
+  </a>
+</svg>
 
 ## Dismantling of the exhibition equipment
 
