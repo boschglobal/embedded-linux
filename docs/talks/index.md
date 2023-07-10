@@ -14,4 +14,4 @@ place. Each talk will last about 20 min. plus 5 min. discussion time.
 The location of each meeting room is found on the [floor
 plan](../venue#floor-plan).
 
-{{ tiles.presentation_tile_timeslot_overview(data=talks) }}
+{{ tiles.presentation_tile_timeslot_overview(data=talks, section='talks') }}
