@@ -86,3 +86,26 @@
     </div>
 </a>
 {%- endmacro %}
+
+
+{% macro presentation_tile_overview(data) %}
+{% call presentation_tile_wall() %}
+  {% for key in data %}
+    {{ presentation_tile(metadata=data, id=key) }}
+  {% endfor %}
+{% endcall %}
+{%- endmacro %}
+
+
+{% macro presentation_tile_timeslot_overview(data) %}
+{% set ns = namespace(old_time='') %}
+{% call presentation_tile_wall() %}
+  {% for key, value in data.items() %}
+    {% if ns.old_time != value.time %}
+      {{ presentation_time_tile(value.time) }}
+    {% endif %}
+    {{ presentation_tile(metadata=data, id=key) }}
+    {% set ns.old_time = value.time %}
+  {% endfor %}
+{% endcall %}
+{%- endmacro %}
