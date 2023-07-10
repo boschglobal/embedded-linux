@@ -13,4 +13,4 @@ and 15 minutes.
 
 The Auditorium's location is found on the [floor plan](../venue#floor-plan).
 
-{{ tiles.presentation_tile_overview(data=keynotes) }}
+{{ tiles.presentation_tile_overview(data=keynotes, section='keynotes') }}

@@ -14,11 +14,11 @@ This sections features the speaker schedules for all keynotes and talks.
 Please see the [keynotes schedule](/embedded-linux/keynotes/) for additional
 information.
 
-{{ tiles.presentation_tile_overview(data=keynotes) }}
+{{ tiles.presentation_tile_overview(data=keynotes, section='keynotes') }}
 
 ## Talks / Presentations
 
 Please see the [talks schedule](/embedded-linux/talks/) for additional
 information.
 
-{{ tiles.presentation_tile_timeslot_overview(data=talks) }}
+{{ tiles.presentation_tile_timeslot_overview(data=talks, section='talks') }}
