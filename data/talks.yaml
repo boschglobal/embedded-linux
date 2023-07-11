@@ -1,0 +1,810 @@
+mercedes:
+  topic: SBOM Management at Mercedes-Benz
+  presenter: Dr. Christian Wege, Dr. David Schumm
+  affiliation: Mercedes-Benz Group AG
+  time: "11:30"
+  room: S4
+  abstract: |
+    The FOSS Disclosure Portal of Mercedes-Benz is a custom-built solution to automate and
+    digitize the process for disclosure of the Free & Open Source Software (FOSS)
+    components, which are included in products and applications.  
+    With the FOSS Disclosure Portal we aim at a more efficient, transparent and digital
+    software supply chain regarding open source: With the FOSS Disclosure Portal we enable
+    our internal and external software suppliers to deliver us information on used open
+    source via a technical interface (API) in an ISO standardized exchange format as
+    Software Bill of Material (SBOM/SPDX).  
+    Based on these SBOM deliveries, the system supports the responsible project owners
+    through automated compliance checks and quality checks on a central inventory. This way
+    we enable checking license conformance much easier and faster, identified issues are
+    directly resolved with the collaboration of the software supplier.  
+    In this talk, we discuss the role and benefits of Software Bill of Materials (SBOM) for
+    Free & Open Source Software from a license compliance perspective of an automotive OEM.
+    After an introduction of basic concepts of SBOM, we sketch the FOSS SBOM consumption
+    process and its relation to software composition analysis. The talk concludes with some
+    of the identified FOSS SBOM challenges.
+  biography: |
+    Dr. Christian Wege leads the IT team of the FOSS Center of Competence, which is the Open
+    Source Program Office of Mercedes-Benz. Before this, he has worked on FOSS strategy
+    topics at Mercedes-Benz Group for more than ten years and has been one of the initiators
+    to propose FOSS as IT Joint Priority. Every day he strives to make the voice of the
+    developer heard in the creation of the FOSS governance processes.
+
+    Dr. David Schumm is member of the FOSS IT team and co-creating the FOSS Disclosure
+    Portal in the Product Owner role, together with a virtual team of colleagues from Legal
+    & Compliance, Research & Development, IT and software subsidiaries. Before this
+    position, he has made a journey to Mercedes’ former startup incubator Lab1886, also
+    working as Product Owner of a software product. Prior, he has been working in the
+    central Enterprise Architecture process office of Daimler AG.
+    
+suse_1:
+  topic: Attaining nirvana on embedded devices with SUSE’s open-source solution
+  presenter: Naveen Suryakumar, Martin Wolf
+  affiliation: SUSE
+  time: "11:30"
+  room: S5
+  abstract: |
+    Building an IoT embedded device is easy. Wait.. What about building an exemplary
+    device?  
+    To develop such a device, right ingredients of tools and framework are required, which
+    not only solve the functional requirements but also are best-in-class in compliance and
+    security with reduced DevOp friction and Time to market.  
+    This session focuses on the benefits of using open source software for developing IoT
+    embedded devices and SUSE’s contribution towards it. SUSE explains how open source
+    software can help achieve nirvana or a state of perfect harmony in IoT development by
+    providing flexibility, scalability, and cost-effectiveness. The presentation also
+    highlights the importance of security and the role that open source communities can play
+    in ensuring the security of IoT devices. Overall, the presentation aims to demonstrate
+    the advantages of open source software for IoT development and its potential to enhance
+    the performance and security of embedded devices. 
+  biography: |
+    Naveen Suryakumar is based in Berlin, Germany and running embedded partner program for
+    DACH and Nordics region at SUSE. He has 13 years of tech industry experience in various
+    roles with a multicultural background living several years in India, Singapore and in
+    Germany.
+    
+    Martin Wolf is an Account Executive covering the German Automotive Industry with 20
+    years of experience in injecting Open-Source Innovation into the Enterprise.
+
+bosch_top97_6:
+  topic: Why Rust for embedded systems security development? A security guy's perspective
+  presenter: Nihal Pasham
+  affiliation: Bosch TOP97
+  time: "11:30"
+  room: S6
+  abstract: |
+    The general consensus amongst systems programmers (and by extension embedded systems developers) 
+    has been that you can either have fine-grained system control or performance or safety 
+    (or some combination of 2 of these 3) but you can’t have all three. Rust is the first mainstream 
+    (i.e. popular) programming language to provide programmers the ability to write code without this 
+    compromise via its novel ownership and borrowing concept. Rust’s ownership and borrowing model 
+    coupled with the fact that we do not require a garbage collector for memory management has pushed 
+    Rust’s adoption into domains that were exclusively dominated by languages such as C/C++. This talk 
+    will focus on what Rust has to offer to an embedded systems security software engineer - safety by 
+    construction, zero-cost abstractions, no hidden states, powerful compile-time checks. These features 
+    have allowed us to build demonstrators with sizeable benefits such as better performance/watt, smaller
+    code-sizes and lower code complexity with a significantly higher bar on safety and security. As an 
+    example, we have an open-source project called rustBoot - a prototype standalone bootloader, written 
+    entirely in Rust, designed to run on anything from a microcontroller to a system on chip.
+  biography: |
+    Nihal is a systems security architect with Bosch. He specializes in automotive, industrial and 
+    enterprise systems security. He has been a part of the ‘connected devices’ industry for over 13+ 
+    years, researched and integrated security solutions for Fortune’s top 50 in APJ and India and 
+    provides technical leadership in the following areas - IoT (sensor/edge/gateway) security, 
+    Connected Systems Security, DDoS mitigation, Embedded high assurance computing. 
+suse_2:
+  topic: "Revolutionizing Edge Computing: Introducing SUSE Edge 2.0 for Scalable and Secure Infrastructures"
+  presenter: Christophe Le Dorze
+  affiliation: SUSE
+  time: "12:00"
+  room: S4
+  abstract: |
+    SUSE Edge 2.0 is a groundbreaking solution designed to simplify and accelerate edge
+    infrastructure management. Motivated by the increasing demand for efficient edge
+    operations, SUSE has created a fully integrated platform that streamlines Kubernetes and
+    Linux OS lifecycle management across distributed locations. The solution offers
+    customers reduced operational complexity, centralized management, and improved security
+    for various edge use cases, including general edge, telco, retail etc.  
+    Built on the latest versions of Rancher, SLE Micro, and SUSE NeuVector, SUSE Edge 2.0
+    provides an end-to-end cloud-native edge management solution with security integrated
+    across the entire stack. Customers can leverage SUSE Edge 2.0 to deploy modern,
+    cloud-native applications at the edge without requiring advanced IT skills or on-site
+    technical expertise.  
+    By offering a comprehensive solution to meet customers' evolving edge infrastructure
+    needs, SUSE Edge 2.0 allows organizations to simplify edge deployments, scale
+    operations, and ultimately transform their edge management strategies.
+  biography: |
+    Christophe Le Dorze is a Senior Technology Expert and Solution Architect with a strong
+    background in edge and embedded technologies, DevOps, DevSecOps, and cybersecurity.
+    Starting his career in the French Air Force, he gained experience in network and
+    security operations before transitioning to the private sector.  
+    Christophe serves now at SUSE, addressing complex challenges across numerous industries
+    such as automotive, aerospace, and healthcare. He brings the agility, scalability, and
+    maturity acquired by SUSE & Rancher as an open-source leader in the IT space to the OT
+    space.
+bosch_top97_1:
+  topic: ELISA XEN Demonstrator
+  presenter: Thomas Mittelstädt
+  affiliation: Bosch TOP97
+  time: "12:00"
+  room: S5
+  abstract: |
+    Looking at system architectures for complex embedded systems, similarities can be observed
+    across various industries. Beside a rich OS (such as Linux), often an RTOS and virtualization
+    or containers are involved. However, when it comes to prototyping such systems, the
+    existing guidelines are limited and reproducing demos is hard and time consuming.
+    The ELISA project’s systems working group focuses on creating an exemplary system
+    architecture using Linux (like from AGL, CIP or APERTIS), Xen and Zephyr in a reproducible form.
+    This includes step-by-step documentation for users on different expert levels and various
+    entry points to approach these systems. The results of this activity are presented and shared
+    as part of the talk. Additionally, an outlook to further work is provided, which includes picking
+    up new requirements such as a system SBOM. The demand for strong interaction and collaboration
+    among various open source projects will also be shortly addressed in this talk. Finally, the
+    talk gets rounded up by showcasing the system implementation state. The demonstrated example
+    is based on embedded automotive hardware and facilitates the usage of the AGL reference stack
+    along with Xen and Zephyr.
+  biography: |
+    Thomas Mittelstaedt is a senior developer at Robert Bosch GmbH with focus on Apertis
+    (apertis.org) and technical support for acquisition tasks. He has more than 30 years of
+    experience at multiple operating systems and at build & integration systems. Currently
+    he contributes to a project focusing on embedded Linux in industrial applications and
+    provides trainings, documentation and technical support to all kind of Bosch users.
+bosch_iob:
+  topic: SW Management in the Embedded IoT Linux context 
+  presenter: Marcel Kurzmann
+  affiliation: Bosch Digital
+  time: "12:00"
+  room: S6
+  abstract: |
+    Back in 2021 we presented our view on [Open Source Management for Linux systems and the 
+    challenges we saw on automating Open Source Management](https://ocs2021.sched.com/event/pcuC/open-compliance-reference-tooling-meets-linux-marcel-kurzmann-bosch)
+    stating that "Based on the circumstances, that there are different Linux distributions, 
+    typically demanding license and obligation setups, architectural aspects to consider 
+    and a broad variety of distribution contexts, this could be seen as the 
+    "champions league" of Open Source Compliance Management Automation."   
+    The circumstances didn't change, but now after two years in the course of the TOP97 
+    project we had the chance to have a deeper look, widen the horizon (Apertis, Yocto, 
+    Elbe, ...), create a build based prototype workflow and also enhance the scope from 
+    mere Open Source Management to a holistic Software Management perspective (also 
+    covering questions about SBOMs, security, export control, ...). The talk will give 
+    an insight in the journey behind us, update on the current status of the progress 
+    and an outlook about the services that are planned in the future.
+  biography: |
+    Marcel Kurzmann joined Bosch in 1997. After establishing the test-automation service team 
+    at Bosch Engineering and Acquisition Project Management in the automotive section he took 
+    over the Quality Management of Bosch Software Innovations (now Bosch.IO) in 2008. From 
+    2015 he was responsible for the Open Source Management System of Bosch.IO and with that 
+    established Bosch-internal Open Source Management Services. He is member of the Center 
+    of Competence Open Source at Bosch and represents Bosch in the OpenChain Governing Board.
+red_hat:
+  topic: "Navigating Edge Computing Challenges with Linux and Containers: A Red Hat Perspective"
+  presenter: Stefan Bergstein, Danijel Soldo
+  affiliation: Red Hat
+  time: "12:30"
+  room: S4
+  abstract: |
+    Linux for IoT is rapidly gaining momentum as the go-to operating system for edge devices
+    in the Internet of Things (IoT) and automotive landscape. In this technical talk, we
+    will discuss the challenges specific to edge computing and address them effectively. We
+    will delve into the intricacies of quick image generation, efficient over-the-air
+    updates, zero-touch provisioning, and intelligent rollbacks, and how to address these
+    use cases. We will also explore container deployment and lifecycle management,
+    highlighting the benefits of containerization for edge computing.  
+    Furthermore, we will discuss the various ways in which Red Hat contributes to the
+    development of IoT Linux open-source communities (i.e. Automotive SIG) and provide an
+    introduction to Red Hat's product offerings and how they can help you build and manage
+    your IoT Edge deployments.  
+    Join us for an informative session that will equip you with the knowledge and tools
+    necessary to succeed in the exciting world of IoT Edge computing with Linux, Kubernetes,
+    and containers.
+  biography: |
+    Stefan is a Principle Chief Architect at Red Hat with a focus on innovative open source
+    software solutions for the manufacturing and automotive industry. He is a IoT, Machine
+    Learning and Cloud practitioner and has an extensive software engineering background.
+    Before joining Red Hat, Stefan worked for ISVs as a Software Architect with a focus on
+    IT and Hybrid Cloud management products. He has also gained practical manufacturing
+    experience in the aircraft and process industries.
+    
+    Danijel is a Solution Architect at Red Hat tinkering with solutions together with German
+    customers in the manufacturing and automotive industry. He is passionate about Open
+    Source, performance analysis and Kubernetes-based solutions. With a background in Linux
+    on Mainframe, Danijel is keen to learn more about open source solutions at the other
+    side of the spectrum - the Edge. 
+etas:
+  topic: Eclipse SDV and other automotive-grade OSS POIs
+  presenter: Daniel Krippner
+  affiliation: ETAS
+  time: "12:30"
+  room: S5
+  abstract: |
+    Talking points:
+
+    1. What is this SDV thing?
+    2. Which initiatives/groups are pursuing this?
+    3. Introducing the Eclipse SDV Working Group
+    4. Key question: what does "automotive-grade" OSS mean?
+    5. Safety for SoUP - activities, approaches, thoughts
+  biography: |
+    Daniel Krippner is an Enterprise Architect and Tech Strategist within the Bosch/ETAS
+    organization, engaged in open source communities like Eclipse SDV or SOAFEE, and
+    pursuing partnering and collaboration opportunities in this context. He has a technical
+    background in IT and software development, vehicle connectivity and protocols, based on
+    over 18 years of experience in the automotive industry in the areas of vehicle
+    diagnostics, telematics, connectivity and related standardization.
+adit_1:
+  topic: Working with embedded hardware from anywhere in the world
+  presenter: Stephan Glinz
+  affiliation: ADIT
+  time: "12:30"
+  room: S6
+  abstract: |
+    A developer at Advanced Driver Information Technology Corporation usually works with
+    multiple embedded platforms. The constant change of the targets can consume a lot of
+    hours till days and causes a cable tangle on the desk. Furthermore, the developer must
+    build and flash the correct software. Therefore, and triggered by the Corona Pandemic
+    and the short-term of home office, the Remote Target Access (RTA) project was started.  
+    RTA is a development framework that enables remote control of the embedded development
+    platforms such as reset, power on and off and switching system states, e.g. enter flash
+    mode. It also supports Audio Input/Output forwarding, USB over IP and remote touch input
+    with commonly used technologies like SSH, USB/IP, Arduino, GStreamer and Virtual Network
+    Computing (VNC).  
+    In this presentation, Stephan Glinz will present the concepts and the main requirement
+    "Working with this system should feel like having the target on the table" of this
+    project, as well as the hardware construction and the configuration to enables power
+    cycles and switching hardware system states remotely. Stephan will also present the
+    booking system for the remote systems, which enables developers to share common
+    development resources.
+  biography: |
+    Stephan Glinz is an embedded software engineer at Advanced Driver Information Technology
+    GmbH, where he evolves a remote development system for embedded systems. Stephan
+    graduated from the University of Applied Sciences and Arts Hannover in 2022 with a
+    Master's degree in Applied Computer Science with a specialization in IT security,
+    computer graphics and complex software systems. Outside of work, he enjoys BBQ's with
+    friends and play handball in a sports club.
+
+bosch_top97_2:
+  topic: 'The offerings within the "BOSCH DIY Store" for Embedded IoT Linux'
+  presenter: Dirk Sanderschäfer, Thomas Noserke
+  affiliation: Bosch TOP97
+  time: "13:00"
+  room: S4
+  abstract: |
+    In 2020 TOP97 started the development of the the Bosch Linux  IoT Software System,
+    offering a dedicated environment for all kind of Bosch products running with embedded
+    Linux. TOP97 now comes to an end and many services and solutions are available and free
+    for developers. The successor of TOP97 is the Bosch Linux incubation Group BLING, a kind
+    of DIY store for Linux developers. In this store additional assets like consulting,
+    onboarding and co-development are offered. Dirk and Thomas explain the offerings of
+    BLING and how such assets they can be consumed.
+  biography: |
+    Since 2020, Dirk Sanderschäfer has been leading the Bosch domain-spanning innovation
+    project TOP97, which is developing the Bosch IoT Linux software system. In 2023, he will
+    found the Bosch Linux Incubation Group with the goal of making embedded Linux usable
+    within the Bosch Group.  
+    Until 2020, he has led a program for the development of processes, methods and tools for
+    automotive SW development as department head for more than 5 years. Until 2015, he was
+    responsible for IT coordination and launched various infrastructure improvements as well
+    as business unit spin-off and IT merger projects.
+
+    In 2019, Thomas Noserke kicked off the Bosch cross division innovation project “Bosch
+    IoT Linux Software System which he is technically leading till today. Thomas has
+    technical and business background based on over 20 years experience in automotive and IT
+    industries in the areas of SW development, product management, innovation/technology
+    management and business development.  
+pengutronix_2:
+  topic: "Exploring RAUC: A Flexible Building Block for Embedded Linux Updates"
+  presenter: Rouven Czerwinski
+  affiliation: Pengutronix
+  time: "13:00"
+  room: S5
+  abstract: |
+    In this talk, we will delve into RAUC, the embedded Linux update framework, focusing on
+    its unique features and advantages for managing system updates.  
+    The presentation will begin with an introduction to the fundamental concepts surrounding
+    A/B fallback and update signing in the context of embedded Linux updates. We will then
+    explore how RAUC addresses these concerns by offering a flexible building block for
+    streamlined update management.  
+    The discussion will progress to cover RAUC's bundle-based update system, which allows
+    for comprehensive system updates without the need for local storage, thanks to HTTP
+    streaming. Additionally, we will demonstrate how adaptive updates minimize download
+    sizes without necessitating version-specific patch management.
+  biography: |
+    Rouven started working with Pengutronix in 2016, initially focusing on testing embedded
+    Linux systems. Since then he has worked on securing embedded Linux platforms using
+    verified boot and also enabled platforms to provide secret key storage for
+    cloud-connectivity. Nowadays he focuses on the embedded Linux media and graphics stack,
+    debugging performance issues and improving the quality of upstream media pipelines.
+adit_2:
+  topic: Covesa Diagnostic Log and Trace (DLT)
+  presenter: Michael Methner
+  affiliation: ADIT
+  time: "13:00"
+  room: S6
+  abstract: |
+    DLT is the central logging system in In-Vehicle Infotainment (IVI) devices. Started out
+    by BMW in 2011 as part of the GenIVI consortium, DLT has grown to the de-facto standard
+    of logging used by many automotive manufacturers.  
+    In this talk, Michael Methner will present how DLT enables logging use cases like log
+    storage, multi OS logging, collection of log messages from native logging systems and
+    user-friendly representation of logs. This all serves the goal to enable developers to
+    understand system behavior in complex systems.  
+    In the second part of the talk, Michael will present how ADIT interacts with the Open
+    Source community of DLT. While open source maintenance takes some work time, it has many
+    benefits like community contributions, peer reviews and security analysis for free.
+  biography: |
+    Michael Methner leads the Open Source middleware team @ ADIT, a joint venture between
+    Denso and Bosch originally founded for In-Vehicle-Infotainment (IVI) platform
+    development. He is Diagnostic Log and Trace (DLT) maintainer since 2022 and Linux
+    enthusiast since 2001. His professional interests are embedded software development, and
+    he has worked with open source components like GStreamer, systemd, D-Bus, Eclipse
+    Mosquitto and many more. 
+
+bosch_top97_3:
+  topic: OSS is not for free
+  presenter: Philipp Ahmann 
+  affiliation: Bosch TOP97
+  time: "13:30"
+  room: S4
+  abstract: |
+    Open-source software is not for free - the less you give, the more it costs. This may
+    sound contradictory, but can become especially true for those ignoring the differences
+    between an open source community and an commercially contracted software provider.
+
+    As projects and product development are typically driven by schedule, resources, and
+    costs, it sounds logical for a project manager to take quick-wins by selecting existing
+    open-source software components, during product development phase. However, the total
+    cost of software components over lifetime and the impact a bad package selection can
+    have, are easily underestimated. It will become even more severe, if software gets
+    locally modified and maintained without upstreaming to the original source. 
+
+    Additionally, the talk explains why there is (typically) no way around open source from
+    a project manager perspective and which additionally benefits are created beside cost,
+    content and schedule improvements.
+  biography: |
+    Philipp Ahmann is a technical business development manager at Robert Bosch GmbH with
+    focus on Open Source activities. He represents the ELISA project of the Linux Foundation
+    as technical steering committee chair and is a member of the Linux Foundation Europe
+    Advisory Board. He has more than 10 years of experience in the field of Linux automotive
+    SW base platforms acting in multiple roles.  
+    Currently he contributes to a project focusing on embedded Linux in industrial
+    applications and wider IoT scope.
+pengutronix_1:
+  topic: "From Vulnerable to Vigilant: A 10+ Year Roadmap for Embedded Software Maintenance"
+  presenter: Jan Lübbe
+  affiliation: Pengutronix
+  time: "13:30"
+  room: S5
+  abstract: |
+    While the technical aspects of building embedded Linux systems may seem straightforward
+    initially, the inherent complexity and continuous development often lead to significant
+    risk down the line. The reality is that even some newly launched products contain
+    outdated or vulnerable software.  
+    In this presentation, Jan Lübbe will examine the reasons behind the failure of seemingly
+    reasonable development and long-term maintenance approaches and propose a sustainable
+    workflow for effective software management. By integrating required features into the
+    upstream projects early, aligning with their support cycles, and establishing a
+    predictable maintenance and testing schedule, developers can address security issues
+    with controlled risk.
+  biography: |
+    After building Linux smartphones with OpenMoko and deploying open source GSM networks to
+    cruise ships, Jan Lübbe joined Pengutronix in 2012. Since then he helps customers
+    understand Linux and how it can solve their problems. Besides his work at Pengutronix,
+    Jan builds wireless mesh networks at the Stratum 0 hacker space in Brunswick.
+    Previously, he presented at Embedded Linux Conference Europe, FOSDEM, the Linux Days in
+    Chemnitz and the OSADL Networking Days.
+aws:
+  topic: <s>Building, Delivering and Sustaining Embedded Linux Distros on the AWS Cloud</s> (canceled)
+  presenter: Richard Elberger
+  affiliation: AWS
+  time: "13:30"
+  room: S6
+  abstract: |
+    The AWS cloud delivers on security, scalability, and resiliency, but can it deliver on
+    the I/O bandwidth that is required for engineering teams build, deliver, and maintain
+    embedded Linux distributions? Early in development cycles, continuous integration is
+    strongly desired to identify issues early. While distribution delivery requires
+    end-to-end testing, virtualized testing can functionally verify code before expensive
+    and time-consuming hardware-in-loop verification procedures. After delivery to
+    manufacturing, the ability to quickly iterate and get system updates quickly to
+    customers is desired to overcome security challenges and extend system functionality to
+    improve its long-life viability. In this session, you will learn key touch points on how
+    to do this from the AWS cloud.
+
+bosch_coc_oss:
+  topic: Contribution Process @ Bosch
+  presenter: Hans Malte Kern
+  affiliation: Bosch CoC OSS, OET
+  time: "14:00"
+  room: S4
+  abstract: |
+    
+  biography: |
+    
+eclipse_2:
+  topic: 'The First Year of Eclipse Software Defined Vehicle: a successful "code first" approach'
+  presenter: Sara Gallian
+  affiliation: Eclipse Foundation
+  time: "14:00"
+  room: S5
+  abstract: |
+    The most notable impact of using SW in the automotive domain is the decrease in
+    fatalities as ADAS functions are more widely employed. On the other hand, SW complexity
+    has seen an almost exponential growth reaching about 100 million lines of code.  
+    Hardly any organization can tackle this challenge alone.  
+    The Eclipse Software Defined Vehicle (SDV) Working Group ’s mission is to foster
+    collaboration across industries to create an open technology platform for the software
+    defined vehicle of the future. The working group community driven by its 36 member
+    organization has chosen a “code first” approach to facilitate more agile and faster
+    time-to-market software development.  
+    After its formation about a year ago, the SDV WG has onboarded about 20 open source
+    projects and is working on integrating several projects together to create “blueprints”.
+    The frameworks emerging from these initial blueprints show the potential and benefits of
+    utilizing different projects as components to build broader solutions to address more
+    complex problems.  
+    This contribution introduces the SDV WG and Community, as well as its projects and
+    capabilities. 
+  biography: |
+    
+bosch_xc:
+  topic: The power of Apertis – from development to continuous testing in minutes
+  presenter: Sascha Effert
+  affiliation: Bosch XC
+  time: "14:00"
+  room: S6
+  abstract: |
+    APERTIS is more than another collection of OSS software bundled with a tool to build it, 
+    it is designed to master pain points in creation of modern embedded product families and gives 
+    a complete and operated infrastructure for joint development and continuous integration incl. 
+    hardware in the loop testing using Lava. In this talk we will show how easy it is to setup a 
+    new component incl. automated builds and tests using the APERTIS infrastructure.
+  biography: |
+    Dr. Sascha Effert was already responsible for the support of Linux systems during his studies and 
+    worked on the bring up of a TOP500 cluster. After completing his studies, he worked as a software 
+    architect in the storage environment on Linux-based appliances. Sascha has been working for Bosch
+    in the Cockpit Technologies division since 2013. His current responsibilities include the 
+    utilization of modern open source technologies and collaborative OSS ways of working to master 
+    creation of composed embedded systems.
+
+bosch_top97_4:
+  topic: OS Hardening via HW-assisted Virtualization Techniques
+  presenter: Andreas Bartelt
+  affiliation: Bosch TOP97
+  time: "14:30"
+  room: S4
+  abstract: |
+    This presentation provides an overview on how a type-1 hypervisor (e.g., Xen) could
+    provide benefits with regard to securing Linux-based IoT devices. In addition to
+    security, type-1 hypervisors could facilitate fulfilment of further quality attribute
+    requirements (e.g., in scope of real-time and safety). However, it turns out that
+    combining these quality attributes on a single system isn’t as straightforward as
+    initially expected.
+  biography: |
+    
+collabora:
+  topic: Future improvements coming to APERTIS
+  presenter: Sjoerd Simons, Guy Lunardi
+  affiliation: Collabora
+  time: "14:30"
+  room: S5
+  abstract: |
+    Tremendous innovations have been happening upstream the past few months and now is a
+    great time for Bosch projects to take advantage of those. APERTIS is a great vehicle for
+    that, with the confidence that Bosch is standing behind the operating system and
+    infrastructure delivering it.The speakers assume that the audience is fully aware of the
+    importance of understanding your entire software stack. This presentation will touch on
+    core updates, security features, the new PipeWire audio server, open source graphics
+    drivers, and more. If we need more time, the APERTIS will be available throughout the
+    day in the MarketPlace all day.
+  biography: |
+    Sjoerd Simons is the Strategy Lead for all core and Linux efforts at Collabora. Sjoerd
+    has been deeply involved. Sjoerd has been a maintainer and Debian Developer in the
+    Debian project for over 20 years. He has contributed to projects ranging from Uboot all
+    the way up to the GStreamer projects, passing through the Linux kernel, PulseAudio,
+    graphics toolkits and many more . He has been involved with the APERTIS project since
+    day-1 (long before it was even called APERTIS). Sjoerd holds a Bachelor of Science from
+    the Eindhoven University of Technology.
+
+    Guy Lunardi is the Vice President of Business Development at Collabora and a firm
+    believer in open source. Guy interacts with the open source community communicating
+    requirements essential to Collabora's customers. His background in IT management,
+    consulting and software development allows him to account for many aspects of the
+    product creation efforts. Guy is a native French speaker and fluent in English based in
+    New York, NY, USA. Guy volunteers with the Central Park Conservancy to help keep Central
+    Pack beautiful and is a board member of the Document Foundation.    
+ros:
+  topic: "Introduction to ROS: Building Robotics Applications with the Help of a Great Community"
+  presenter: Christian Henkel
+  affiliation: Bosch (ROS)
+  time: "14:30"
+  room: S6
+  abstract: |
+    The Robot Operating System (ROS) is a widely adopted platform for building robotics
+    applications due to its modular and distributed architecture.  
+    In this talk, we will introduce ROS and explore its core components and
+    functionalities.  
+    We will also highlight the role of the ROS community in supporting and enhancing the
+    platform, and discuss the benefits of working within a collaborative and open source
+    community.  
+    The components of ROS include a middleware that allows for the communication between the
+    robots components.  
+    We will also highlight the development tools and processes for the building and
+    distribution of ROS software and outline some of the most important packages that are
+    available.  
+    Many business units of Bosch contribute to ROS today.  
+    We will describe how and why Bosch makes use of this powerful open source platform and
+    what can be learned from this.  
+  biography: |
+    Christian Henkel received the M. Sc. Degree in mechatronics from the University of
+    Stuttgart in 2015. He is working towards a doctoral degree from the Technical University
+    of Berlin in the field of Multi Agent Pathfinding. He worked for Fraunhofer IPA and for
+    Pilz Automation in the field of cyberphysical systems, motion planning for industrial
+    manipulators and mobile robotics. At Bosch Research he works in robotics deliberation
+    and is responsible for ROS platform topics.
+
+bosch_top97_5:
+  topic: Verified Boot (Security)
+  presenter: Ulrich Matejek
+  affiliation: Bosch TOP97
+  time: "15:00"
+  room: S4
+  abstract: |
+    A secure boot process establishes a chain of trust from (ideally) the hardware to the 
+    boot loader to the kernel and the applications of an embedded Linux system. Too often, 
+    the last link in this chain which secures the applications and their configuration data 
+    is weakened by relying on a read-only file system which does not protect against e.g., 
+    data manipulation while the system is powered off.  
+    In this talk, we present a blueprint for a secure boot process and a data integrity 
+    solution that provide assurance that applications and (static) configuration data has 
+    not been tampered with.  
+    The design choices allowed by the building blocks of the implementation - OverlayFS, 
+    dm-verity, and rustBoot - as well as the (planned) integration with RAUC for system 
+    updates are examined and compared.    
+  biography: |
+    Ulrich Matejek started working as a security consultant for ETAS in 2018 where his
+    responsibilities include a wide range of topics, ranging from security analyses and
+    security concepts to supporting customers during their integration of CycurHSM to 
+    security in Linux on IoT devices and future concepts for trust-based automotive security.
+bosch_sdv:
+  topic: Eclipse SDV with Kuksa, Velocitas and Leda
+  presenter: Sven Erik Jeroschewski
+  affiliation: Bosch SDV
+  time: "15:00"
+  room: S5
+  abstract: |
+    In the Eclipse SDV working group, ETAS supports the development of multiple OSS projects 
+    to significantly increase the development speed of new vehicle functionalities. 
+    During this talk, we will showcase these Eclipse SDV technologies by presenting how we used 
+    them to develop a fleet management system on top of Linux, implementing the rFMS standard.
+    Among other efforts, a central architectural component is to establish an abstraction layer for 
+    exchanging data between deeply embedded vehicle systems and more high-level applications in a 
+    uniform way. 
+    This abstraction benefits many use cases by making it easier to build and port applications. 
+    The data broker from Eclipse Kuksa.val acts as an abstraction layer to leverage the advantages 
+    of a standardized description of vehicle signals, like the COVESA Vehicle Signal Specification 
+    (VSS) that introduces a domain taxonomy for vehicle signals. In addition, the Eclipse Velocitas 
+    project supports application developers during their work by providing an SDK to interact with the 
+    Kuksa.Val data broker, a pre-configured development environment within a container, and templates 
+    for executing CI/CD processes. 
+    The Eclipse Leda project supports device integrators by providing a Linux distribution combining 
+    the Kuksa.Val data broker, data providers for the data broker, and a runtime to execute applications
+    developed with Eclipse Velocitas.
+  biography: |
+    Sven Erik Jeroschewski is a Software Engineer with Bosch Digital. In collaboration with ETAS, 
+    he applies and extends open-source technologies in a technically sound and compliant manner 
+    to domains such as automotive or industry. In that process, he actively works within the 
+    automotive open-source ecosystem and acts as a committer for Eclipse Kuksa. 
+    Sven studied Computer Engineering at the TU Berlin and the University of Oklahoma, 
+    focusing on networked embedded systems and connected driving. 
+osadl:
+  topic: "Sharing and reusing FOSS compliance material: OSSelot – The Open Source Curation Database"
+  presenter: Caren Kresse
+  affiliation: OSADL
+  time: "15:00"
+  room: S6
+  abstract: |
+    A major advantage of Free and Open Source software (FOSS) is the possibility to reuse
+    existing components. In industry, such software is normally compiled for use in
+    products, so information on licensing must be collected from source code individually.
+    Nearly all FOSS licenses require license text and copyright notices to be delivered with
+    the software. Depending on the scope of a project and the size and amount of contained
+    FOSS components, extracting such information from source code represents a considerable
+    effort, which partially cancels out the advantage of reusing existing components. Thus,
+    it seems obvious to organize these tasks – just like the development of the software
+    itself – in a community. This realization has led to the idea of a publicly available
+    curation database for FOSS compliance information, so that such materials can be shared
+    for reuse and unnecessary parallel work is avoided. In addition to data creation and
+    review, organizational and legal aspects, such as trustworthiness, liability and
+    automated use of the data, must also be considered. This contribution presents OSSelot,
+    a community project that creates and manages a curation database, with a focus on
+    embedded systems.
+  biography: |
+    Caren Kresse holds a Master degree in Physics and has used and appreciated the large
+    amount of Open Source software already during her studies. For several years she has
+    been working in compliance and technology for the Open Source Automation Development Lab
+    (OSADL) eG, overseeing various projects. Her specialties include the legal and practical
+    application of Open Source software in industry as well as conducting workshops and
+    trainings on this topic.
+
+codethink:
+  topic: Using open source to deliver safety and security assurances in the SDV era
+  presenter: Paul Sherwood (primary), John Ellis
+  affiliation: Codethink
+  time: "15:30"
+  room: S4
+  abstract: |
+    Codethink achieved ASIL-D Tool certification for our Deterministic Construction Service
+    (DCS) in 2021. In 2023 we expect to achieve ISO 26262 certification of a Linux-based OS
+    built with DCS. With this talk, Codethink will share our safety journey and show how
+    open source can be used in the production of critical software at scale starting with
+    the automotive industry and continuing to other industries like medical, industrial, and
+    financial.
+  biography: |
+    Paul joined Codethink in 2010 as CEO and today is Chairman. Previously, Paul founded
+    Teleca, a provider of software engineering services later sold to Sigma AB. He has
+    extensive experience consulting to organizations including BMW, Bosch, JLR, LG
+    Electronics, Visteon, and VW. Paul is a long-standing member of the open-source
+    community and has presented innovative topics over the last 10 years, particularly
+    around software integration and safety-relevant systems.
+
+    John joined Codethink in January 2023. As a former executive at Motorola, and Global
+    Technologist at Ford Motor Company, John led or participated in teams that built many of
+    the innovations we see today in connected vehicles on the ground and in the air. He has
+    consulted to many organizations including Intel, ON Semiconductor, Nissan, HERE,
+    Panasonic, Freudenberg, and US Military Command, generally around business
+    transformation from "ship and forget" to "ship and remember."
+emlix:
+  topic: Build Automation for Embedded Linux Systems as a Strategic Technology Decision
+  presenter: Thomas Brinker
+  affiliation: Emlix
+  time: "15:30"
+  room: S5
+  abstract: |
+    Increasing demands on professionalism, standard compliance, security, safety and
+    maintainability of embedded Linux systems mean that the selection of an appropriate
+    build automation is a critical success factor for open source based products.    
+    In the first part the presentation briefly introduces the most important high level
+    requirements on an industrial grade Linux which is meant to be used e.g. in automotive
+    or medical technology. In the next step the requirements for the build automation and
+    build infrastructure will be derived.  
+    In the second part the most common embedded Linux build and build automation systems
+    will be compared against these requirements.  
+    The presentation focuses in particular on complexity and useability, CI/CD/CT demands,
+    automated documentation, reproducibility and open source compliance. Furthermore the
+    feasibility and potential efforts of platform strategies will be discussed as well as
+    the practicability of embedded Linux CVE monitoring and lifecycle maintenance concepts
+    which each build system.    
+    These fields of action are critical elements of a strategic technology planning.  
+    Target group of the presentation are embedded Linux developers as well as development
+    and product managers.
+  biography: |
+    Thomas Brinker is a Senior Systems Engineer and Project Manager at emlix GmbH. He is an
+    architect for secured embedded Linux systems in the automotive, medical, industrial, and
+    consumer device fields, performing requirements engineering and design throughout the
+    entire
+osadl_2:
+  topic: "Industry-grade Linux: Outcome of a recent survey and follow-up"
+  presenter: Carsten Emde
+  affiliation: OSADL
+  time: "15:30"
+  room: S6
+  abstract: |
+    The use of the Linux kernel and other Open Source software in embedded systems poses a
+    completely different challenge than, for example, in standard PCs. The latter usually
+    use uniform programs, and there are ready-made distributions for this. In contrast,
+    embedded systems encompass a wide variety of use cases for which there is no standard
+    solution. Instead, the software must be assembled from source code repositories, or
+    existing distributions must be adapted. In both cases, however, features may be missing,
+    which then have to be provided individually. To make this more efficient, providing
+    missing features should be managed collectively, but before doing so it must be known
+    which features are most needed. For this reason, an online survey was recently
+    conducted, adressing the following areas:
+
+    - Development: Low memory footprint, hardware virtualization, containers, unsupported
+      hardware, better mainline support, cloud connectivity  
+    - Management: Life cycle more than 10 years, security updates, continuous integration,
+      license compliance
+
+    Despite the low response rate, it can be concluded that participants primarily want
+    better support for security updates and license compliance. This presentation will
+    explain the results and show what steps have already been taken to implement them.
+  biography: |
+    Carsten Emde looks back on more than 25 years of experience as a software developer,
+    system integrator and trainer. His specialties are graphical user interfaces, machine
+    vision and real-time operating systems as well as the legal aspects of using and
+    distributing Open Source software. Since the foundation of the Open Source Automation
+    Development Lab (OSADL) eG in 2005, he has been the company's general manager.
+eclipse_1:
+  topic: The machine economy will be open source or will not be 
+  presenter: Frédéric Desbiens
+  affiliation: Eclipse Foundation
+  time: "16:00"
+  room: S4
+  abstract: |
+    The machine economy is on our doorstep. Embedded technologies play a critical part in
+    building it.  
+    While the industrial revolution improved our lives, it was not built on sustainable
+    energy sources and infrastructure. We cannot afford to build the machine economy in the
+    same way. A sustainable machine economy will only emerge from a shared, vendor-neutral
+    ecosystem, inside which commercial and non-profit organizations will pool resources
+    towards common goals. In other words, the European machine economy platform must be open
+    source, and its governance must be under the stewardship of a truly European open source
+    foundation.  
+    In this presentation, you will learn how open source upends the old dynamics found in
+    the industrial automation and automotive industries to foster truly open ecosystems. You
+    will also find Eclipse Foundation initiatives, such as Oniro, Sparkplug, and Software
+    Defined Vehicle (SDV), that you can leverage and join. 
+  biography: |
+    Frédéric Desbiens is a Program Manager and Evangelist for IoT and Edge Computing at the
+    Eclipse Foundation, Europe's largest open-source organization. His job is to help the
+    community innovate by bringing devices and software together. He is a strong supporter
+    of open source. In the past, he worked as a product manager, solutions architect, and
+    developer for companies as diverse as Pivotal, Cisco, and Oracle. Frédéric holds an MBA
+    in electronic commerce, a BASc in Computer Science, and a BEd, all from Université Laval
+    (Québec City, Canada).  
+    Frédéric is the author of "Building Enterprise IoT Solutions using Eclipse IoT
+    Technologies: An Open-Source Approach to Edge Computing," published in December 2022 by
+    Apress (ISBN: 978-1484288818).    
+risc_v:
+  topic: "RISC-V: Enabling the compute architectures for a new generation of vehicles"
+  presenter: Pete Lewin
+  affiliation: RISC-V
+  time: "16:00"
+  room: S5
+  abstract: |
+    An intense period of innovation is driving the automotive supply chain to reimagine
+    compute architectures, requiring companies to take more control of their computing
+    platforms, specifying new architectures based on the demands, constraints and
+    opportunities of automotive applications.  
+    RISC-V is an open standard Instruction Set Architecture (ISA) that enables companies the
+    freedom to design their best possible processors for their application. Over 10 billion
+    RISC-V cores have already shipped, with this adoption spreading innovation across all
+    domains and performance points.  
+    The RISC-V ecosystem of member companies delivers the technologies and tools to develop
+    these new platforms with flexible multi-sourcing across a range of development options
+    from buying chips, to licensing processor IP, to designing your own cores. Joining as a
+    member of RISC-V enables you to be part of the conversations shaping the future of the
+    standard.  
+    RISC-V enables design flexibility and freedom, delivering levels of customisation not
+    possible with other compute architectures.Come to this talk by Peter Lewin, the Chair of
+    the Automotive Special Interest Group, to find out more about RISC-V and its ecosystem
+    and how it can enable the next generation of automotive computing.  
+  biography: |
+    Pete looks after the RISC-V CPU ecosystem at Imagination technologies. Prior to this he
+    worked for over 20 years in the CPU IP business in various technical, marketing and
+    business roles supporting complex ecosystems encompassing tools, software and hardware
+    from companies across the industry. Pete is passionate about bringing diverse companies
+    together to create joint outcomes that are better than the sum of the parts. He is also
+    Chair of the RISC-V Automotive Special Interest Group.
+bosch_ae:
+  topic: Bosch MEMS Mobility Sensors – Linux drivers open new market segments in infotainment and telematics
+  presenter: Kai Dolde
+  affiliation: Bosch AE
+  time: "16:00"
+  room: S6
+  abstract: |
+    Motivation  
+    The product family of Bosch MEMS Mobility Sensors addresses sensing requirements of automotive 
+    use-cases in non-safety related domains such as telematics and infotainment.
+    For sensor applications in consumer markets, supporting host-software (Linux driver, Android HAL)
+    is standardized and established. In contrast, the automotive industry shifts gradually to 
+    software-defined eco-systems being slowly but continuously influenced by expectations and 
+    standards initially settled in consumer electronics.
+    Linux drivers at Automotive Electronics enable smooth system integration for reference designers,
+    distributors, and direct customers and enable new market shares, keeping balance to comply 
+    with automotive regulations and expectations. Additional driver upstreaming will increase
+    the visibility of Bosch in the Linux community and attract more customers to use our sensors
+    to keep Bosch in the leading position in the MEMS market.
+    
+    Methods  
+    We develop Linux drivers and Android HAL, using RasPi and an automated CI Pipeline, 
+    for our internal and external customers. 
+    The drivers are published on www.github.com/boschmemssolutions.
+    
+    Results  
+    Development of Linux Drivers for MEMS Sensors is an essential element of the Mobility Sensor business, enabling new market shares and customer awards.
+  biography: |
+    Kai Dolde is working as a customer project manager and SW project manager for MEMS Sensors at 
+    AE/PAS1 (Product Area Sensors) at Bosch in Reutlingen. He initiated the Linux driver development 
+    for AE MEMS Sensors in 2019 and is responsible to satisfy the customer driver needs 
+    – in the interest of Bosch – since then.
+    
+
