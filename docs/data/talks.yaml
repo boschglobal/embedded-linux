@@ -392,7 +392,7 @@ pengutronix_1:
     Previously, he presented at Embedded Linux Conference Europe, FOSDEM, the Linux Days in
     Chemnitz and the OSADL Networking Days.
 aws:
-  topic: Building, Delivering and Sustaining Embedded Linux Distros on the AWS Cloud
+  topic: <s>Building, Delivering and Sustaining Embedded Linux Distros on the AWS Cloud</s> (canceled)
   presenter: Richard Elberger
   affiliation: AWS
   time: "13:30"
