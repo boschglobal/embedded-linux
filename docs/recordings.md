@@ -7,7 +7,7 @@ hide:
 
 ## Keynotes:
 
-[Opening Keynote](https://media.video.bosch.com/media/t/0_xqz9o7pf)
+[Opening Keynote](https://tube.video.bosch.com/media/ELIOD%20Opening/0_wxxmxii7)
 
 ## Talks
 
