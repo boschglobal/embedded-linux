@@ -19,7 +19,7 @@ Dr. Markus Heyn, Dr. Tanja Rückert
 
 **Your contact at Bosch**
 
-<kontakt@bosch.de>  
+[Contact information](/embedded-linux/contact)  
 +49 711 400 40990
 
 **Registration court**

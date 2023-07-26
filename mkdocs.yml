@@ -27,21 +27,22 @@ nav:
   - Agenda: agenda.md
   - Speakers:
     - speakers/index.md
-    - Keynotes:
+    - Keynotes schedule:
       - keynotes/index.md
       - Bosch: keynotes/bosch.md
       - Linux Foundation: keynotes/linux_foundation.md
+      - One Minute Madness: keynotes/madness.md
       - Pengutronix: keynotes/pengutronix.md
       - Siemens: keynotes/siemens.md
       - SUSE: keynotes/suse.md
-      - TODO Group: keynotes/todo_group.md
-    - Talks:
+    - Talks schedule:
       - talks/index.md
       - Bosch TOP97 (1): talks/bosch_top97_1.md
       - Bosch TOP97 (2): talks/bosch_top97_2.md
       - Bosch TOP97 (3): talks/bosch_top97_3.md
       - Bosch TOP97 (4): talks/bosch_top97_4.md
       - Bosch TOP97 (5): talks/bosch_top97_5.md
+      - Bosch TOP97 (6): talks/bosch_top97_6.md
       - Bosch AE: talks/bosch_ae.md
       - Bosch CoC OSS, OET: talks/bosch_coc_oss.md
       - Bosch IOB: talks/bosch_iob.md

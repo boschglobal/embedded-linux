@@ -2,7 +2,6 @@
 
 The Market Place will have booths from the following exhibitors:
 
-- AGL
 - Bosch AE
 - Bosch Apertis pro
 - Bosch CoC OSS

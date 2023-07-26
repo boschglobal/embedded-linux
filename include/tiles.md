@@ -66,9 +66,9 @@
 </div>
 {%- endmacro %}
 
-{% macro presentation_tile(metadata, id, color='grey-green') -%}
+{% macro presentation_tile(metadata, id, section, color='grey-green') -%}
 {% set data = metadata[id] %}
-<a class="presentation-tile tile-{{ color }}" href="{{ id }}">
+<a class="presentation-tile tile-{{ color }}" href="/embedded-linux/{{ section }}/{{ id }}">
     <div class="tile-content">
         <span>
         <h3>{{ data.topic }}</h3>
@@ -85,4 +85,27 @@
         <h3>{{ time }}</h3>
     </div>
 </a>
+{%- endmacro %}
+
+
+{% macro presentation_tile_overview(data, section) %}
+{% call presentation_tile_wall() %}
+  {% for key in data %}
+    {{ presentation_tile(metadata=data, id=key, section=section) }}
+  {% endfor %}
+{% endcall %}
+{%- endmacro %}
+
+
+{% macro presentation_tile_timeslot_overview(data, section) %}
+{% set ns = namespace(old_time='') %}
+{% call presentation_tile_wall() %}
+  {% for key, value in data.items() %}
+    {% if ns.old_time != value.time %}
+      {{ presentation_time_tile(value.time) }}
+    {% endif %}
+    {{ presentation_tile(metadata=data, id=key, section=section) }}
+    {% set ns.old_time = value.time %}
+  {% endfor %}
+{% endcall %}
 {%- endmacro %}

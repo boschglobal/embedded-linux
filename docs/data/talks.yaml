@@ -65,6 +65,32 @@ suse_1:
     Martin Wolf is an Account Executive covering the German Automotive Industry with 20
     years of experience in injecting Open-Source Innovation into the Enterprise.
 
+bosch_top97_6:
+  topic: Why Rust for embedded systems security development? A security guy's perspective
+  presenter: Nihal Pasham
+  affiliation: Bosch TOP97
+  time: "11:30"
+  room: S6
+  abstract: |
+    The general consensus amongst systems programmers (and by extension embedded systems developers) 
+    has been that you can either have fine-grained system control or performance or safety 
+    (or some combination of 2 of these 3) but you can’t have all three. Rust is the first mainstream 
+    (i.e. popular) programming language to provide programmers the ability to write code without this 
+    compromise via its novel ownership and borrowing concept. Rust’s ownership and borrowing model 
+    coupled with the fact that we do not require a garbage collector for memory management has pushed 
+    Rust’s adoption into domains that were exclusively dominated by languages such as C/C++. This talk 
+    will focus on what Rust has to offer to an embedded systems security software engineer - safety by 
+    construction, zero-cost abstractions, no hidden states, powerful compile-time checks. These features 
+    have allowed us to build demonstrators with sizeable benefits such as better performance/watt, smaller
+    code-sizes and lower code complexity with a significantly higher bar on safety and security. As an 
+    example, we have an open-source project called rustBoot - a prototype standalone bootloader, written 
+    entirely in Rust, designed to run on anything from a microcontroller to a system on chip.
+  biography: |
+    Nihal is a systems security architect with Bosch. He specializes in automotive, industrial and 
+    enterprise systems security. He has been a part of the ‘connected devices’ industry for over 13+ 
+    years, researched and integrated security solutions for Fortune’s top 50 in APJ and India and 
+    provides technical leadership in the following areas - IoT (sensor/edge/gateway) security, 
+    Connected Systems Security, DDoS mitigation, Embedded high assurance computing. 
 suse_2:
   topic: "Revolutionizing Edge Computing: Introducing SUSE Edge 2.0 for Scalable and Secure Infrastructures"
   presenter: Christophe Le Dorze
@@ -264,38 +290,29 @@ bosch_top97_2:
     technical and business background based on over 20 years experience in automotive and IT
     industries in the areas of SW development, product management, innovation/technology
     management and business development.  
-
-eclipse_1:
-  topic: The machine economy will be open source or will not be 
-  presenter: Frédéric Desbiens
-  affiliation: Eclipse Foundation
+pengutronix_2:
+  topic: "Exploring RAUC: A Flexible Building Block for Embedded Linux Updates"
+  presenter: Rouven Czerwinski
+  affiliation: Pengutronix
   time: "13:00"
   room: S5
   abstract: |
-    The machine economy is on our doorstep. Embedded technologies play a critical part in
-    building it.  
-    While the industrial revolution improved our lives, it was not built on sustainable
-    energy sources and infrastructure. We cannot afford to build the machine economy in the
-    same way. A sustainable machine economy will only emerge from a shared, vendor-neutral
-    ecosystem, inside which commercial and non-profit organizations will pool resources
-    towards common goals. In other words, the European machine economy platform must be open
-    source, and its governance must be under the stewardship of a truly European open source
-    foundation.  
-    In this presentation, you will learn how open source upends the old dynamics found in
-    the industrial automation and automotive industries to foster truly open ecosystems. You
-    will also find Eclipse Foundation initiatives, such as Oniro, Sparkplug, and Software
-    Defined Vehicle (SDV), that you can leverage and join. 
+    In this talk, we will delve into RAUC, the embedded Linux update framework, focusing on
+    its unique features and advantages for managing system updates.  
+    The presentation will begin with an introduction to the fundamental concepts surrounding
+    A/B fallback and update signing in the context of embedded Linux updates. We will then
+    explore how RAUC addresses these concerns by offering a flexible building block for
+    streamlined update management.  
+    The discussion will progress to cover RAUC's bundle-based update system, which allows
+    for comprehensive system updates without the need for local storage, thanks to HTTP
+    streaming. Additionally, we will demonstrate how adaptive updates minimize download
+    sizes without necessitating version-specific patch management.
   biography: |
-    Frédéric Desbiens is a Program Manager and Evangelist for IoT and Edge Computing at the
-    Eclipse Foundation, Europe's largest open-source organization. His job is to help the
-    community innovate by bringing devices and software together. He is a strong supporter
-    of open source. In the past, he worked as a product manager, solutions architect, and
-    developer for companies as diverse as Pivotal, Cisco, and Oracle. Frédéric holds an MBA
-    in electronic commerce, a BASc in Computer Science, and a BEd, all from Université Laval
-    (Québec City, Canada).  
-    Frédéric is the author of "Building Enterprise IoT Solutions using Eclipse IoT
-    Technologies: An Open-Source Approach to Edge Computing," published in December 2022 by
-    Apress (ISBN: 978-1484288818).
+    Rouven started working with Pengutronix in 2016, initially focusing on testing embedded
+    Linux systems. Since then he has worked on securing embedded Linux platforms using
+    verified boot and also enabled platforms to provide secret key storage for
+    cloud-connectivity. Nowadays he focuses on the embedded Linux media and graphics stack,
+    debugging performance issues and improving the quality of upstream media pipelines.
 adit_2:
   topic: Covesa Diagnostic Log and Trace (DLT)
   presenter: Michael Methner
@@ -375,7 +392,7 @@ pengutronix_1:
     Previously, he presented at Embedded Linux Conference Europe, FOSDEM, the Linux Days in
     Chemnitz and the OSADL Networking Days.
 aws:
-  topic: Building, Delivering and Sustaining Embedded Linux Distros on the AWS Cloud
+  topic: <s>Building, Delivering and Sustaining Embedded Linux Distros on the AWS Cloud</s> (canceled)
   presenter: Richard Elberger
   affiliation: AWS
   time: "13:30"
@@ -467,7 +484,7 @@ collabora:
   presenter: Sjoerd Simons, Guy Lunardi
   affiliation: Collabora
   time: "14:30"
-  room: S6
+  room: S5
   abstract: |
     Tremendous innovations have been happening upstream the past few months and now is a
     great time for Bosch projects to take advantage of those. APERTIS is a great vehicle for
@@ -553,9 +570,30 @@ bosch_sdv:
   time: "15:00"
   room: S5
   abstract: |
-    
+    In the Eclipse SDV working group, ETAS supports the development of multiple OSS projects 
+    to significantly increase the development speed of new vehicle functionalities. 
+    During this talk, we will showcase these Eclipse SDV technologies by presenting how we used 
+    them to develop a fleet management system on top of Linux, implementing the rFMS standard.
+    Among other efforts, a central architectural component is to establish an abstraction layer for 
+    exchanging data between deeply embedded vehicle systems and more high-level applications in a 
+    uniform way. 
+    This abstraction benefits many use cases by making it easier to build and port applications. 
+    The data broker from Eclipse Kuksa.val acts as an abstraction layer to leverage the advantages 
+    of a standardized description of vehicle signals, like the COVESA Vehicle Signal Specification 
+    (VSS) that introduces a domain taxonomy for vehicle signals. In addition, the Eclipse Velocitas 
+    project supports application developers during their work by providing an SDK to interact with the 
+    Kuksa.Val data broker, a pre-configured development environment within a container, and templates 
+    for executing CI/CD processes. 
+    The Eclipse Leda project supports device integrators by providing a Linux distribution combining 
+    the Kuksa.Val data broker, data providers for the data broker, and a runtime to execute applications
+    developed with Eclipse Velocitas.
   biography: |
-    
+    Sven Erik Jeroschewski is a Software Engineer with Bosch Digital. In collaboration with ETAS, 
+    he applies and extends open-source technologies in a technically sound and compliant manner 
+    to domains such as automotive or industry. In that process, he actively works within the 
+    automotive open-source ecosystem and acts as a committer for Eclipse Kuksa. 
+    Sven studied Computer Engineering at the TU Berlin and the University of Oklahoma, 
+    focusing on networked embedded systems and connected driving. 
 osadl:
   topic: "Sharing and reusing FOSS compliance material: OSSelot – The Open Source Curation Database"
   presenter: Caren Kresse
@@ -647,7 +685,7 @@ osadl_2:
   presenter: Carsten Emde
   affiliation: OSADL
   time: "15:30"
-  room: S5
+  room: S6
   abstract: |
     The use of the Linux kernel and other Open Source software in embedded systems poses a
     completely different challenge than, for example, in standard PCs. The latter usually
@@ -674,35 +712,42 @@ osadl_2:
     vision and real-time operating systems as well as the legal aspects of using and
     distributing Open Source software. Since the foundation of the Open Source Automation
     Development Lab (OSADL) eG in 2005, he has been the company's general manager.
-    
-pengutronix_2:
-  topic: "Exploring RAUC: A Flexible Building Block for Embedded Linux Updates"
-  presenter: Rouven Czerwinski
-  affiliation: Pengutronix
-  time: "16:30"
+eclipse_1:
+  topic: The machine economy will be open source or will not be 
+  presenter: Frédéric Desbiens
+  affiliation: Eclipse Foundation
+  time: "16:00"
   room: S4
   abstract: |
-    In this talk, we will delve into RAUC, the embedded Linux update framework, focusing on
-    its unique features and advantages for managing system updates.  
-    The presentation will begin with an introduction to the fundamental concepts surrounding
-    A/B fallback and update signing in the context of embedded Linux updates. We will then
-    explore how RAUC addresses these concerns by offering a flexible building block for
-    streamlined update management.  
-    The discussion will progress to cover RAUC's bundle-based update system, which allows
-    for comprehensive system updates without the need for local storage, thanks to HTTP
-    streaming. Additionally, we will demonstrate how adaptive updates minimize download
-    sizes without necessitating version-specific patch management.
+    The machine economy is on our doorstep. Embedded technologies play a critical part in
+    building it.  
+    While the industrial revolution improved our lives, it was not built on sustainable
+    energy sources and infrastructure. We cannot afford to build the machine economy in the
+    same way. A sustainable machine economy will only emerge from a shared, vendor-neutral
+    ecosystem, inside which commercial and non-profit organizations will pool resources
+    towards common goals. In other words, the European machine economy platform must be open
+    source, and its governance must be under the stewardship of a truly European open source
+    foundation.  
+    In this presentation, you will learn how open source upends the old dynamics found in
+    the industrial automation and automotive industries to foster truly open ecosystems. You
+    will also find Eclipse Foundation initiatives, such as Oniro, Sparkplug, and Software
+    Defined Vehicle (SDV), that you can leverage and join. 
   biography: |
-    Rouven started working with Pengutronix in 2016, initially focusing on testing embedded
-    Linux systems. Since then he has worked on securing embedded Linux platforms using
-    verified boot and also enabled platforms to provide secret key storage for
-    cloud-connectivity. Nowadays he focuses on the embedded Linux media and graphics stack,
-    debugging performance issues and improving the quality of upstream media pipelines.
+    Frédéric Desbiens is a Program Manager and Evangelist for IoT and Edge Computing at the
+    Eclipse Foundation, Europe's largest open-source organization. His job is to help the
+    community innovate by bringing devices and software together. He is a strong supporter
+    of open source. In the past, he worked as a product manager, solutions architect, and
+    developer for companies as diverse as Pivotal, Cisco, and Oracle. Frédéric holds an MBA
+    in electronic commerce, a BASc in Computer Science, and a BEd, all from Université Laval
+    (Québec City, Canada).  
+    Frédéric is the author of "Building Enterprise IoT Solutions using Eclipse IoT
+    Technologies: An Open-Source Approach to Edge Computing," published in December 2022 by
+    Apress (ISBN: 978-1484288818).    
 risc_v:
   topic: "RISC-V: Enabling the compute architectures for a new generation of vehicles"
   presenter: Pete Lewin
   affiliation: RISC-V
-  time: "16:30"
+  time: "16:00"
   room: S5
   abstract: |
     An intense period of innovation is driving the automotive supply chain to reimagine
@@ -733,10 +778,33 @@ bosch_ae:
   topic: Bosch MEMS Mobility Sensors – Linux drivers open new market segments in infotainment and telematics
   presenter: Kai Dolde
   affiliation: Bosch AE
-  time: "16:30"
+  time: "16:00"
   room: S6
   abstract: |
-
+    Motivation  
+    The product family of Bosch MEMS Mobility Sensors addresses sensing requirements of automotive 
+    use-cases in non-safety related domains such as telematics and infotainment.
+    For sensor applications in consumer markets, supporting host-software (Linux driver, Android HAL)
+    is standardized and established. In contrast, the automotive industry shifts gradually to 
+    software-defined eco-systems being slowly but continuously influenced by expectations and 
+    standards initially settled in consumer electronics.
+    Linux drivers at Automotive Electronics enable smooth system integration for reference designers,
+    distributors, and direct customers and enable new market shares, keeping balance to comply 
+    with automotive regulations and expectations. Additional driver upstreaming will increase
+    the visibility of Bosch in the Linux community and attract more customers to use our sensors
+    to keep Bosch in the leading position in the MEMS market.
+    
+    Methods  
+    We develop Linux drivers and Android HAL, using RasPi and an automated CI Pipeline, 
+    for our internal and external customers. 
+    The drivers are published on www.github.com/boschmemssolutions.
+    
+    Results  
+    Development of Linux Drivers for MEMS Sensors is an essential element of the Mobility Sensor business, enabling new market shares and customer awards.
   biography: |
+    Kai Dolde is working as a customer project manager and SW project manager for MEMS Sensors at 
+    AE/PAS1 (Product Area Sensors) at Bosch in Reutlingen. He initiated the Linux driver development 
+    for AE MEMS Sensors in 2019 and is responsible to satisfy the customer driver needs 
+    – in the interest of Bosch – since then.
     
 

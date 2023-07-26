@@ -14,15 +14,4 @@ place. Each talk will last about 20 min. plus 5 min. discussion time.
 The location of each meeting room is found on the [floor
 plan](../venue#floor-plan).
 
-## 
-
-{% set ns = namespace(old_time='') %}
-{% call tiles.presentation_tile_wall() %}
-  {% for key, value in talks.items() %}
-    {% if ns.old_time != value.time %}
-      {{ tiles.presentation_time_tile(value.time) }}
-    {% endif %}
-    {{ tiles.presentation_tile(metadata=talks, id=key) }}
-    {% set ns.old_time = value.time %}
-  {% endfor %}
-{% endcall %}
+{{ tiles.presentation_tile_timeslot_overview(data=talks, section='talks') }}
