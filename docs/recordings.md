@@ -17,22 +17,22 @@ hide:
 ## Talks
 
 - Attaining nirvana on embedded devices with SUSE’s open-source solution, SUSE, Naveen Suryakumar & Martin Wolf 
-- Why Rust for embedded systems security development? A security guy's perspective, Bosch, Nihal Pasham
+- Why Rust for embedded systems security development? A security guy's perspective, Bosch, Nihal Pasham [recording](https://media.video.bosch.com/media/S6.V1/0_r3ns0bxp)
 - Revolutionizing Edge Computing: Introducing SUSE Edge 2.0 for Scalable and Secure Infrastructures, SUSE, Christophe Le Dorze
 <br>
 
-- ELISA XEN Demonstrator, Bosch, Thomas Mittelstaedt
+- ELISA XEN Demonstrator, Bosch, Thomas Mittelstaedt [recording](https://media.video.bosch.com/media/S5.V2/0_xok9yqby)
 - SW Management in the Embedded IoT Linux context, Bosch, Marcel Kurzmann
 <br>
 
-- Navigating Edge Computing Challenges with Linux and Containers: A Red Hat Perspective, Red Hat, Stefan Bergstein 
-- Eclipse SDV and other automotive-grade OSS POIs, ETAS, Daniel Krippner
-- Working with embedded hardware from anywhere in the world, ADIT, Stephan Glinz
+- Navigating Edge Computing Challenges with Linux and Containers: A Red Hat Perspective, Red Hat, Stefan Bergstein
+- Eclipse SDV and other automotive-grade OSS POIs, ETAS, Daniel Krippner [recording](https://media.video.bosch.com/media/S5.V3/0_cpaepxn6)
+- Working with embedded hardware from anywhere in the world, ADIT, Stephan Glinz [recording](https://media.video.bosch.com/media/S6.V3/0_o8x0p5zb)
 <br>
 
-- The offerings within the "BOSCH DIY Store" for Embedded IoT Linux, Bosch, Dirk Sanderschäfer, Thomas Noserke 
-- Exploring RAUC: A Flexible Building Block for Embedded Linux Updates, Pengutronix, Rouven Czerwinski
-- Covesa Diagnostic Log and Trace (DLT), ADIT, Michael Methner
+- The offerings within the "BOSCH DIY Store" for Embedded IoT Linux, Bosch, Dirk Sanderschäfer, Thomas Noserke
+- Exploring RAUC: A Flexible Building Block for Embedded Linux Updates, Pengutronix, Rouven Czerwinski [recording](https://media.video.bosch.com/media/S5.V4/0_21dnxu89)
+- Covesa Diagnostic Log and Trace (DLT), ADIT, Michael Methner [recording](https://media.video.bosch.com/media/S6.V4/0_3m5n69d9)
 <br>	
  
 - From Vulnerable to Vigilant: A 10+ Year Roadmap for Embedded Software Maintenance, Pengutronix, Jan Lübbe
