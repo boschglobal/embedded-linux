@@ -33,4 +33,11 @@ Time: <strong>{{ metadata.time }}</strong>&nbsp;Room: <strong>{{ metadata.room }
 
 {% endif %}
 
+{% if metadata.recording -%}
+## Recording
+
+[watch recording]({{ metadata.recording }}){ .md-button .md-button--primary }
+
+{% endif %}
+
 {% endmacro %}
