@@ -1,5 +1,8 @@
 # ELIOD website
 
+> Please note that the Bosch Embedded IoT Linux and OSS Day has taken
+> place. Therefore, the ELIOD website is no longer maintained.
+
 This repository hosts the sources of the website for the Bosch Embedded IoT
 Linux and OSS Day (ELIOD in short). The website is hosted using GitHub Pages
 and can be reached at https://boschglobal.github.io/embedded-linux/
