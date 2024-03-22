@@ -1,0 +1,137 @@
+suse:
+  topic: Better and faster results with Open Source
+  presenter: Ivo Totev
+  affiliation: SUSE
+  time: "10:15"
+  room: Auditorium K
+  abstract: |
+    This talk focuses on the benefits of open source and empowering customers to achieve results 
+    faster. Exploring the transformative advantages of open source, including low barrier to engage, 
+    unmatched flexibility, cost-effectiveness, and collaborative innovation, the session illuminates 
+    the vast potential for organizational growth and success. The talk also addresses the future focus
+    areas of the open-source community, such as compatibility, security, and sustainable business 
+    models. Attendees are invited  to discover effective strategies for navigating the ever-evolving 
+    landscape of embedded Linux and achieving remarkable outcomes in the open-source domain.
+  biography: |
+    Ivo Totev is SUSE's Chief Innovation Officer. In this role, he spearheads many important growth 
+    initiatives, including developing new strategic partnerships for high-growth areas and driving 
+    stronger value and experience for customers and partners. He is also responsible for helping 
+    customers reimagine their businesses through clear, customer-centric product strategy, as well 
+    as building brand equity and customer engagements focused on business outcomes. Ivo has over 
+    25 years of experience in technology and has served as President of Product Marketing at SAP, 
+    CMO and Head of Cloud Business at Software AG, as well as the CMO of Unit4. Ivo holds a degree 
+    in electrical engineering from Giessen university of applied sciences, and lives in Germany.
+linux_foundation:
+  topic: The maturing OSS community draws European regulators' attention
+  presenter: Mirko Boehm
+  affiliation: Linux Foundation Europe
+  time: "10:30"
+  room: Auditorium K
+  abstract: |
+    As open source software becomes the foundation to build digital products, to run the backbones
+    of ICT infrastructure and to ensure digital sovereignty and cyber resilience, both the technology
+    as well as the communities that develop it inevitably move into the focus of regulators. The
+    European Union is advancing a number of policy initiatives that regulate liability, cyber security,
+    data handling and AI applications in digital products, among others. This is a challenge for the
+    still quite decentralized and globally operating open source community. How will the open
+    source community participate in the legislative processes, and what may be the potential
+    impacts of the upcoming regulation on the open source development process and community
+    dynamics?  
+  biography: |
+    Mirko Boehm is a Free and Open Source Software contributor, community manager, licensing
+    expert and researcher, with contributions to major Open Source projects like the KDE Desktop
+    (since 1997, including several years on the KDE e.V. board), the Open Invention Network, the
+    Open Source Initiative and others. He is a visiting lecturer and researcher on Free and Open
+    Source Software at the Technical University of Berlin. Mirko Boehm has a wide range of
+    experience as an entrepreneur, corporate manager, software developer and German Air Force
+    officer. He joined the Linux Foundation in June 2023 as Senior Director for Community
+    Development for LF Europe, where he focuses on driving engagement and collaboration
+    between all European Open Source stakeholders. Mirko speaks English and German and lives
+    in the Berlin area.  
+pengutronix:
+  topic: "Community Collaboration Patterns: Addressing Risk and Complexity"
+  presenter: Jan Lübbe 
+  affiliation: Pengutronix
+  time: "10:45"
+  room: Auditorium K
+  abstract: |
+    In this keynote, we explore the benefits of leveraging open-source collaboration
+    patterns to address complexity and reduce risk in embedded Linux product development
+    across independent teams. We discuss the concept of long-term maintenance, emphasizing
+    the importance of continuous maintenance, upstreaming, and automated processes in
+    ensuring secure and fully functional long-life devices.  
+    Focusing on collaborative approaches to risk reduction, we highlight open-source
+    collaboration models found in OpenEmbedded/Yocto and the Linux kernel and their
+    potential adoption within a multinational company. We emphasize the benefits of shared
+    code, standardized build architectures, and reusable tooling and workflows. This keynote
+    aims to inspire attendees to explore and implement collaborative  approaches inspired by
+    open-source communities within their own teams.
+  biography: |
+    After building Linux smartphones with OpenMoko and deploying open source GSM networks to
+    cruise ships, Jan Lübbe joined Pengutronix in 2012. Since then he helps customers
+    understand Linux and how it can solve their problems. Besides his work at Pengutronix,
+    Jan builds wireless mesh networks at the Stratum 0 hacker space in Brunswick.
+    Previously, he presented at Embedded Linux Conference Europe, FOSDEM, the Linux Days in
+    Chemnitz and the OSADL Networking Days.
+siemens:
+  topic: Living Open Source at Siemens
+  presenter: Jan Kiszka
+  affiliation: Siemens
+  time: "11:00"
+  room: Auditorium K
+  abstract: |
+    Building products and services upon open source software (OSS) has become standard, also
+    in the domains of Siemens. However, driving or creating OSS according to our needs
+    remains challenging.  
+    In this talk, we will try to shed a light on how Siemens embraces OSS, where we believe
+    having been successful already, and where we want to improve further. We will look at
+    some of our community engagements, may they be directly or via foundations. We will
+    furthermore underline the increasing importance of working with our customers and
+    suppliers also via OSS communities - openly, constructively, and on eye level. Last but
+    not least, we will point out what key role "upstream first" plays in this while not
+    denying that this is continuous hard work for everyone who is in touch with both OSS and
+    business needs.
+  biography: |
+    Jan Kiszka is working as consultant, open source evangelist and Principal Key Expert
+    Engineer in the Competence Center Embedded Linux at Siemens Technology. He is supporting
+    Siemens businesses with adapting, enhancing or strategically driving open source as
+    platform for their product demands. He is maintaining several open source projects and
+    is contributing to others, specifically in the area of real-time, virtualization,
+    embedded Linux tooling.    
+madness:
+  topic: One Minute Madness
+  presenter: Market Place Exhibitor Representatives
+  affiliation: Market Place Exhibitors
+  time: "11:15"
+  room: Auditorium K
+  recording: https://media.video.bosch.com/media/ELIOD+Market+Places+Intro/0_r4fvm268
+  description: |
+    In this session, each exhibitor from the Market Place has the opportunity to make
+    visitors curious about their booth in **exactly 1 minute**.
+
+    Each exhibitor will tell what there is to see at their booth and what will be
+    demonstrated there.
+bosch:
+  topic: "Opportunity Open Source: the importance of open source culture for Bosch"
+  presenter: Dr. Matthias Klauda (XC/EE)
+  affiliation: Bosch
+  time: "16:30"
+  room: Auditorium K
+  abstract: |
+    Invented for life is the motto of us, we are masters in delivering innovations. 
+    Thereby is to be observed that variant diversity and complexity of our products are 
+    permanently increasing. And nowadays most of our products are connected, which means, 
+    they shall kept up-to-date with patches and new functions. Obviously Software plays an 
+    increasingly important role in our business. Hence questions about maintainability 
+    and scaling of SW capabilities are coming up. In this presentation, we will explain 
+    some challenges and elaborate opportunities of open source based collaboration.     
+  biography: |
+    Matthias Klauda received his PhD in Physics in 1993 from the University of Erlangen. In
+    1994 he joined Bosch, where he held responsibilities for Electronics Research &
+    Predevelopment Department, North American Research & Technology Center, became CEO of
+    ETAS GmbH (a tool solutions provider owned by Robert Bosch GmbH) in 2005, and Senior
+    Vice President Corporate Automotive Systems Engineering in 2010.  In 2015, he became
+    head of development of Powertrain Control Units. In 2018, he additionally assumed
+    overall responsibility for Bosch’s Powertrain Control Units business. Since 2021, he is
+    Executive Vice President Engineering / R&D in the newly founded division Cross-Domain
+    Computing Solutions Robert Bosch GmbH (XC).

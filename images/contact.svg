@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="221.00586"
+   height="143.36914"
+   overflow="hidden"
+   version="1.1"
+   id="svg2945"
+   sodipodi:docname="contact.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2947"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.8265625"
+     inkscape:cx="109.4896"
+     inkscape:cy="94.971645"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2945"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2937">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="1280"
+         height="720"
+         id="rect2934" />
+    </clipPath>
+  </defs>
+  <g
+     aria-label=""
+     id="text2941"
+     style="font-size:265px;font-family:Bosch-Icon, Bosch-Icon_MSFontService, sans-serif;fill:#ffffff">
+    <path
+       d="M 0,0 H 221.00586 V 143.36914 H 0 Z m 27.69043,132.5 h 66.25 c 0,-9.05762 -3.364258,-16.82129 -9.833985,-23.29102 C 77.636719,102.73926 69.873047,99.375 60.81543,99.375 c -9.316407,0 -17.080078,3.36426 -23.549805,9.83398 -6.469727,6.46973 -9.575195,14.2334 -9.575195,23.29102 z m 33.125,-49.6875 c 4.399414,0 8.28125,-1.552734 11.645507,-4.916992 3.105469,-3.105469 4.916993,-6.987305 4.916993,-11.645508 0,-4.658203 -1.811524,-8.540039 -4.916993,-11.645508 C 69.09668,51.499023 65.214844,49.6875 60.81543,49.6875 c -4.658203,0 -8.540039,1.811523 -11.645508,4.916992 -3.364258,3.105469 -4.916992,6.987305 -4.916992,11.645508 0,4.658203 1.552734,8.540039 4.916992,11.645508 3.105469,3.364258 6.987305,4.916992 11.645508,4.916992 z M 209.87793,132.5 V 10.869141 h -198.75 V 132.5 h 5.43457 c 0,-9.83398 2.84668,-18.63281 8.798828,-26.39648 C 31.054687,98.339844 38.55957,93.164062 47.358398,90.317383 43.217773,87.988281 39.594727,84.624023 37.006836,80.483398 34.418945,76.342773 33.125,71.425781 33.125,66.25 c 0,-7.504883 2.587891,-13.974609 8.022461,-19.40918 5.43457,-5.43457 11.904297,-8.28125 19.667969,-8.28125 7.504882,0 13.974609,2.84668 19.409179,8.28125 5.434571,5.434571 8.28125,11.904297 8.28125,19.40918 0,5.175781 -1.552734,10.092773 -4.140625,14.233398 -2.58789,4.140625 -5.952148,7.504883 -10.092773,9.833985 8.798828,2.846679 16.044922,8.022461 21.99707,15.786137 5.693359,7.76367 8.798829,16.5625 8.798829,26.39648 z m -99.375,-93.94043 V 49.6875 H 198.75 V 38.55957 Z m 0,27.69043 V 77.119141 H 198.75 V 66.25 Z m 0,27.431641 v 11.127929 h 66.25 V 93.681641 Z"
+       style="font-size:265px;font-family:Bosch-Icon, Bosch-Icon_MSFontService, sans-serif;fill:#ffffff"
+       id="path3106" />
+  </g>
+</svg>

@@ -1,0 +1,374 @@
+/* -- font definitions  */
+
+@font-face {
+    font-family:"boschsans";
+    font-weight:400;
+    src:url(fonts/woff2/boschsans_regular.woff2) format("woff2"),
+    url(fonts/woff/boschsans_regular.woff) format("woff");
+    font-display:swap;
+}
+@font-face {
+    font-family:"boschsans";
+    font-weight:700;
+    src:url(fonts/woff2/boschsans_bold.woff2) format("woff2"),
+    url(fonts/woff/boschsans_bold.woff) format("woff");
+    font-display:swap;
+}
+@font-face {
+    font-family:"boschsans";
+    font-weight:400;
+    src:url(fonts/woff2/boschsans-regularitalic.woff2) format("woff2"),
+    url(fonts/woff/boschsans-regularitalic.woff) format("woff");
+    font-display:swap;
+    font-style:italic;
+}
+@font-face {
+    font-family:"boschsans";
+    font-weight:700;
+    src:url(fonts/woff2/boschsans-bolditalic.woff2) format("woff2"),
+    url(fonts/woff/boschsans-bolditalic.woff) format("woff");
+    font-display:swap;
+    font-style:italic;
+}
+
+:root {
+    --md-text-font: "boschsans";
+}
+
+
+/*  Root color definitions */
+
+:root {
+    --md-primary-fg-color: #368d86;
+    --md-accent-fg-color: #34615e;
+    --md-primary-fg-color--light: #66bbb4;
+    --md-primary-fg-color--dark: #327973;
+    --fg-rgb: 54, 141, 134;
+    --purple-rgb: 158, 40, 150;
+    --dark-purple-rgb: 85, 17, 81;
+    --blue-rgb: 0, 85, 135;
+    --dark-green-rgb: 0, 81, 42;
+    --light-green-rgb: 0, 136, 74;
+    --very-light-green-rgb: 231, 241, 241;
+    --grey-rgb: 244, 244, 248;
+    --black-rgb: 50, 50, 50
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4
+{
+  font-weight: 700;
+  /*color: #323232;*/
+  color: rgb(var(--black-rgb));
+}
+
+
+/* -- Hover colors -- */
+
+.tile-green {
+    background:rgba(var(--fg-rgb), 0.5);
+}
+.tile-green:hover {
+    background:rgba(var(--fg-rgb), 1.0);
+}
+
+.tile-purple {
+    background:rgba(var(--purple-rgb), 0.5);
+}
+.tile-purple:hover {
+    background:rgba(var(--purple-rgb), 1.0);
+}
+
+.tile-blue {
+    background:rgba(var(--blue-rgb), 0.5);
+}
+.tile-blue:hover {
+    background:rgba(var(--blue-rgb), 1.0);
+}
+
+.tile-dark-green {
+    background:rgba(var(--dark-green-rgb), 0.5);
+}
+.tile-dark-green:hover {
+    background:rgba(var(--dark-green-rgb), 1.0);
+}
+
+.tile-dark-purple {
+    background:rgba(var(--dark-purple-rgb), 0.5);
+}
+.tile-dark-purple:hover {
+    background:rgba(var(--dark-purple-rgb), 1.0);
+}
+
+.tile-light-green {
+    background:rgba(var(--light-green-rgb), 0.5);
+}
+.tile-light-green:hover {
+    background:rgba(var(--light-green-rgb), 1.0);
+}
+
+.tile-green-slight-fade {
+    background:rgba(var(--fg-rgb), 0.8);
+}
+.tile-green-slight-fade:hover {
+    background:rgba(var(--fg-rgb), 1.0);
+}
+
+.tile-grey-green {
+    background:rgba(var(--grey-rgb), 1.0);
+}
+.tile-grey-green:hover {
+    background:rgba(var(--very-light-green-rgb), 1.0);
+}
+
+.tile-grey {
+    background:rgba(var(--grey-rgb), 1.0);
+}
+
+
+/*  Custom header background */
+
+header.md-header {
+    background-image: url('/embedded-linux/images/eliod_tab_background_long.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+
+
+/* --  Custom footer background -- */
+
+.md-footer-meta {
+    background-image: url(../images/bosch_supergraphic_streifen.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100vw;
+    padding-bottom: 15px;
+}
+
+
+/* --- Map --- */
+
+div.osm-inset {
+    width: 100%;
+    max-width: 600px; 
+    aspect-ratio: 3 / 2;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 0; 
+}
+
+
+/* ---  Tiles General  ---*/
+
+div.link-tile-wall, div.contact-tile-wall, div.presentation-tile-wall {
+    width: 100%;
+    text-align: center;    
+}
+
+a.link-tile, a.contact-tile, a.contact-image-tile, a.presentation-tile, a.presentation-time-tile {
+    display: inline-block;
+    vertical-align: middle;    
+    margin: 5px;
+}
+
+a.link-tile, a.contact-tile, a.contact-image-tile {
+    text-align: center;
+}
+
+div.tile-content, div.tile-image {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+div.tile-image {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* --- Link Tiles --- */
+
+div.link-tile-wall {
+    max-width: 600px;
+}
+
+a.link-tile {
+    width: 30%;
+    aspect-ratio: 1 / 1;;
+    padding: 15px;
+    font-weight: 700;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+a.link-tile:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+a.link-tile img {
+    max-height: 75%;
+    max-width: 75%;
+}
+
+a.link-tile p {
+    font-size: 14pt;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+@media (width < 800px) {
+    a.link-tile p {
+        font-size: 10pt;
+        line-height: 10pt;
+    }
+}
+
+div.tile-image {
+    width: 100%;
+    height: 75%;
+}
+
+
+/* --- Contact Tiles --- */
+
+div.contact-tile-wall {
+    max-width: 1000px;
+}
+
+a.contact-tile, a.contact-image-tile {
+    width: 22%;
+    aspect-ratio : 1 / 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (width < 800px) {
+    a.contact-tile, a.contact-image-tile {
+        width: 40%;
+    }
+}
+
+a.contact-tile {
+    padding: 15px;
+}
+
+a.contact-tile div.tile-content {
+    align-items: center;
+    justify-content: center;
+}
+
+a.contact-image-tile {
+    background: rgb(var(--fg-rgb));
+    padding: 0;
+}
+
+a.contact-tile:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+p.contact-tile-name, p.contact-tile-function, p.contact-tile-email {
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 110%;
+}
+
+p.contact-tile-name {
+    font-size: 18pt;
+    font-weight: 800;
+}
+
+p.contact-tile-function {
+    font-size: 14pt;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+p.contact-tile-email {
+    font-size: 10pt;
+    text-decoration: underline;
+}
+
+@media (width < 850px) {
+    p.contact-tile-name {
+        font-size: 10pt;
+    }
+    
+    p.contact-tile-function {
+        font-size: 9pt;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    p.contact-tile-email {
+        font-size: 8pt;
+    }
+
+}
+
+a.contact-image-tile img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* --- Presentation Tiles --- */
+
+div.presentation-tile-wall {
+    max-width: 900px;
+}
+
+a.presentation-tile, a.presentation-time-tile {
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 5px 15px 5px 15px;
+}
+
+a.presentation-tile {
+    text-align: left;
+}
+
+a.presentation-time-tile {
+    text-align: left;
+}
+
+a.presentation-tile div.tile-content {
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+a.presentation-time-tile div.tile-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a.presentation-tile h3 {
+    font-size: 16pt;
+    margin: 10px 0 0 0;
+}
+
+a.presentation-tile:hover h3 {
+    color: rgb(var(--fg-rgb));
+}
+
+a.presentation-tile p {
+    color: rgb(var(--black-rgb));
+    font-size: 10pt;
+    margin: 5px 0 10px 0;
+}
+
+a.presentation-time-tile h3 {
+    font-size: 16pt;
+    margin: 0;
+}
+
+/* -- Images styles  --*/
+
+.img-shadow {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
